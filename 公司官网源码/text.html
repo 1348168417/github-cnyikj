@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.box{
+				position: absolute;
+				left: 36px;
+				top: 40px;
+			}
+		</style>
+		
+	</head>
+
+	<body>
+		<canvas id="myCanvas" width="92" height="92"></canvas>
+		<div class="box"><span id="number">0</span>%</div>
+		
+		<script type="text/javascript">
+			var canvas = document.getElementById('myCanvas');
+			var oDiv = document.getElementById("number");
+			//定义画布
+			var ctx = canvas.getContext("2d");
+			var acount = '100';
+			//占的百分比
+			var percentage = '100';
+			
+			var ratio = parseFloat(percentage) / parseFloat(acount);
+
+			var angle = 0;
+			var numBer = 0;
+			var timer = setInterval(function() {
+				if(oDiv.innerHTML < 100){
+					oDiv.innerHTML = numBer += 1;
+				}
+	
+				angle += (Math.PI * 2) * ratio / 100;
+				if(angle >= (Math.PI * 2) * ratio) {
+					clearInterval(timer)
+				}
+				ctx.beginPath();
+				ctx.moveTo(46, 46);
+				ctx.arc(46, 46, 46, 0, angle)
+				ctx.fillStyle = "#cff";
+				ctx.fill();
+				ctx.closePath();
+				//白色圈
+				ctx.beginPath();
+				ctx.arc(46, 46, 38, 0, Math.PI * 2);
+				ctx.fillStyle = "white";
+				ctx.fill();
+				ctx.closePath();
+				ctx.beginPath();
+				ctx.arc(46, 46, 46, 0, Math.PI * 2);
+				ctx.strokeStyle = "white";
+				ctx.stroke();
+				ctx.closePath();
+			}, 20)
+
+			
+		</script>
+	</body>
+
+</html>
