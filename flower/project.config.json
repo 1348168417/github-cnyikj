@@ -1,0 +1,55 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.5.3",
+	"appid": "wx6148ecda7c738fa0",
+	"projectname": "%E8%95%BE%E5%84%BF%E8%8A%B1%E6%97%B6%E5%85%89",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": [
+				{
+					"name": "test",
+					"pathName": "",
+					"title": "",
+					"cacheKey": ""
+				}
+			]
+		},
+		"conversation": {
+			"current": 0,
+			"list": [
+				{
+					"name": "test",
+					"query": "",
+					"boxQI": "",
+					"service": {}
+				}
+			]
+		},
+		"miniprogram": {
+			"current": 1,
+			"list": [
+				{
+					"id": 1,
+					"name": "首页初次加载",
+					"pathName": "pages/first/first",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "text",
+					"pathName": "pages/text/text"
+				}
+			]
+		}
+	}
+}

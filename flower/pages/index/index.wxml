@@ -1,0 +1,38 @@
+<!--index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" style="width:100%;"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="flex-wrp classify">
+  <view class="flex-item bc_green"><image src="../../images/花1.png"></image><view class="text" bindtap='tiaozhuan'>蕾儿的花</view></view>
+  <view class="flex-item bc_red"><image src="../../images/花2.png"></image><view class="text">花时光</view></view>
+  <view class="flex-item bc_blue"><image src="../../images/花3.png"></image><view class="text">花道</view></view>
+  <view class="flex-item bc_blue"><image src="../../images/花4.png"></image><view class="text">个人中心</view></view>
+</view>
+<view class=""><image src="../../pages/images/flower09.jpg" style="width:100%;"></image><text>公司介绍</text></view>
+
+
+ <view class="page-section">
+      <view class="page-section-title">
+        <text>Horizontal Scroll\n横向滚动</text>
+      </view>
+      <view class="page-section-spacing">
+        <scroll-view class="scroll-view_H" scroll-x="true" bindscroll="scroll" style="width: 100%">
+          <view id="demo1" class="scroll-view-item_H demo-text-1"></view>
+          <view id="demo2"  class="scroll-view-item_H demo-text-2"></view>
+          <view id="demo3" class="scroll-view-item_H demo-text-3"></view>
+        </scroll-view>
+      </view>
+    </view>
+<view class="goodsDetails" wx:for="{{list}}">
+
+  <image src="{{item.img}}"></image>
+  <text class="name">{{item.tit}}</text>
+  <text class="price">{{item.pri}}</text>
+  <image class="addShopCar" src="../images/addShopCar.png"></image>
+</view>
+

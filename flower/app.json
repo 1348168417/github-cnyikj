@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/first/first",
+    "pages/submit/submit",
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/shopCar/shopCar",
+    "pages/about/about",
+    "pages/text/text"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "pink",
+    "navigationBarTitleText": "蕾儿花时光",
+    "navigationBarTextStyle": "#ccc"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "蕾儿花时光",
+        "iconPath": "pages/images/home.png",
+        "selectedIconPath": "pages/images/home2.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "花时光介绍",
+        "iconPath": "pages/images/classify.png",
+        "selectedIconPath": "pages/images/classify2.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "我的花时光",
+        "iconPath": "pages/images/percenter.png",
+        "selectedIconPath": "pages/images/percenter2.png"
+      }
+    ]
+  }
+}

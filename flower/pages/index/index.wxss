@@ -1,0 +1,70 @@
+/**index.wxss**/
+.flex-wrp{
+  display: flex;
+  flex-direction: row;
+}
+.classify{
+  margin: 20rpx 0;
+}
+.flex-wrp .flex-item{
+  flex-grow: 1;
+  text-align: center;
+}
+.flex-wrp .flex-item image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.goodsDetails{
+  padding: 20rpx;
+  border-bottom: 1rpx solid gray;
+  position: relative;
+}
+.goodsDetails image{
+  width: 200rpx;
+  height: 200rpx;
+}
+.goodsDetails .addShopCar{
+  position: absolute;
+  width: 50rpx;
+  height: 50rpx;
+  right: 30rpx;
+  bottom: 30rpx;
+}
+.goodsDetails text{
+  position: absolute;
+  left: 250rpx;
+}
+.goodsDetails .name{
+  top:30rpx;
+}
+.goodsDetails .price{
+  bottom:35rpx;
+  color: red;
+}
+
+
+
+.page-section-spacing{
+  margin-top: 60rpx;
+}
+.scroll-view_H{
+  white-space: nowrap;
+}
+.scroll-view-item{
+  height: 300rpx;
+}
+.scroll-view-item_H{
+  display: inline-block;
+  width: 100%;
+  height: 300rpx;
+}
+.demo-text-1{
+  background-color: #ccc;
+}
+.demo-text-2{
+  background-color: green;
+}
+.demo-text-3{
+  background-color: black;
+}

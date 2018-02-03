@@ -1,0 +1,13 @@
+/* percenter.wxss */
+.percenter{
+  position: relative;
+}
+.percenter_tit{
+  color: #ff6a00;
+  position: absolute;
+  top: 50rpx;
+}
+.percenter_art{
+  position: absolute;
+  top: 250rpx;
+}

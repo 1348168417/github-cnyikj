@@ -1,0 +1,28 @@
+/* classify.wxss */
+.classify_ban{
+  height: 100rpx;
+  position: relative;
+}
+.classify_ban_word{
+  line-height: 100rpx;
+  text-align: center;
+}
+.classify_ban_word_a{
+  color: #ccc;
+}
+.classify_ban_word_b{
+  color: black;
+}
+.classify_ban image{
+  width: 100%;
+  height: 150rpx;
+}
+.classify_ban_tit{
+  position: absolute;
+  top: 300rpx;
+  color: #ff6a00;
+}
+.classify_ban_art{
+  position: absolute;
+  top: 400rpx;
+}

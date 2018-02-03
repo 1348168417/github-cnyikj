@@ -1,0 +1,10 @@
+<!--percenter.wxml-->
+<view class="percenter">
+  <view class="percenter_tit">
+    <text>花时光推崇“勇敢爱”理念</text>
+  </view>
+  <view class="percenter_art">
+    <text>鲜花是爱情的象征，花礼网作为鲜花电商龙头企业，一直主张年轻人要勇敢爱，“勇敢爱，是勇敢表白，哪怕被拒绝也要再次大声说出我爱你；勇敢爱，是勇敢相守，即使相隔千里，也要竭尽全力，一步一步向你靠近。”只要勇敢去爱，爱就会一直存在。</text>
+  </view>
+</view>
+<image src="http://img01.hua.com/pc_imgs/pimg/about_yga_jl.jpg?1"></image>

@@ -1,0 +1,21 @@
+<!--classify.wxml-->
+<view class="classify_ban">
+  <view class="classify_ban_word">
+    <view class="classify_ban_word_a">
+     <text>HUA.COM </text>
+     <text>关于花时光 </text>
+    </view>
+
+  
+   
+  </view>
+  <image src="http://img01.hua.com/pc_imgs/pimg/about_banner.jpg"></image>
+</view>
+<view class="classify_con">
+<view class="classify_ban_tit">
+  <text>蕾儿花时光简介</text>
+</view>
+<view class="classify_ban_art">
+  <text>花时光网（leierhua.com）,全程中国鲜花蕾儿花时光，创办于2017年。由《东北石油大学》14级学生伞国蕾同学创办！</text>
+</view>
+</view>
