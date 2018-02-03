@@ -1,0 +1,63 @@
+/**index.wxss**/
+.servers{
+  padding: 30rpx;
+  position: relative;
+  border-bottom: 20rpx solid #e6e6e6;
+}
+.servers .top{
+  width: 90%;
+  height: 60rpx;
+  font-size: 14px;
+  line-height: 60rpx;
+  position: absolute;
+  left: 5%;
+  top: -30rpx;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px 1px #bfbfbf;
+}
+.servers .top image{
+  width: 40rpx;
+  height: 40rpx;
+  margin: 10rpx 15rpx 0 160rpx;
+  float: left;
+}
+.servers .top text{
+  float: left;
+  color: #8a8a8a;
+  font-size: 14px;
+}
+.serverCountBox{
+  display: flex;
+  flex-wrap:wrap;
+  text-align: center;
+  font-size: 14px;
+  color: #707070;
+}
+.serverCountBox .serverCount{
+  flex-grow:1;
+  width: 200rpx;
+  height: 180rpx;
+}
+.serverCountBox .serverCount image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.titleBg{
+  height: 200rpx;
+  
+}
+.productShow{
+  border: none;
+  padding-bottom: 50rpx;
+}
+.productShow .serverCountBox{
+  width: 100%;
+  padding-top: 30rpx;
+  box-shadow: 0px 0px 5px 1px #bfbfbf;
+}
+
+
+
+
+

@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/contactUs/contactUs",
+    "pages/aboutUs/aboutUs",
+    "pages/commonPage/commonPage"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#17c0e3",
+    "navigationBarTitleText": "杭州晨意科技有限公司",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#17c0e3",
+    "backgroundColor": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/h.png",
+        "selectedIconPath": "images/h1.png"
+      },
+      {
+        "pagePath": "pages/aboutUs/aboutUs",
+        "text": "关于晨意",
+        "iconPath": "images/c.png",
+        "selectedIconPath": "images/c1.png"
+      },
+      {
+        "pagePath": "pages/contactUs/contactUs",
+        "text": "联系我们",
+        "iconPath": "images/y.png",
+        "selectedIconPath": "images/y1.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-active-color="{{indicatorActiveColor}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" style='width:100%;height:360rpx;'/>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class='servers'>
+  <view class='top'> <image src='../../images/smile.png'></image><text>我们将提供最优质的服务</text></view>
+  <view class='titleBg'></view>
+  <view class='serverCountBox'>
+    <view class='serverCount' wx:for="{{servers}}" bindtap='{{item.name}}'>
+      <image src='{{item.imgUrl}}'></image>
+      <view class='words'>{{item.title}}</view>
+    </view>
+  </view>
+</view>
+
+<view class='productShow servers'>
+  <view class='titleBg'></view>
+  <view class='serverCountBox'>
+    <view class='serverCount' wx:for="{{servers}}">
+      <image src='{{item.imgUrl}}'></image>
+      <view class='words'>{{item.title}}</view>
+    </view>
+  </view>
+</view>
+
+<video src='http://www.cnyikj.com/clientInfo/mv.mp4'></video>

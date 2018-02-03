@@ -1,0 +1,83 @@
+/* pages/aboutUs/aboutUs.wxss */
+.banner{
+  height: 400rpx;
+  width: 100%;
+  background: #e6e6e6;
+  position: relative;
+}
+.banner image{
+  height: 360rpx;
+  width: 100%;
+}
+.banner .name{
+  height: 60rpx;
+  width: 60%;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 14px;
+  color: #515151;
+  background: #7dc5eb;
+  position: absolute;
+  bottom: -30rpx;
+  left: 0;
+  right: 0;
+  margin: auto;
+  box-shadow: 0px 0px 5px 1px #bfbfbf;
+}
+.aboutUsBox{
+  padding: 0 20rpx 20rpx 20rpx;
+  border-bottom: 10rpx solid #e6e6e6;
+}
+.aboutUsBox .title{
+  font-size: 15px;
+  font-weight: 600;
+  color: #17c0e3;
+  margin-top: 30rpx;
+}
+.aboutUsBox .count{
+  font-size: 14px;
+  color: #515151;
+}
+.aboutUsBox .flow{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 30rpx;
+}
+.aboutUsBox .flow .flowBox{
+  flex-grow:1;
+  width: 100rpx;
+  height: 180rpx;
+  font-size: 14px;
+  color: #515151;
+}
+.aboutUsBox .flowBox image{
+  width: 110rpx;
+  height: 110rpx;
+  margin-bottom: 10rpx;
+}
+
+.aboutUsBox .flowBox image{
+  width: 110rpx;
+  height: 110rpx;
+  margin-bottom: 10rpx;
+}
+.infoBox{
+  padding: 30rpx 50rpx;
+  font-size: 15px;
+  border-bottom: 1rpx solid #e6e6e6;
+  overflow: hidden;
+}
+.infoBox view{
+  float: left;
+}
+.infoBox .title{
+  font-weight: 600;
+  margin-right: 30rpx;
+  color: #515151;
+}
+.infoBox .words{
+  font-size: 14px;
+  color:#707070;
+  margin-right: 30rpx;
+}

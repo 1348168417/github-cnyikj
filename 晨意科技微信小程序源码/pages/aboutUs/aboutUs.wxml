@@ -1,0 +1,20 @@
+<!--pages/aboutUs/aboutUs.wxml-->
+<view class='banner'>
+  <image src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg'></image>
+  <view class='name'>杭州晨意科技有限公司</view>
+</view>
+<view class='aboutUsBox'>
+  <view class='title'>公司简介</view>
+  <view class='count'>杭州晨意科技有限公司是一家专门从事微信小程序开发、网站开发、公众号开发及其他软件的第三方服务型公司。公司一直秉承着“精致服务，   合作共赢”的合作理念，为客户提供最优质的服务而不断努力着。</view>
+  <view class='title'>服务流程</view>
+  <view class='flow'>
+    <view class='flowBox' wx:for="{{serverFlow}}">
+      <image src='{{item.imgUrl}}'></image>
+      <view class='words'>{{item.words}}</view>
+    </view>
+  </view>
+</view>
+
+<view class='infoBox'> <view class='title'>公司官网</view> <view class='words'>www.cnyikj.com</view></view>
+<view class='infoBox'> <view class='title'>工作时间</view> <view class='words'>工作日：9:00-18:00</view></view>
+<view class='infoBox'> <view class='title'>公司地址</view> <view class='words'>杭州市拱墅区北软泰嘉园K座503室</view></view>

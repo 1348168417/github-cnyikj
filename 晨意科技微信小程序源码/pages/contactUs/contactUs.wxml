@@ -1,0 +1,31 @@
+<!--logs.wxml-->
+<view class="user-head">
+    <view class="center" bindtap = "userdata">
+        <view class="user-text">
+            <text class="text">{{userInfo.nickName}}</text>
+        </view>
+        <view class="user-img">
+            <image src="{{userInfo.avatarUrl}}"/>
+        </view>
+    </view>
+</view>
+
+<view class='callPhone'>
+  <image class='phoneImg' src='../../images/contact.png'></image>
+  <text class='words'>联系方式</text>
+  <text class='phoneNum'>电话：0571-87038971</text>
+  <image class='phoneBut' src='../../images/phone.png' bindtap='callPhone'></image>
+</view>
+
+<view class='callPhone'>
+  <image class='phoneImg' src='../../images/service.png'></image>
+  <text class='words'>在线留言</text>
+  <text class='phoneNum'>请留下你的需求及疑问</text>
+  <contact-button class='phoneBut contactBut' type="default-dark" size="27" session-from="weapp">
+</contact-button>
+</view>
+
+<view class='QrCodeBox'>
+  <view class='left'><image src='../../images/qrCode.png'></image><view>微信公众号：XXXXXX</view></view>
+  <view class='right'><image src='../../images/qrCode.png'></image><view>咨询号：**********</view></view>
+</view>

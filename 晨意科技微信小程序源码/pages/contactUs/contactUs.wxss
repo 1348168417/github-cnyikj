@@ -1,0 +1,92 @@
+.user-head {
+  height:200px;
+  position: relative;
+  display:-webkit-flex;
+	display:flex;
+	width:100%;
+  justify-content:center;
+  align-content:center;
+  background: url(http://www.cnyikj.com/clientInfo/hzmenchuang/lianxiwomenBg.jpg) center no-repeat;
+}
+.user-head .center{
+    display: flex;
+    flex-flow: column;
+    padding-top: 30px;
+}
+.user-img{
+  width:100px;
+  height: 100px;
+}
+
+.user-img image {
+  width:80px;
+  height: 80px;
+  border-radius: 50%;
+  border:10px solid #f4f5e5;
+}
+.user-text{
+  text-align:center;
+  width:100%;
+}
+.user-text text{
+  font-family: 微软雅黑;
+  color:#333;
+  display: block;
+  font-size: 40rpx;
+  margin-bottom: 30rpx;
+}
+
+.callPhone{
+  height: 160rpx;
+  position: relative;
+  background: white;
+  margin-bottom: 5rpx;
+  overflow: hidden;
+}
+.callPhone .phoneImg{
+  width: 100rpx;
+  height: 100rpx;
+  float: left;
+  margin: 26rpx 30rpx 0 30rpx; 
+}
+.callPhone text{
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+.callPhone .words{
+  font-size: 18px;
+  line-height: 100rpx;
+  font-weight: 600;
+  color: #515151;
+}
+.callPhone .phoneNum{
+  font-size: 16px;
+  line-height: 60rpx;
+  color: #707070;
+}
+.callPhone .phoneBut{
+  float: right;
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  right: 30rpx;
+  top: 50rpx;
+
+}
+
+.QrCodeBox{
+  overflow: hidden;
+  padding: 30rpx 10rpx; 
+  font-size: 16px;
+  color: #8a8a8a;
+}
+.QrCodeBox .left,.QrCodeBox .right{
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.QrCodeBox image{
+  width: 90%;
+  height: 300rpx;
+}

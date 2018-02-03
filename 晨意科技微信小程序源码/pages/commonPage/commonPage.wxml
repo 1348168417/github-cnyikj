@@ -1,0 +1,13 @@
+<!--pages/commonPage/commonPage.wxml-->
+<view class='banner'> <image src='{{banner}}'></image></view>
+<view class='Box'>
+  <view class='whatIs'>
+    <view class='title'>{{title1}}</view>
+    <view class='introduce'>{{introduce1}}</view>
+  </view>
+  <view class='advantage'>
+    <view class='title'>{{title2}}</view>
+    <view class='introduce'> <image src='{{introduce2}}' style='width:100%;height:1200rpx;'></image></view>
+  </view>
+  <view class='dingzhi' bindtap='dingzhi'>点击我定制</view>
+</view>
