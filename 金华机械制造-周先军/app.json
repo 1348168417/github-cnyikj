@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/first/first",
+    "pages/index/index",
+    "pages/about/about",
+    "pages/about_gaiya/about_gaiya",
+    "pages/about_people/about_people",
+    "pages/chanpin/chanpin",
+    "pages/news/news",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "金华机械制造",
+    "navigationBarTextStyle":"black"
+  },
+  
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icon_home.png",
+        "selectedIconPath": "images/icon_home_hl.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "images/icon_about.png",
+        "selectedIconPath": "images/icon_about_hl.png"
+      }
+    ]
+  }
+}

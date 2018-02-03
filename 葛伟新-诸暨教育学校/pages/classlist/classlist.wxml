@@ -1,0 +1,5 @@
+<!--pages/classlist/classlist.wxml-->
+<view class='Box' wx:for= "{{url}}">
+  <view>{{item.word}}</view>
+  <image mode="widthFix" src="{{item.img}}"></image>
+</view>

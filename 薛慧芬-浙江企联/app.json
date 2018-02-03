@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/join/join",
+    "pages/joiners/joiners",
+    "pages/cases/cases",
+    "pages/joinus/joinus"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2ba0cc",
+    "navigationBarTitleText": "浙江企联",
+    "navigationBarTextStyle": "#ccc"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "平台风采",
+        "iconPath": "pages/images/icon_platform.png",
+        "selectedIconPath": "pages/images/icon_platform_HL.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "企联展示",
+        "iconPath": "pages/images/icon_introduce.png",
+        "selectedIconPath": "pages/images/icon_introduce_HL.png"
+      },
+      {
+        "pagePath": "pages/join/join",
+        "text": "加入我们",
+        "iconPath": "pages/images/icon_join.png",
+        "selectedIconPath": "pages/images/icon_join_HL.png"
+      }
+    ]
+  }
+}

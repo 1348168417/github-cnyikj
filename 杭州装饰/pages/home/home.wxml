@@ -1,0 +1,14 @@
+<view class="case">
+    <view class='case_head classify'>
+      <view>Boutique case</view>
+      <view>精品案例</view>
+    </view>
+    <view class='case_img' wx:for="{{project}}">
+      <image src="{{item.img}}"></image>
+      <view class='case_word'>
+      <view class='case_tit'>{{item.tit}}</view>
+      <view class='case_style'>{{item.style}}</view>
+      </view>
+      <button class='case_btn' bindtap="{{item.event}}">查看详情</button>
+    </view>
+  </view>

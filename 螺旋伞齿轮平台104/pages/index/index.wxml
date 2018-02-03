@@ -1,0 +1,28 @@
+<view class="top_kongbai"></view>
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" style="width:100%;height:335rpx;"/>/>
+    </swiper-item>
+  </block>
+</swiper>
+
+ <view class="flex-wrp classify banner">
+  <view class="flex-item "  bindtap="news"><image src="../../images/icon_zuixin.png"></image><view class="text">最新产品</view></view>
+  <view class="flex-item "  bindtap="chanpin"><image src="../../images/icon_chanpin.png"></image><view class="text">全部产品</view></view>
+  <view class="flex-item "  bindtap="lianxi"><image src="../../images/icon_lianxi.png"></image><view class="text">联系我们</view></view>
+  <view class="flex-item "  bindtap="guanyu"><image src="../../images/icon_guanyu.png"></image><view class="text">关于建良</view></view>
+</view>
+
+<view class='shop_left' wx:for="{{shoplist}}">
+    <image src='{{item.img}}'></image>
+    <view>{{item.tit}}</view>
+</view>
+
+<view class='tapbar'>
+  <view class='tapbar_company'>Copyright©永康市建良齿轮有限公司 版权所有</view>
+  <view class='tapbar_cnyikj'>
+    <text>技术支持@晨意科技</text> 
+  </view>
+</view>

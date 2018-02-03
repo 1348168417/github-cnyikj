@@ -1,0 +1,28 @@
+<view class="about_page">
+  <view>
+    <view class='about_map'>
+    <map id="map" longitude="120.106768" latitude="30.332148" scale="16" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 300px;"></map>
+
+    </view>
+
+    
+    
+  <view class='about_lianxi'>
+    <view>联系我们</view>
+  </view>
+    <view class='about_call'>
+      <view class='about_wx'>微信客服>></view>
+      <contact-button class='about_wx' type="default-dark"  size="20" session-from="weapp"></contact-button>
+      <view bindtap="makecall">点击致电>></view>
+    </view>      
+
+  </view> 
+  
+</view>
+
+<view class='tapbar'>
+  <view class='tapbar_company'>Copyright©临安市大洋茶业有限公司 版权所有</view>
+  <view class='tapbar_cnyikj'>
+    <text>技术支持@晨意科技</text> 
+  </view>
+</view>

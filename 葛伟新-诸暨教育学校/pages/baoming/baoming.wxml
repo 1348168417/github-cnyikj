@@ -1,0 +1,9 @@
+<!--pages/baoming/baoming.wxml-->
+<view class='bgi'>
+  <image  src='http://www.cnyikj.com/clientInfo/zhujijiaoyu/报名.jpg'></image>
+</view>
+<view class='Box'>
+  <view class='about_wx'>点击与葛伟新老师对话>></view>
+      <contact-button class='about_wx' type="default-dark"  size="20" session-from="weapp"></contact-button>
+      <button class='callbtn' bindtap="makecall">点击报名</button>
+</view>

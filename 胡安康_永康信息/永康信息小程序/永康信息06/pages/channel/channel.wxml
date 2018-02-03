@@ -1,0 +1,15 @@
+<import src="../template/decoration.wxml" />
+<import src="../../wxParse/wxParse.wxml"/> 
+<scroll-view class="container">
+  <block wx:for="{{decoration.items}}" wx:key="item_type">
+    <block wx:if="{{item.item_type=='richtext'}}">
+    <view class="custom-richtext" style="background-color:{{item.data.bg_color}};{{item.data.fullscreen==1?'padding:0;':''}}">
+      <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+    </view>
+    </block>
+    <block wx:else>
+      <template is="{{item.item_type}}" data="{{item:item,userImagePath:userImagePath,staticResPath:staticResPath,bannerHeight:bannerHeight}}"/>
+    </block>
+  </block>
+</scroll-view>
+<include src="../template/fixedmenu.wxml"/>

@@ -1,0 +1,35 @@
+<view>
+  <view class='join_name'>名称</view>
+  <view class="section">
+    <input class='join_int' placeholder="请为您的店铺起一个闪亮的名字" auto-focus/>
+  </view>
+
+  <view class='join_name'>主营项目</view>
+  <view class="section">
+    <input class='join_int' placeholder="比如天目青顶茶、有机茶等" auto-focus/>
+  </view>
+
+  <view class='join_name'>简单介绍</view>
+  <view class="section">
+    <input class='join_int' placeholder="简单介绍一下您的铺子" auto-focus/>
+  </view>
+
+  <view class='join_name'>联系人</view>
+  <view class="section">
+    <input class='join_int' placeholder="您的姓名" auto-focus/>
+  </view>
+
+  <view class='join_name'>电话</view>
+  <view class="section">
+    <input class='join_int' placeholder="您的手机号" auto-focus/>
+  </view>
+  <contact-button class='about_wx' type="default-dark"  size="20" session-from="weapp"></contact-button>
+  <view>大家好，如有在行业内上当受骗的情况，欢迎大家积极举报，我这边会整理剔除商品，惩罚商家。</view>
+  <view>有需要签订的客户要请留下联系方式，客服会尽快与您联系。欢迎大家前来咨询。</view>
+</view>
+<view class='tapbar'>
+  <view class='tapbar_company'>Copyright©临安市大洋茶业有限公司 版权所有</view>
+  <view class='tapbar_cnyikj'>
+    <text>技术支持@晨意科技</text> 
+  </view>
+</view>

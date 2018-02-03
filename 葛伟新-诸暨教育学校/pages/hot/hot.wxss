@@ -1,0 +1,15 @@
+.Box{
+  border: 1px solid #ccc;
+  padding: 20rpx;
+  margin: 20rpx;
+  box-shadow: -3px 0 0 #d0e49e;
+  
+}
+.tit{
+  box-shadow: -2px 0 0 green;
+  font-size: 55rpx;
+}
+.artc{
+  text-indent: 2em;
+  margin: 10rpx;
+}

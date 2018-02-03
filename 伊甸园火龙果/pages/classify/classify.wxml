@@ -1,0 +1,46 @@
+<!--classify.wxml-->
+<view class="classify">进口火龙果</view>
+<view class="introduce">
+  <image src="../../images/pic5.jpg"></image>
+  <view class="title">【红色肉火龙果】</view>
+  <view class="price">市场价：30</view>
+  <view class="color">颜色：红皮红肉</view>
+</view>
+<view class="introduce">
+  <image src="../../images/pic6.jpg"></image>
+  <view class="title">【红色肉火龙果】</view>
+  <view class="price">市场价：30</view>
+  <view class="color">颜色：红皮红肉</view>
+</view>
+<view class="introduce">
+  <image src="../../images/pic6.jpg"></image>
+  <view class="title">【红色肉火龙果】</view>
+  <view class="price">市场价：30</view>
+  <view class="color">颜色：红皮红肉</view>
+</view>
+<view class="classify">亚洲火龙果</view>
+<view class="introduce">
+  <image src="../../images/pic6.jpg"></image>
+  <view class="title">【红色肉火龙果】</view>
+  <view class="price">市场价：30</view>
+  <view class="color">颜色：红皮红肉</view>
+</view>
+<view class="introduce">
+  <image src="../../images/pic6.jpg"></image>
+  <view class="title">【红色肉火龙果】</view>
+  <view class="price">市场价：30</view>
+  <view class="color">颜色：红皮红肉</view>
+</view>
+<view class="classify">红皮红火龙果</view>
+<view class="introduce">
+  <image src="../../images/pic6.jpg"></image>
+  <view class="title">【红色肉火龙果】</view>
+  <view class="price">市场价：30</view>
+  <view class="color">颜色：红皮红肉</view>
+</view>
+<view class="introduce">
+  <image src="../../images/pic6.jpg"></image>
+  <view class="title">【红色肉火龙果】</view>
+  <view class="price">市场价：30</view>
+  <view class="color">颜色：红皮红肉</view>
+</view>

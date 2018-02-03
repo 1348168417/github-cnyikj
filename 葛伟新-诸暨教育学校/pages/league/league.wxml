@@ -1,0 +1,90 @@
+
+
+
+<view class="Box">
+  <view class='tit'>金牌奥数荷花路教学基地介绍</view>
+  <view class='artc'>非常素质培训中心坐拥【艺术类高校】和【省级知名品牌培训机构】两大合作后盾，已经签约入驻的品牌机构有：杭州鼓酷音乐、青森国际足球俱乐部、青少年宫艺术培训项目、张伟明美术工作室、清风棋院、SDS舞影街舞潮流中心、天籁古筝艺术中心、乐聚机器人等，以名师引领工程为核心，高薪聘请了二十余位省、市级大师、名师，共组建了二十余个名师工作室，采用精小班模式、精细化管理形式来进行授课。</view>
+</view>
+<view class="Box">
+  <view class='tit'>我们的教学理念</view>
+  <view class='artc'>专业做精品、用心铸金牌</view>
+</view>
+<view class="Box">
+  <view class='tit'>常年开设（周一到周五晚托班和双休日培训班相结合）</view>
+  <view class='artc'>文化类——金牌奥数、金牌写作、金牌英语、夜自修7人北大班及晚托班。   一对N——高中、初中、小学全科，文化艺术名师。</view>
+  <view class='artc'>素质类——科技类、书画类、舞蹈类、器乐类、体艺类、声乐类、外语类、  文学类、语言类。科技：人形编程机器人、智创未来模块机器人等；</view>
+  <view class='artc'>书画：儿童画、动漫画、国画、素描、色彩、硬笔书法、毛笔书法等；</view>
+  <view class='artc'>舞蹈：幼儿、小学中国舞、街舞、形体等；</view>
+  <view class='artc'>器乐：钢琴、小提琴、葫芦丝、竹笛、萨克斯、架子鼓、吉他、尤克里里、古筝等；</view>
+  <view class='artc'>体艺：笼式足球、围棋等；</view>
+  <view class='artc'>声乐：合唱、小组唱、单独授课等；</view>
+  <view class='artc'>文学：演讲与口才、小主持等。</view>
+</view>
+
+
+<view class="Box">
+  <view class='tit'>金牌非常名师榜</view>
+  <view class='stit'>○葛伟新</view>
+    <view class='arc'>金牌奥数总主编、总教练，浙江名师。</view>
+  <view class='stit'>○冯可羽</view>
+    <view class='arc'>金牌奥数总校长，原青少年宫主任</view>
+  <view class='stit'>○吴金佳</view>
+    <view class='arc'>金牌奥数7星教练，老天马北大班名师</view>
+  <view class='stit'>○骆建玲</view>
+    <view class='arc'>金牌科学7星教练，老天马北大班名师</view>
+  <view class='stit'>○王伟琴</view>
+    <view class='arc'>诸暨市英语名师，原滨江初中教研组长</view>
+  <view class='stit'>○邵仙萍/金海江/周雷钧/卢秀芝</view>
+    <view class='arc'>金牌奥数5星教练</view>
+  <view class='stit'>○叶旭萍/朱琳/张成骏</view>
+    <view class='arc'>金牌奥数5星教练</view>
+  <view class='stit'>○杨玲/马超</view>
+    <view class='arc'>金牌奥数5星教练</view>
+  <view class='stit'>○钟洁挺/王雪琴</view>
+    <view class='arc'>金牌语文5星教练</view>
+  <view class='stit'>○杨鸽飞/徐梅菲</view>
+    <view class='arc'>金牌英语5星教练</view>  
+</view>
+
+
+<view class='Box'>
+  <view class='tit'>艺术特色类师资介绍</view>
+  <view class='stit'>○机器人团队</view>
+    <view class='arc'>哈工大博士冷晓琨领衔，曾获得中国青少年科技创新奖</view>
+  <view class='stit'>○潘韩伟</view>
+    <view class='arc'>省音乐家协会打击乐委员会理事，多次任省打击乐比赛评委，辅导学生获国际金奖</view>
+  <view class='stit'>○张　杰</view>
+    <view class='arc'>省音乐家协会打击乐委员会委员，杭州鼓酷音乐学校资深架子鼓名师</view>
+  <view class='stit'>○卢小敏</view>
+    <view class='arc'>杭州鼓酷音乐学校资深专职吉他名师</view>
+  <view class='stit'>○李　哲</view>
+    <view class='arc'>毕业于法国大学体育管理专业，多年海外青训营执教经历</view>
+  <view class='stit'>○Andrea</view>
+    <view class='arc'>曾任意大利都灵足球俱乐部青训营教练</view>
+  <view class='stit'>○美术团队</view>
+    <view class='arc'>张伟明大师领衔，被授予全国美术等级考核优秀指导教师。2015年辅导的学生13人通过省中学生国画特长测试A级证书(占全省1/7)。</view>
+  <view class='stit'>○儿童画团队</view>
+    <view class='arc'>由高校教授、教育课程专家领衔，保证艺术教育的系统性和发展性，注重想象力和创造力培养</view>
+  <view class='stit'>○马佳乐</view>
+    <view class='arc'>中国美院高材生，多次获省教育厅A级证书，原青少年宫素描色彩名师</view>
+  <view class='stit'>○宋怡磊</view>
+    <view class='arc'>中国舞蹈家协会会员，中国第七届艺术节大赛金奖获得者，青少年宫资深舞蹈名师</view>
+  <view class='stit'>○王丽丽</view>
+    <view class='arc'>上海音乐学院本科毕业，全国钢琴考级优秀指导教师，青少年宫钢琴名师</view>
+  <view class='stit'>○查子龙</view>
+    <view class='arc'>毕业于浙江音乐学院，为省竹笛专业委员会会员，省级优秀指导教师，青少年宫专职竹笛、葫芦丝名师</view>
+  <view class='stit'>○韩　涛</view>
+    <view class='arc'>毕业于沈阳音乐学院，擅长jazz.布鲁斯、萨克斯；曾任青岛交响管乐团萨克斯演奏员</view>
+  <view class='stit'>○周　嘉</view>
+    <view class='arc'>省小提琴协会理事，获中央音乐学院高级师资认证，第五届“SIMON”中国音乐国际比赛乐器成人专业组金奖</view>
+  <view class='stit'>○张淑嫣</view>
+    <view class='arc'>省书法家协会会员，辅导学生数百人在市级比赛获奖</view>
+  <view class='stit'>○周熔星</view>
+    <view class='arc'>围棋业余3段，市围棋协会章琦主席旗下清风棋院专职围棋名师</view>
+  <view class='stit'>○叮　当</view>
+    <view class='arc'>舞影街舞潮流中心创始人，中国CSDA街舞执行委员会中级教官</view>
+  <view class='stit'>○余　鑫</view>
+    <view class='arc'>暨阳学院街舞社社长及导师，暨阳学院闪耀之星</view>
+  <view class='stit'>○天籁古筝团队</view>
+    <view class='arc'>中筝学院的教学基地，中央音乐学院袁莎教授担任教学总顾问</view>
+</view>

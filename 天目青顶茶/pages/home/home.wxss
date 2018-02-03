@@ -1,0 +1,10 @@
+/* pages/home/home.wxss */
+.zhengshu_a image{
+  width: 100%;
+  text-align: center;
+}
+.zhengshu_word{
+  text-align: center;
+  border-bottom: 1rpx solid #aaa;
+  margin-bottom: 10rpx;
+}

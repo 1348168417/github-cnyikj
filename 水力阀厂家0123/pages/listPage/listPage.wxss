@@ -1,0 +1,43 @@
+/* pages/listPage/listPage.wxss */
+page{
+  background: #edeae3;
+}
+.Box{
+  padding:0 20rpx;
+}
+.Box .typeTit{
+  height: 100rpx;
+  line-height: 100rpx;
+  text-indent: 1em;
+}
+.listBox{
+  width: 44%;
+  margin: 20rpx 3%;
+  float: left;
+  background: white;
+}
+.listBox image{
+  width: 100%;
+}
+.listBox .title{
+  text-align: center;
+  font-size: 15px;
+  height: 60rpx;
+  line-height: 60rpx;
+  padding: 0 10rpx;
+  white-space:nowrap; 
+  text-overflow:ellipsis; 
+  -o-text-overflow:ellipsis; 
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+

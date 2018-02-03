@@ -1,0 +1,26 @@
+<!--pages/jieshao/jieshao.wxml-->
+<view class='jieshao_tit'>公司简介</view>
+<view class='jieshao_art'>临安市大洋茶业有限公司是一家专业研究，开发，生产，销售有机茶的企业。总部设在吴越文化发祥地临安。
+公司源于1952年临安县供销社下属茶厂，于2000年改制为临安市大洋茶业有限公司，至今已有六十多年历史。</view>
+<view class='jieshao_tit'>公司理念：</view>
+<view class='jieshao_art'>致力于打造中国有机茶企业的典范。</view>
+<view class='jieshao_tit'>公司规模：</view>
+<view class='jieshao_art'>本公司拥有有机茶园八千余亩（国际BCS，国内中农认证），年产有机干茶千余吨，在临安，淳安，余杭，桐庐，天台和黄山歙县等有机制茶基地。</view>
+<view class='jieshao_tit'>公司产品：</view>
+<view class='jieshao_art'>有机绿茶，有机红茶，有机乌龙茶，有机白茶等系列。</view>
+<view class='jieshao_tit'>公司品牌：</view>
+<view class='jieshao_art'>天目大洋，天目青顶，天目生态，天目坲茶等</view>
+<view class='jieshao_tit'>公司荣誉：</view>
+<view class='jieshao_art'>本公司是最早从事有机茶专业研究和生产的企业，多次荣获各类茶叶评比的国际金奖。2010年8月6日在美国拉斯维加斯举办的世界茶叶博览会热茶冠军赛上我公司的大洋龙井茶一举夺冠。</view>
+<view class='jieshao_art'>Lin’an Dayang Tea Industry Co., Ltd specializes in organic tea production, trade, research and development. The headquarters lies in Lin’an, the western suburbs of Hangzhou, the origin of Wu Yue Culture.
+The company has a history of more than sixty years, stemming from the affiliated tea factory of the supply and marketing cooperative of Lin’an county. It was restructured and refounded in 2000.
+
+The philosophy of the company: envisions creating a classic humanistic model for organic tea enterprises.
+
+The holdings: We own 8,000 Mu of plantations, which have been approved as organic plantations by the International NBS and domestic authority Sino – Agri. We have an annual production of 1,000 tons of dried tea, in Lin’an, Chun’an, Yuhang, and Tonglu (all in Hangzhou area), Tiantai (Zhejiang area) , and Xi County in Huangshan, Anhui province.
+
+Main products: organic green tea, organic black tea, organic Oolong and organic white tea.
+Company brands: Tianmu Dayang, Tianmu Qingding,,Tianmu Ecology, and Tianmu Fo Cha, inter alia.
+
+Company recognitions:
+It is the first professional organization in China devoted to developing organic tea, and was awarded many gold medas based on all kinds of quality appraisals. In Aug.06.2010, Dayang Longjing tea won the competition for hot brewed tea at the tea EXPO held in Las Vegas in USA.</view>

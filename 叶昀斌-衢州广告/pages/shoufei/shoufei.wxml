@@ -1,0 +1,4 @@
+<!--pages/shoufei/shoufei.wxml-->
+<view class='shoufei_page'>
+  <view>暂无具体收费情况，如有意向请来电。</view>
+</view>

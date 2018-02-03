@@ -1,0 +1,58 @@
+.header{
+  padding: 0 10px;
+  font-size: 16px;
+  height: 44px;
+  line-height: 44px;
+  border-bottom: 1px solid #ddd;
+  background-color: #EFEFEF;
+  position: relative;
+}
+.header text{
+    font-size: 16px;
+}
+.list_cont{
+    border-top: solid 1px #DDD;
+    margin-bottom: 10px;
+    background-color: white;
+    margin-top: -1px;
+}
+.category_item{
+  min-height:20px;
+  line-height:20px;
+  padding:0 0px;
+  border-bottom:solid 1px #ddd;
+  position:relative;
+}
+.category_item .nav{
+  padding:0 10px;
+  height:60px;
+  position:relative;
+}
+.category_item .nav .trigger{
+  content:"\020";
+  display:block;
+  width:18px;
+  height:18px;
+  background-image:url("http://res.ivvke.com/image/mobile/trigger_right.png");
+  background-size:100%;
+  position:absolute;
+  right:10px;
+  top:20px;
+}
+.category_item .t1{
+  font-size:16px;
+  padding-top:12px;
+  margin-left:10px;
+  display:block;
+  padding-bottom:2px;
+}
+.category_item .t2{
+    color: #aeaeae;
+    font-size: 13px;
+    margin-left: 10px;
+    text-overflow: ellipsis;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 650rpx;
+}

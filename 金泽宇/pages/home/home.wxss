@@ -1,0 +1,32 @@
+/* classify.wxss */
+.goodsDetails{
+  width: 96%;
+  padding: 20rpx 2%;
+  border-bottom: 1rpx solid gray;
+  position: relative;
+}
+.goodsDetails image{
+  width: 350rpx;
+  height: 200rpx;
+}
+.goodsDetails .name{
+  position: absolute;
+  left: 400rpx;
+  top:30rpx;
+  color: #8a8a8a;
+  font-size: 13px;
+  line-height: 36rpx;
+}
+.goodsDetails .type{
+  position: absolute;
+  bottom: 28rpx;
+  left: 18rpx;
+  width: 350rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+

@@ -1,0 +1,41 @@
+/* pages/listmore/listbb/listbb.wxss */
+.listbb_top{
+  width: 100%;
+}
+.listbb_img{
+  width: 50%;
+  float: left;
+}
+.listbb_word{
+  width: 50%;
+  float: left;
+  margin-top: 40rpx;
+  
+}
+.listbb_word_tit{
+  font-size: 35rpx;
+  text-align: center;
+}
+.listbb_word_arc{
+  font-size: 30rpx;
+  color: #707070;
+  margin-top: 80rpx;
+  text-align: center;
+  
+  text-indent: 2rem;
+}
+.listbb_imglist{
+  width: 100%;
+}
+
+.listbb_tit{
+  clear:both;
+  color: #aaa;
+  text-align: center;
+}
+.listbb_arc{
+  text-indent: 2em;
+  font-size: 30rpx;
+  color: #707070;
+  margin: 20rpx;
+}

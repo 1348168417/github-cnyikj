@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list",
+    "pages/classify/classify",
+    "pages/listPage/listPage",
+    "pages/listPage/url",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Goddess 形象设计",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#56bc29",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/img/a2.png",
+        "selectedIconPath": "pages/img/b.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "发艺堂",
+        "iconPath": "pages/img/a3.png",
+        "selectedIconPath": "pages/img/b1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "设计师作品",
+        "iconPath": "pages/img/a4.png",
+        "selectedIconPath": "pages/img/b2.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "联系我们",
+        "iconPath": "pages/img/a5.png",
+        "selectedIconPath": "pages/img/b4.png"
+      }
+    ]
+  }
+}

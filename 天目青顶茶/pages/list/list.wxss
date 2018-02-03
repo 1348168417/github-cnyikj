@@ -1,0 +1,11 @@
+/* list.wxss */
+.tianmu_tit{
+  color: #515151;
+  text-align: center;
+  font-size: 40rpx;
+}
+.tianmu_word{
+  margin-top: 15rpx;
+  color: #707070;
+  text-indent: 2em;
+}

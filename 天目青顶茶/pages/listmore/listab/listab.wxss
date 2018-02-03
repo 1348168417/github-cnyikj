@@ -1,0 +1,10 @@
+/* pages/listmore/listab/listab.wxss */
+.article_tit{
+  text-align: center;
+  color: #901708;
+}
+.article_art{
+  margin-top: 15rpx;
+  color: #aaa;
+  text-indent: 2em;
+}

@@ -1,0 +1,20 @@
+/**index.wxss**/
+page{
+  background: #f3cddf;
+}
+.introduce{
+  margin: 10rpx;
+  padding: 20rpx;
+  background: white;
+  line-height: 60rpx;
+}
+.introduce .title{
+  font-size: 20px;
+  color:#d45d94;
+}
+.introduce .cont{
+  text-indent: 2em;
+  font-size: 16px;
+  font-family: 微软雅黑;
+  line-height: 60rpx;
+}

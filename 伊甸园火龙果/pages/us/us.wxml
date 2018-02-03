@@ -1,0 +1,12 @@
+<!--us.wxml-->
+<view class="container">
+  <view class="name"><text class="nameCon">伊甸园火龙果</text><image class="logo" src="../../images/pic1.jpg"></image></view>
+  <view class="location commonCss"><image src="../../images/location.png"></image> <text>杭州桐庐县横村镇伊甸园家庭农场</text></view>
+  <view class="time commonCss"><image src="../../images/time.png"></image><text>00:00-24:00</text></view>
+  <view class="phone commonCss"><image src="../../images/contacts.png"></image><text>吴清润（经理）</text></view>
+  <view class="phone commonCss" bindtap="callPhone"><image src="../../images/phone.png"></image><text>15381190257</text></view>
+  <view class="business commonCss"><image src="../../images/business.png"></image><text>主营业务</text></view>
+  <view class="commonCss"><image src=""></image><text>1、火龙果批发、零售；</text></view>
+  <view class="photo commonCss"><image src="../../images/pic.png"></image><text>门店照片</text></view>
+  <view class="photoCon"><image src="../../images/pic1.jpg"></image></view>
+</view>

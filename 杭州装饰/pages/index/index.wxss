@@ -1,0 +1,104 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.imgclass{
+  height: 200rpx;
+  width: 200rpx;
+}
+
+
+
+
+
+/**index.wxss**/
+.swiper {
+  height: 400rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+.banner{
+  margin-top: 15rpx;
+}
+.flex-wrp{
+  display: flex;
+  flex-direction: row;
+   flex-grow: 1;
+  text-align: center;
+}
+.flex-wrp .flex-item{
+  flex-grow: 1;
+  text-align: center;
+}
+.flex-wrp image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.classify{
+  color:#95520f;
+}
+.case{
+  background-color: #ccc;
+  margin: 20rpx;
+}
+.case_head{
+  text-align: center;
+  background-color: #fff;
+  margin-top: 10rpx;
+}
+.case_img{
+   margin: 20rpx;
+   background-color: #fff;
+}
+.case_img  image{
+  width: 100%;
+}
+.case_word{
+  margin-left: 20rpx;
+}
+
+.case_style{
+  font-size: 30rpx;
+  color:#aaa;
+
+}
+
+
+.case_btn{
+  width: 50%;
+}
+
+.tapbar{
+  font-size: 20rpx;
+  background-color: #8a8a8a;
+  color: #dbdbdb;
+  text-align: center;
+  border-radius: 20rpx;
+  margin: 10rpx;
+}
+.tapbar image{
+  width: 280rpx;
+  height: 80rpx;
+}

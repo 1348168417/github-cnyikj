@@ -1,0 +1,121 @@
+<!-- 图片广告 -->
+<template name="img_ad">
+  <block wx:if="{{item.data.data_type==0}}">
+    <swiper class="index-banner" indicator-dots="{{item.data.list.length > 1}}"
+      autoplay="{{true}}" interval="{{4000}}" duration="{{1000}}" style="height:{{bannerHeight[item.item_index]||270}}rpx">
+      <block wx:for="{{item.data.list}}" wx:key="*this" wx:for-item="imgItem">
+        <navigator url="{{imgItem.url}}">
+        <swiper-item>
+            <image src="{{userImagePath+imgItem.img}}" bindload="onBannerImgLoad" data-bannerindex="{{item.item_index}}" class="slide-image"/>
+        </swiper-item>
+        </navigator>
+      </block>
+    </swiper>
+  </block>
+  <block wx:else>
+    <view class="ad-box">
+      <navigator class="ad-img-box" wx:key="*this" wx:for-item="imgItem" wx:for="{{item.data.list}}" url="{{imgItem.url}}">
+        <image src="{{userImagePath+imgItem.img}}" mode="widthFix"></image>
+      </navigator>
+    </view>
+  </block>
+</template>
+
+<!-- 图片导航 -->
+<template name="img_nav">
+	<view class="index-menu">
+		<navigator class="index-menu-item" wx:for="{{item.data.list}}" wx:key="{{item.url}}" url="{{item.url}}">
+			<image src="{{userImagePath+item.img}}"></image>
+			<text>{{item.title}}</text>
+		</navigator>
+	</view>
+</template>
+
+<!-- 搜索框 -->
+<template name="search">
+  <view class="search-cont">
+    <navigator url="search" class="search-btn">
+      <image class="search_icon" src="{{staticResPath}}/image/mobile/search_icon.png"></image>
+    </navigator>
+    <input type="text" placeholder="商品搜索：请输入商品关键字" confirm-type="前往" bindconfirm="search" class="search-input" />
+  </view>
+</template>
+
+<!-- 三格框 -->
+<template name="three_box">
+  <view class="three-box">
+    <view class="box-cont" wx:key="*this" wx:for="{{item.data.list}}">
+      <navigator url="{{item.url}}" class="box">
+        <image src="{{userImagePath+item.img}}"></image>
+      </navigator>
+    </view>
+  </view>
+</template>
+
+<!-- 四格框 -->
+<template name="four_box">
+  <view class="four-box">
+    <view class="box-cont" wx:key="*this" wx:for="{{item.data.list}}">
+      <navigator url="{{item.url}}" class="box">
+        <image src="{{userImagePath+item.img}}"></image>
+      </navigator>
+    </view>
+  </view>
+</template>
+
+<!-- 标题 -->
+<template name="title">
+  <view class="dcr_title" style="background-color:{{item.data.bg_color}};text-align:{{item.data.show_method==0?'left':(item.data.show_method==1?'center':'right')}}">
+    <view class="title_text">{{item.data.title}}
+    </view>
+    <view class="sub_title_text" wx:if="{{item.data.sub_title}}">{{item.data.sub_title}}</view>
+  </view>
+</template>
+
+<!-- 辅助空白 -->
+<template name="white">
+  <view class="white" style="height:{{item.data.height}}px">
+  </view>
+</template>
+
+<!-- 辅助线 -->
+<template name="dotted_line">
+  <view class="line">
+  </view>
+</template>
+
+<!-- 商品列表 -->
+<template name="mc_goodslist">
+  <view class="goods-list">
+    <view class="goods-item goods-item-{{item.data.size}}" wx:for="{{item.data.list}}" wx:for-item="goods" wx:key="{{goods.id}}">
+      <navigator class="goods-link" url="/pages/detail/detail?id={{goods.id}}">
+        <view class="photo-block">
+          <image src="{{userImagePath+goods.img}}"></image>
+        </view>
+        <view class="info">
+          <text class="goods-title">{{goods.name}}</text>
+          <text class="goods-price">￥{{goods.price}}</text>
+        </view>
+        <view class="goods-buy btn1" style="display:none;"></view>
+      </navigator>
+    </view>
+  </view>
+</template>
+
+<!-- 商品分组 -->
+<template name="goodslist">
+  <view class="goods-list">
+    <view class="goods-item" wx:for="{{item.data.list}}" wx:key="{{item.id}}">
+      <navigator class="goods-link" url="/pages/detail/detail?id={{item.id}}">
+        <view class="photo-block">
+          <image src="{{userImagePath+item.goodsCover}}"></image>
+        </view>
+        <view class="info">
+          <text class="goods-title">{{item.name}}</text>
+          <text class="goods-price">￥{{item.price}}</text>
+        </view>
+        <view class="goods-buy btn1" style="display:none;"></view>
+      </navigator>
+    </view>
+  </view>
+</template>

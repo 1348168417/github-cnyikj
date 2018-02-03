@@ -1,0 +1,16 @@
+<!--category.wxml-->
+<scroll-view class="container" scroll-y="true" scroll-top="{{scrolltop}}" bindscroll="scrollHandle" lower-threshold="50" bindscrolltolower="scrollLoading">
+  <view class="header">
+    <text>全部分类</text>
+  </view>
+  <view class="list_cont">
+    <view class="category_item" wx:for="{{categoryList}}" wx:key="{{item.id}}">
+      <navigator class="nav" url="/pages/channel/channel?id={{item.id}}">
+        <text class="t1">{{item.name}}</text>
+        <text class="t2">{{item.summary}}</text>
+        <view class="trigger"></view>
+      </navigator>
+    </view>
+  </view>
+</scroll-view>
+<include src="../template/fixedmenu.wxml"/>

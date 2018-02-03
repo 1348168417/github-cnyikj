@@ -1,0 +1,19 @@
+/* pages/introduce/introduce.wxss */
+.introduce_fruit{
+  border: 2rpx solid #1c3893;
+  border-radius: 2em 2em 2em 2em;
+
+}
+.introduce_fruit image{
+  height: 300rpx;
+  width: 100%;
+  border-radius: 2em 2em 2em 2em;
+}
+.introduce_word_tittle{
+  color: red;
+  font-size: 80rpx;
+
+}.introduce_word_article{
+  border-bottom: 1rpx solid gray;
+
+}

@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" style="width:100%;"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="flex-wrp classify">
+  <view class="flex-item bc_green"><image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image><view class="text">全案设计</view></view>
+  <view class="flex-item bc_red"><image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image><view class="text">室内设计</view></view>
+  <view class="flex-item bc_blue"><image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image><view class="text">空间工程</view></view>
+  <view class="flex-item bc_blue"><image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image><view class="text">个人中心</view></view>
+</view>
+<view class=""><image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" style="width:100%;"></image><text>公司介绍</text></view>
+<view class="goodsDetails">
+  <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+  <text class="name">商品介绍</text>
+  <text class="price">$999</text>
+  <image class="addShopCar" src="../images/addShopCar.png"></image>
+</view>
+<view class="goodsDetails">
+  <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg"></image>
+  <text class="name">商品介绍</text>
+  <text class="price">$999</text>
+  <image class="addShopCar" src="../images/addShopCar.png"></image>
+</view>

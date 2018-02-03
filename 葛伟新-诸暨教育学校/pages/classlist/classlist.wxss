@@ -1,0 +1,11 @@
+/* pages/classlist/classlist.wxss */
+.Box image{
+  width: 100%;
+}
+.Box view{
+  border-bottom: 1px solid #ccc;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: -3px 0 0 green;
+
+}

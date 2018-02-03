@@ -1,0 +1,39 @@
+<import src="../template/orderlisttpl.wxml"/>
+<scroll-view id="uwrapper">
+	<!-- 内容开始 -->
+	<view class="header">
+		<view class="wxsc-ul nav" id="nav">
+			<view class="wxsc-li {{!status?'active':''}}">
+				<view class="wxsc-a" data-status="" bindtap="getOrderList">全部</view>
+			</view>
+			<view class="wxsc-li {{status=='1'?'active':''}}">
+				<view class="wxsc-a" data-status="1" bindtap="getOrderList">待付款</view>
+			</view>
+			<view class="wxsc-li {{status=='2'?'active':''}}">
+				<view class="wxsc-a" data-status="2" bindtap="getOrderList">待发货</view>
+			</view>
+			<view class="wxsc-li {{status=='3'?'active':''}}">
+				<view class="wxsc-a" data-status="3" bindtap="getOrderList">待收货</view>
+			</view>
+			<view class="wxsc-li {{status=='7,8,9'?'active':''}}">
+				<view class="wxsc-a" data-status="7,8,9" bindtap="getOrderList">退款中</view>
+			</view>
+		</view>
+	</view>
+	<view id="order_list_container">
+		<template is="orderListTpl" data="{{orderList:orderList,goodsList:goodsList,orderListTotal:orderListTotal,userImagePath:userImagePath}}"></template>
+	</view>
+	<!-- 内容结束 -->
+</scroll-view>
+<!-- <view class="confirm-dialog" id="confirm_dialog">
+	<view class="confirm-content">
+		<view class="tips-span confirm-dialog-close">×</view>
+		<view class="tips-div"></view>
+		<view class="tips-p"><view class="tips-span">温馨提示：</view>您确认取消订单么？</view>
+	</view>
+	<view class="btn-container tips-ul">
+		<view class="confirm-dialog-close tips-li">取消</view>
+		<view class="confirm-dialog-sure tips-li">确定</view>
+	</view>
+</view>
+<view id="bg_mask" class="maskfadein" style="display: block;"></view> -->

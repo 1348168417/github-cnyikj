@@ -1,0 +1,43 @@
+<import src="../template/orderlisttpl.wxml"/>
+<view id="uwrapper">
+	<view class="order-info">
+		<text class="order-info-text">订单状态：{{parOrder.status}}</text>
+		<text class="order-info-text">下单时间：{{parOrder.buyTime}}</text>
+		<text class="order-info-text">订单编号：{{parOrder.orderNum}}</text>
+		<text class="order-info-text">订单金额：{{parOrder.totalPrice}}</text>
+	</view>
+
+	<view id="goods-list">
+		<!-- <template is="goodsListTpl" data="{{goodsList:goodsList,userImagePath:userImagePath}}"></template> -->
+	</view>
+
+	<view class="price-list">
+		<view class="price-item">
+			<view class="price-name">商品金额</view>
+			<view class="price-total">￥ {{parOrder.totalPrice}}</view>
+		</view>
+		<view class="price-item">
+			<view class="price-name">运费</view>
+			<view class="price-total">￥ {{parOrder.deliveryPrice}}</view>
+		</view>
+		<view class="price-item">
+			<view class="price-add">
+				<view class="price-add-total">￥ {{parOrder.totalPrice}}</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="custome-info">
+		<text class="module-title">
+			<text class="cus-info-text">收货信息</text>
+		</text>
+		<text class="cus-info-text" style="margin-top: 6px;">
+			<text>收货人：</text>
+			<text class="cus-name">{{parOrder.clientName}}</text>
+			<text class="cus-tel">{{parOrder.tel}}</text>
+		</text>
+		<text class="cus-info-text">收货地址：{{parOrder.address}}</text>
+		<text class="cus-info-text">收货时间：{{parOrder.finishTime}}</text>
+		<text class="cus-info-text">商家电话：{{parOrder.tel}}</text>
+	</view>
+</view>

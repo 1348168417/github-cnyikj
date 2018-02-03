@@ -1,0 +1,43 @@
+<!--index.wxml-->
+<!-- 轮播图 -->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" style="width:100%;" />
+    </swiper-item>
+  </block>
+</swiper>
+
+
+<!-- 分栏 -->
+<view class="flex-wrp classify">
+  <view class="flex-item bc_red">
+    <image bindtap="joiners" src="../../pages/images/joiner.png"></image>
+    <view class="text" bindtap="joiners">加盟商</view>
+  </view>
+  <view class="flex-item bc_blue">
+    <image bindtap="cases" src="../../pages/images/case.png"></image>
+    <view class="text" bindtap="cases">经典案例</view>
+  </view>
+  <view class="flex-item bc_green">
+    <image bindtap="join" src="../../pages/images/join.png"></image>
+    <view class="text" bindtap="join">加入我们</view>
+  </view>
+ 
+</view>
+
+<view class="introduceWord"> 中国企联——9年的时间累积、9年的品牌深耕、9年的稳健发展，9年来只做一件事，帮助企业和商家成长，帮助商家和企业做最落地的互联网营销、增值解决方案！</view>
+<view class="">
+  <image src="../../pages/images/logo01.jpg" style="width:100%;"></image>
+</view>
+
+
+<view class="joiners">
+  <image class="joinerImg" src="http://mmbiz.qpic.cn/mmbiz_jpg/tpknAg6bhddmRzn52syoeDJREiasOdXOeM9T98UEnFVE1zFFXNgyLViaZIs6UxUBdj75Z31RdrhD3gDiaKWkAyCyg/0?wx_fmt=jpeg"></image>
+  <text class="joiner">热烈祝贺浙江南浔.鑫通汽车维修有限公司携手中国企联！</text>
+</view>
+
+<view class="joiners">
+  <image class="joinerImg" src="http://mmbiz.qpic.cn/mmbiz_jpg/tpknAg6bhdfyY8rjhoLFVd1DhyyAibBSRJAaYU6Sq52hEybQJ6cRWOfq2GxMzUibpyMco8BAdBTib4Tjc2Nw8dBPw/0?wx_fmt=jpeg"></image>
+  <text class="joiner">热烈祝贺湖州南浔富士大酒店携手企联！</text>
+</view>

@@ -1,0 +1,5 @@
+<view class="goodsDetails" wx:for="{{list}}" bindtap='{{item.bindtap}}'>
+    <image src="{{item.img}}"></image>
+    <text class="type">{{item.tit}}</text>
+    <text class="name">{{item.word}}</text>
+</view>

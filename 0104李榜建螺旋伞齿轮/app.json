@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/goodsShow/goodsShow",
+    "pages/classify/classify",
+    "pages/zhuanli/zhuanli",
+    "pages/product/product",
+    "pages/carpenter/carpenter",
+    "pages/jianjie/jianjie",
+    "pages/wenhua/wenhua",
+    "pages/dingzhi/dingzhi",
+    "pages/detailPage/detailPage",
+    "pages/listPage/listPage",
+    "pages/Case/Case"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1dbbd3",
+    "navigationBarTitleText": "螺旋伞齿轮平台",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#1dbbd3",
+    "color": "#000",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home2.png",
+        "selectedIconPath": "images/home1.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "产品分类",
+        "iconPath": "images/classify2.png",
+        "selectedIconPath": "images/classify1.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "联系我们",
+        "iconPath": "images/my2.png",
+        "selectedIconPath": "images/my1.png"
+      }
+    ]
+  }
+}

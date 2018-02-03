@@ -1,0 +1,63 @@
+/* pages/about/about.wxss */
+
+.about_image {
+  border-bottom: 1rpx solid #aed3c7;
+  text-align: center;
+}
+
+.about_word {
+  font-family: KaiTi;
+  border-bottom: 1rpx solid #aed3c7;
+}
+
+.about_word view {
+  border-bottom: 1rpx solid #ccc;
+  text-align: center;
+  margin: 20rpx;
+}
+
+.about_wx {
+  display: inline-block;
+}
+
+.about_call {
+  text-align: center;
+}
+
+.about_call view {
+  border-bottom: 1rpx solid #ccc;
+  font-family: KaiTi;
+  margin: 20rpx;
+}
+
+
+.img_icon {
+  width: 50rpx;
+  height: 50rpx;
+  display: inline-block;
+}
+
+.about_gaiya {
+  display: inline-flex;
+}
+
+.about_people {
+  display: inline-flex;
+}
+
+.make_call {
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+.chenyi {
+  text-align: center;
+  color: #aaa;
+  font-size: 18rpx;
+}

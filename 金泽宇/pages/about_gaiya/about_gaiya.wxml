@@ -1,0 +1,22 @@
+<!--pages/about_gaiya/about_gaiya.wxml-->
+<view class='word'>
+  <view class='box'>
+    <view class='word_a'>亦靜亦動</view>
+    <view class='word_b'>盖空亚间</view>
+    <view class='word_a'>逹你所想</view>
+  </view>
+</view>
+
+
+<view class='word'>
+  <view class='word_c'>ADD：金华市婺城区金帆街738号4幢2层</view>
+  <view class='word_c'>The Second ,Building 3,No.736 Jinfan Road, Wucheng District ,Jinhua</view>
+  <view class='word_c'>营业时间：8:30-17:30（周一到周六）</view>
+  <view class='word_c'>Tel:0579-82990055</view>
+</view>
+
+
+<view class='word'>
+  <view class='word_d'>长按下图二维码关注我们</view>
+  <image class='word_d' bindtap='img' src='http://www.cnyikj.com/clientInfo/jinhuazxzs/小程序/二维码.jpg'></image>
+</view> 

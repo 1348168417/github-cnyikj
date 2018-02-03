@@ -1,0 +1,61 @@
+<!--index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}} ">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" style='width:100%;' mode='widthFix'/>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="menuBox">
+  <view class="menuList" wx:for="{{menuList}}">
+    <image src="{{item.img}}" bindtap='{{item.type}}' />
+    <view>{{item.typeName}}</view>
+  </view>
+</view> 
+
+
+<view class='titleBox'>
+  <view class='youxuan'></view><text>专业加工齿轮</text>
+</view>
+
+<view class='optimization'>
+  <view class='right'>
+    <view class='title'>30马力船外机齿轮1</view>
+    <image src='http://www.cnyikj.com/clientInfo/luoxuansan0104/30马力船外机齿轮1.jpg' style='width:100%;' mode='widthFix' bindtap='smdb'></image>
+  </view>
+  <view class='right'>
+    <view class='title'>6马力船外机齿轮</view>
+    <image src='http://www.cnyikj.com/clientInfo/luoxuansan0104/6马力船外机齿轮.jpg' style='width:100%;' mode='widthFix' bindtap='smdb'></image>
+  </view>
+</view>
+<view class='optimization'>
+  <view class='right'>
+    <view class='title'>打包机齿轮</view>
+    <image src='http://www.cnyikj.com/clientInfo/luoxuansan0104/打包机齿轮1.jpg' style='width:100%;' mode='widthFix' bindtap='drwsmdb'></image>
+  </view>
+  <view class='right'>
+    <view class='title'>打包机齿轮</view>
+    <image src='http://www.cnyikj.com/clientInfo/luoxuansan0104/打包机齿轮02.jpg' style='width:100%;' mode='widthFix' bindtap='smdb'></image>
+  </view>
+</view>
+<view class='optimization'>
+  <view class='right'>
+    <view class='title'>直伞齿轮</view>
+    <image src='http://www.cnyikj.com/clientInfo/luoxuansan0104/直伞齿轮1.jpg' style='width:100%;' mode='widthFix' bindtap='smdb'></image>
+  </view>
+  <view class='right'>
+    <view class='title'>直伞齿轮</view>
+    <image src='http://www.cnyikj.com/clientInfo/luoxuansan0104/直伞齿轮2.jpg' style='width:100%;' mode='widthFix' bindtap='smdb'></image>
+  </view>
+</view>
+<view class='optimization'>
+  <view class='right'>
+    <view class='title'>自行车齿轮</view>
+    <image src='http://www.cnyikj.com/clientInfo/luoxuansan0104/自行车齿轮2.jpg' style='width:100%;' mode='widthFix' bindtap='smdb'></image>
+  </view>
+  <view class='right'>
+    <view class='title'>自行车齿轮</view>
+    <image src='http://www.cnyikj.com/clientInfo/luoxuansan0104/自行车齿轮1.jpg' style='width:100%;' mode='widthFix' bindtap='smdb'></image>
+  </view>
+</view>

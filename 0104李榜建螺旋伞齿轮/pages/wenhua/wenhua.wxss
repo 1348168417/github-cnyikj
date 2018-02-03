@@ -1,0 +1,28 @@
+/* pages/wenhua/wenhua.wxss */
+.topBg{
+  height: 340rpx;
+  width: 100%;
+  background: url(http://www.cnyikj.com/clientInfo/hzmenchuang/qiyewenhuaBg.jpg) center no-repeat;
+  background-size: cover;
+}
+.cultureBox{
+  width: 94%;
+  margin: 0 auto;
+  font-size: 14px;
+  color:#8a8a8a;
+  padding: 30rpx 0;
+  border-bottom: 1rpx solid #cdcdcd;
+}
+.cultureBox .title{
+  font-size: 18px;
+  font-weight: 600;
+  color: #707070;
+  margin-bottom: 10rpx;
+}
+
+
+
+
+
+
+

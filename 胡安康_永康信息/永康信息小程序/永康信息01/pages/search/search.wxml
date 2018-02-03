@@ -1,0 +1,29 @@
+<!--search.wxml-->
+<scroll-view class="container">
+  <view style="background-color: #D9D9D9;">
+    <view class="search-cont" style="background-color: #FFF;">
+      <navigator url="search" class="search-btn">
+        <image class="search_icon" src="{{staticResPath}}/image/mobile/search_icon.png"></image>
+      </navigator>
+      <input type="text" value="{{keyword}}" placeholder="商品搜索：请输入商品关键字" confirm-type="前往" bindconfirm="search" class="search-input" />
+    </view>
+  </view>
+  <view class="empty-tips" wx:if="{{goodsList.length == 0}}">
+    暂时没有商品记录
+  </view>
+  <block wx:if="{{goodsList.length > 0}}">  
+    <view class="goods-list">
+      <view class="goods-item goods-item-3" wx:for="{{goodsList}}" wx:for-item="goods" wx:key="{{goods.id}}">
+        <navigator class="goods-link" url="/pages/detail/detail?id={{goods.id}}">
+          <view class="photo-block">
+            <image src="{{userImagePath+goods.goodsCover}}"></image>
+          </view>
+          <view class="info">
+            <text class="goods-title">{{goods.name}}</text>
+            <text class="goods-price">￥{{goods.price/100}}</text>
+          </view>
+        </navigator>
+      </view>
+    </view>
+  </block>
+</scroll-view>

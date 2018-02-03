@@ -1,0 +1,1 @@
+exports.config = {"uid":213,"buildVersion":"0.7-20170810","pageDomain":"https://xcx.ivvke.com","staticResPath":"http://res.ivvke.com/","userImagePath":"http://cdn.ivvke.com/"}

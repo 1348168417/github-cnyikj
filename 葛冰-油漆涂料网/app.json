@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "black",
+    "navigationBarTitleText": "油漆涂料网",
+    "navigationBarTextStyle": "light"
+  },
+  "tabBar": {
+    "selectedColor": "#56bc29",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/1.png",
+        "selectedIconPath": "pages/images/1.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "全部产品",
+        "iconPath": "pages/images/2.png",
+        "selectedIconPath": "pages/images/2.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "申请报名",
+        "iconPath": "pages/images/3.png",
+        "selectedIconPath": "pages/images/3.png"
+      }
+    ]
+  }
+}

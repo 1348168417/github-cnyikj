@@ -1,0 +1,27 @@
+<!--refund.wxml-->
+<view id="uwrapper" class="uwrapper">
+  <view class="order-number text-black">
+        <text>订单号<text class="number" id="orderId">{{orderNum}}</text></text>
+    </view>
+    <view class="progress">
+        <view class="status {{status==2?'text-green':'text-black'}}">待发货</view>
+        <view class="icon-progress" id="icon-progress1">
+            <view class="line-gray"></view>
+        </view>
+        <view class="status {{status==3?'text-green':'text-black'}}" id="progress1">待收货</view>
+        <view class="icon-progress" id="icon-progress2">
+            <view class="line-gray"></view>
+        </view>
+        <view class="status text-black" id="progress2">签收</view>
+    </view>
+    <view class="remark" style="border-bottom:0;margin-top:15rpx;">注: 确认签收后，商品不再提供无条件退货售后服务！</view>
+    <view class="remark" style="padding-bottom:15rpx;">商家同意后金额原路退还，银行卡预计1~4天到账！</view>
+    <form bindsubmit="bindFormSubmit">
+      <view class="comment-text rel">
+          <view for="reason-text" class="title text-black"><text class="text-red">* </text>原因</view>
+          <textarea auto-focus name="reasonText" id="reason_text" class="reason-text" cols="15" rows="10" placeholder="请描述下退款原因!" maxlength="300"></textarea>
+          <text class="count text-gray abs" id="count">300字</text>
+      </view>
+      <button form-type="submit" class="btn-submit" disabled="{{btnLoading}}" id="btn_apply_refund">提交</button>
+    </form>
+</view>

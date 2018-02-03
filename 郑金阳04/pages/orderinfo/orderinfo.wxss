@@ -1,0 +1,429 @@
+/* orderinfo.wxss */
+@charset "UTF-8";body {
+    background-color: #fff;
+}
+view{
+  font-size: 28rpx;
+}
+text{font-size: 28rpx;}
+.over {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.clear {
+    clear: both;
+}
+.text-input {
+    display: block;
+    margin: 2% 2%;
+    padding: 8rpx 13rpx;
+    font-size: 28rpx;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 96%;
+    height: 54rpx;
+    border: 1px solid #ccc;
+}
+.text-gray {
+    color: #b8b8b8;
+    font-size: 28rpx;
+}
+
+.text-black {
+    color: #7d7d7d;
+    font-size: 28rpx;
+}
+
+.text-red {
+    color: #f02712;
+    font-size: 28rpx;
+}
+.order-delivery .order-number {
+    width: 96%;
+    height: 64rpx;
+    padding: 0 2%;
+    font-size: 28rpx;
+    color: #fff;
+    background-color: #E85436;
+    vertical-align: middle;
+}
+
+.order-delivery .order-number .number {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    line-height: 64rpx;
+}
+
+.order-delivery .order-number .number span {
+    font-size: 28rpx;
+}
+
+.order-delivery .order-number .state {
+    display: inline-block;
+    width: 46%;
+    text-align: right;
+    vertical-align: middle;
+    line-height: 64rpx;
+}
+.order-delivery .address {
+    width: 95%;
+    padding: 6% 2% 2.5% 2%;
+    vertical-align: middle;
+}
+
+.order-delivery .address .icon-arr {
+    display: inline-block;
+    width: 5%;
+    height: 40rpx;
+}
+
+.order-delivery .address .icon-ads {
+    display: inline-block;
+    width: 3.7%;
+    height: 32rpx;
+    margin:44rpx 3% 0;
+    vertical-align: top;
+}
+
+.order-delivery .address .address-message {
+    display: inline-block;
+    width: 81%;
+    list-style-type: none;
+    line-height: 35rpx;
+    vertical-align: middle;
+}
+
+.order-delivery .address .address-tip {
+    display: inline-block;
+    width: 81%;
+    list-style-type: none;
+    line-height: 35rpx;
+    vertical-align: top;
+}
+
+.order-delivery .address .tel {
+    display: inline-block;
+    width: 35%;
+    font-size: 28rpx;
+    text-align: right;
+}
+
+.order-delivery .address .receiver-name {
+    display: inline-block;
+    width: 43%;
+}
+
+.order-delivery .address .receiver-title {
+    margin-right: .6rpx;
+    display: inline-block;
+}
+
+.order-delivery .address .address-title {
+    margin-right: .6rpx;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.order-delivery .address .address-text {
+    font-size: 28rpx;
+}
+
+.order-delivery .address .receiver-addr {
+    display: inline-block;
+    width: 75%;
+    height: 66rpx;
+    vertical-align: top;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.order-delivery .way {
+    margin: 0 6% 0 5%;
+    padding: 1.3% 8%;
+    border-top: solid .12em #eee;
+    font-size: 28rpx;
+}
+
+.order-delivery .way text {
+    width: 50%;
+    float: right;
+    text-align: right;
+    font-size: 28rpx;
+}
+
+.order-goods {
+    border-top: solid 1.6rpx #e0e1e3;
+}
+
+.order-goods .list {
+    list-style-type: none;
+    width: 100%;
+}
+
+.order-goods .list-item {
+    float: left;
+    width: 99%;
+    height: 176rpx;
+    margin: 10rpx 0 auto 2.6rpx;
+    background-color: #f9f9f9;
+}
+
+.order-goods .list-item .icon-goods {
+    margin: 27rpx auto auto 16rpx;
+    float: left;
+    width: 16.3%;
+    height: 112rpx;
+}
+
+.order-goods .list-item .description {
+    float: left;
+    max-width: 50%;
+    height: 162rpx;
+    padding-left: 27rpx;
+    font-size: 28rpx;
+    list-style-type: none;
+}
+
+.order-goods .list-item .description>view {
+    position: relative;
+    top: 30%;
+    bottom: 30%;
+    line-height: 40rpx;
+}
+
+.order-goods .list-item .amount {
+    float: right;
+    max-width: 25%;
+    margin:50rpx 5% 0% 0;
+    font-size: 28rpx;
+    color: #7d7d7d;
+    text-align: right;
+}
+
+.order-goods .total-count {
+  height:82rpx;
+  clear:both;
+  margin-bottom:-28rpx;
+  padding:25rpx 25rpx 13rpx 27rpx;
+}
+
+.order-goods .total-count .total {
+    max-width: 60%;
+    text-align: right;
+}
+
+.coupon-item .bill .text-black,.order-goods .total-money {
+    line-height: 48rpx;
+}
+.order-goods .total-money {
+    padding: 13rpx 48rpx 13rpx 27rpx;
+    border-top: solid 9.45rpx #eee;
+}
+
+.order-goods .total-money .money_item {
+    height: 50rpx;
+}
+
+.order-goods .total-money .fright {
+    max-width: 60%;
+    float: right;
+}
+
+.order-goods .total-money .count {
+  width:100%;
+  max-width:100%;
+  margin-top:8rpx;
+  text-align:right;
+  font-size:35rpx;
+  line-height:50rpx;
+  border-top:solid 2.16rpx #eee;
+  padding-top:8rpx;
+}
+
+.remark-cont {
+    border-top: solid 9.45rpx #eee;
+    border-bottom: solid 9.45rpx #eee;
+    margin-bottom: 27rpx;
+}
+
+.remark-cont #sn_tel {
+    display: none;
+}
+
+.remark-cont .title {
+    padding-left: 27rpx;
+    line-height: 54rpx;
+    height: 54rpx;
+    border-bottom: solid 3.2rpx #eee;
+}
+
+.remark-cont .text-input {
+    border: none;
+    background-color: #FFF;
+}
+
+.remark-cont input {
+    margin: 5.4rpx 27rpx;
+}
+
+.remark-cont .tip-icon>image {
+    width: 21rpx;
+    height: 27rpx;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.remark-cont .sn-icon>image {
+    width: 21rpx;
+    height: 32.4rpx;
+    vertical-align: sub;
+    margin-right: 5px;
+}
+
+.remark-cont .sntel {
+    position: relative;
+    border-bottom: solid 1px #eee;
+}
+
+.remark-cont text {
+    vertical-align: middle;
+    margin-left: 5px;
+    color: #f02712;
+    font-size: 40rpx;
+}
+
+.order-btn {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
+    text-align: center;
+    height: 102rpx;
+    background-color: #EAEAEA;
+}
+
+.order-btn .btn-menu {
+    width: 90%;
+    max-width: 350px;
+    height: 82rpx;
+    line-height: 82rpx;
+    clear: both;
+    border: 1px solid #C43416;
+    border-radius: 5.4rpx;
+    -webkit-border-radius: 5.4rpx;
+    background-color: #E85436;
+    color: #fff;
+    font-size: 36rpx;
+    text-align: center;
+    margin-top: 10rpx;
+}
+
+.order-btn .btn-menu[disabled] {
+    border: 1px solid #666;
+    background-color: #999;
+}
+#btn_pay, #btn_cancel{
+  display: inline-block;
+  width: 45%;
+  margin-left: 5rpx;
+  margin-right: 5rpx;
+}
+#footer_placeholder {
+    height:108rpx;
+}
+.nodata-tips {
+    font-size: 27rpx;
+    text-align: center;
+    padding: 0 0 16.2rpx 0;
+}
+
+
+.order-logistics {
+    width: 100%;
+    border-top:solid 9.45rpx #eee;
+}
+
+.order-logistics .logistics {
+    margin: 21rpx 0;
+}
+
+.order-logistics .title {
+    margin: 32rpx 35rpx 0 27rpx;
+    padding-bottom: 27rpx;
+    border-bottom: solid 3.2rpx #eee;
+}
+
+.order-logistics .delivery-num {
+    width: 90%;
+    margin: 27rpx 0 0 27rpx;
+    padding-bottom: 27rpx;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.order-logistics .delivery-num .delivery {
+    position: relative;
+    top: 5%;
+    display: inline-block;
+    width: 74%;
+    height: 37rpx;
+    vertical-align: middle;
+    line-height:33rpx;
+}
+
+.order-logistics .btn-delivery {
+    width: 148rpx;
+    height: 51rpx;
+    border: solid #E85436 1px;
+    border-radius: 5.2rpx;
+    -webkit-border-radius: 5.2rpx;
+    background-color: #E85436;
+    color: #fff;
+    font-size: 24rpx;
+    display: none;
+    text-align: center;
+    outline: none;
+    padding: 0;
+}
+
+.order-logistics .btn-delivery:focus {
+    outline: none;
+}
+
+.order-logistics .error-message {
+    margin: 2% 5%;
+    line-height: 40rpx;
+}
+
+.order-logistics .item {
+    margin: 0 40rpx;
+    font-size: 28rpx;
+    list-style-type: none;
+}
+
+.order-logistics .item .message {
+    float: left;
+    width: 95%;
+    padding: 0 0 2% 5%;
+    border-left: solid 4.5rpx #eee;
+}
+.order-logistics.order-extrainfo{
+  padding-top: 12rpx;
+}
+.order-logistics.order-extrainfo .delivery-num {
+  width:90%;
+  margin:0rpx 0 0 27rpx;
+  padding-bottom:0rpx;
+}
+.order-logistics.order-extrainfo .delivery-num text{
+  font-size:26rpx;
+  color: #aaa;
+}
+.order-logistics.order-extrainfo .delivery-num .delivery{
+  line-height: 35rpx;
+}
+
+

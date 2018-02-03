@@ -1,0 +1,22 @@
+/* newestCondition.wxss */
+page{
+  background-color: #e3ecc7;
+}
+.img{
+  float: left;
+  width: 350rpx;
+  margin: 20rpx;
+}
+
+.tit{
+  box-shadow: -2px 0 0 green;
+  font-size: 55rpx;
+
+}
+.artc{
+  text-indent: 2em;
+  margin: 10rpx;
+}
+
+
+

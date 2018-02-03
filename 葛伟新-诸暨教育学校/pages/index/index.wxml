@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" style="width:100%;" />
+    </swiper-item>
+  </block>
+</swiper>
+<view class="flex-wrp classify">
+  <view class="flex-item bc_green" bindtap="aboutaoshu">
+    <image src="../images/guanyuzhuji.png"></image>
+    <view class="text">关于奥数</view>
+  </view>
+  <view class="flex-item bc_red" bindtap="newestCondition">
+    <image src="../images/chuangshiren-01.png"></image>
+    <view class="text">创始人</view>
+  </view>
+  <view class="flex-item bc_blue" bindtap="league">
+    <image src="../images/jinpaimingshi.png"></image>
+    <view class="text">金牌名师</view>
+  </view>
+  <view class="flex-item bc_blue" bindtap="hot">
+    <image src="../images/hezuo.png"></image>
+    <view class="text">合作伙伴</view>
+  </view>
+</view>
+
+
+
+<view class='Box' wx:for="{{url}}"  bindtap='{{item.bindtap}}'>
+  <div class="order">
+    <span class="line"></span>
+    <span class="txt">{{item.word}}</span>
+    <span class="line"></span>
+  </div>
+  <image src='{{item.img}}'></image>
+</view>
+
+<view class='tapbar'>
+  <view class='tapbar_company'>Copyright©诸暨市精牌素质培训中心 版权所有</view>
+  <view class='tapbar_cnyikj'>
+    <text>技术支持@晨意科技</text>
+  </view>
+</view>

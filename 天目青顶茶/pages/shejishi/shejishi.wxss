@@ -1,0 +1,18 @@
+page{
+  background-color: #a4ebae;
+}
+.faren_tit{
+  color: #515151;
+  text-align: center;
+  font-size: 40rpx;
+}
+.faren_word{
+  margin-top: 15rpx;
+  color: #aaa;
+  text-indent: 2em;
+}
+.border{
+  width: 100%;
+  border-bottom:1rpx solid #ccc;
+  margin-top: 10rpx;
+}

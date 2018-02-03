@@ -1,0 +1,9 @@
+<!--pages/hongcha/hongcha.wxml-->
+<text>pages/hongcha/hongcha.wxml</text>
+
+<view class='index_chanpin_word'> 生产车间 >></view>
+<view class='shop_left' wx:for="{{chejian}}">
+    <image src='{{item.img}}'></image>
+    <view>{{item.tit}}</view>
+    <view class='index_lianxi'>#有意请致电#</view>
+</view>

@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/shopCar/shopCar",
+    "pages/percenter/percenter"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "black",
+    "navigationBarTitleText": "金华装修装饰",
+    "navigationBarTextStyle": "#ccc"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/home.png",
+        "selectedIconPath": "pages/images/home2.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "公司展示",
+        "iconPath": "pages/images/classify.png",
+        "selectedIconPath": "pages/images/classify2.png"
+      },
+      {
+        "pagePath": "pages/percenter/percenter",
+        "text": "我的",
+        "iconPath": "pages/images/percenter.png",
+        "selectedIconPath": "pages/images/percenter2.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+<view class="joiners">
+  <image class="joinerImg" src="http://img5.imgtn.bdimg.com/it/u=3927785294,2227203319&fm=26&gp=0.jpg"></image>
+  <text class="joiner">草莓</text>
+  <text style="position: absolute;top:100rpx;color:red;font-size:50rpx;">$</text>
+  <text style="position: absolute;top:110rpx;right:20rpx;">9.9元</text>
+</view>
+
+
+<view class="joiners">
+  <image class="joinerImg" src="http://img3.imgtn.bdimg.com/it/u=3802619374,751859391&fm=26&gp=0.jpg"></image>
+  <text class="joiner">橘子</text>
+  <text style="position: absolute;top:100rpx;color:red;font-size:50rpx;">$</text>
+  <text style="position: absolute;top:110rpx;right:20rpx;">9.9元</text>
+</view>
+
+<view class="joiners">
+  <image class="joinerImg" src="http://img4.imgtn.bdimg.com/it/u=3818394307,1261324003&fm=28&gp=0.jpg"></image>
+  <text class="joiner">猕猴桃</text>
+  <text style="position: absolute;top:100rpx;color:red;font-size:50rpx;">$</text>
+  <text style="position: absolute;top:110rpx;right:20rpx;">9.9元</text>
+</view>
+
+<view class="joiners">
+  <image class="joinerImg" src="http://img5.imgtn.bdimg.com/it/u=3244080419,1455387460&fm=26&gp=0.jpg"></image>
+  <text class="joiner">苹果</text>
+  <text style="position: absolute;top:100rpx;color:red;font-size:50rpx;">$</text>
+  <text style="position: absolute;top:110rpx;right:20rpx;">9.9元</text>
+</view>
+
+<view class="joiners">
+  <image class="joinerImg" src="http://img1.imgtn.bdimg.com/it/u=1802349604,2489836431&fm=26&gp=0.jpg"></image>
+  <text class="joiner">榴莲</text>
+  <text style="position: absolute;top:100rpx;color:red;font-size:50rpx;">$</text>
+  <text style="position: absolute;top:110rpx;right:20rpx;">9.9元</text>
+</view>
+<view class="joiners">
+  <image class="joinerImg" src="http://img5.imgtn.bdimg.com/it/u=3927785294,2227203319&fm=26&gp=0.jpg"></image>
+  <text class="joiner">草莓</text>
+  <text style="position: absolute;top:100rpx;color:red;font-size:50rpx;">$</text>
+  <text style="position: absolute;top:110rpx;right:20rpx;">9.9元</text>
+</view>
+
+
+<view class="joiners">
+  <image class="joinerImg" src="http://img3.imgtn.bdimg.com/it/u=3802619374,751859391&fm=26&gp=0.jpg"></image>
+  <text class="joiner">橘子</text>
+  <text style="position: absolute;top:100rpx;color:red;font-size:50rpx;">$</text>
+  <text style="position: absolute;top:110rpx;right:20rpx;">9.9元</text>
+</view>
+
+<view class="joiners">
+  <image class="joinerImg" src="http://img4.imgtn.bdimg.com/it/u=3818394307,1261324003&fm=28&gp=0.jpg"></image>
+  <text class="joiner">猕猴桃</text>
+  <text style="position: absolute;top:100rpx;color:red;font-size:50rpx;">$</text>
+  <text style="position: absolute;top:110rpx;right:20rpx;">9.9元</text>
+</view>
+
+<view class="joiners">
+  <image class="joinerImg" src="http://img5.imgtn.bdimg.com/it/u=3244080419,1455387460&fm=26&gp=0.jpg"></image>
+  <text class="joiner">苹果</text>
+  <text style="position: absolute;top:100rpx;color:red;font-size:50rpx;">$</text>
+  <text style="position: absolute;top:110rpx;right:20rpx;">9.9元</text>
+</view>
+
+<view class="joiners">
+  <image class="joinerImg" src="http://img1.imgtn.bdimg.com/it/u=1802349604,2489836431&fm=26&gp=0.jpg"></image>
+  <text class="joiner">榴莲</text>
+  <text style="position: absolute;top:100rpx;color:red;font-size:50rpx;">$</text>
+  <text style="position: absolute;top:110rpx;right:20rpx;">9.9元</text>
+</view>
+<view class="joiners">
+  <image class="joinerImg" src="http://img5.imgtn.bdimg.com/it/u=3927785294,2227203319&fm=26&gp=0.jpg"></image>
+  <text class="joiner">草莓</text>
+  <text style="position: absolute;top:100rpx;color:red;font-size:50rpx;">$</text>
+  <text style="position: absolute;top:110rpx;right:20rpx;">9.9元</text>
+</view>
+
+
+<view class="joiners">
+  <image class="joinerImg" src="http://img3.imgtn.bdimg.com/it/u=3802619374,751859391&fm=26&gp=0.jpg"></image>
+  <text class="joiner">橘子</text>
+  <text style="position: absolute;top:100rpx;color:red;font-size:50rpx;">$</text>
+  <text style="position: absolute;top:110rpx;right:20rpx;">9.9元</text>
+</view>
+
+<view class="joiners">
+  <image class="joinerImg" src="http://img4.imgtn.bdimg.com/it/u=3818394307,1261324003&fm=28&gp=0.jpg"></image>
+  <text class="joiner">猕猴桃</text>
+  <text style="position: absolute;top:100rpx;color:red;font-size:50rpx;">$</text>
+  <text style="position: absolute;top:110rpx;right:20rpx;">9.9元</text>
+</view>
+
+<view class="joiners">
+  <image class="joinerImg" src="http://img5.imgtn.bdimg.com/it/u=3244080419,1455387460&fm=26&gp=0.jpg"></image>
+  <text class="joiner">苹果</text>
+  <text style="position: absolute;top:100rpx;color:red;font-size:50rpx;">$</text>
+  <text style="position: absolute;top:110rpx;right:20rpx;">9.9元</text>
+</view>
+
+<view class="joiners">
+  <image class="joinerImg" src="http://img1.imgtn.bdimg.com/it/u=1802349604,2489836431&fm=26&gp=0.jpg"></image>
+  <text class="joiner">榴莲</text>
+  <text style="position: absolute;top:100rpx;color:red;font-size:50rpx;">$</text>
+  <text style="position: absolute;top:110rpx;right:20rpx;">9.9元</text>
+</view>

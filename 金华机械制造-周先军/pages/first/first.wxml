@@ -1,0 +1,23 @@
+<!--pages/first/first.wxml-->
+<view class='first_page'>
+  <view>
+    <image src='http://www.cnyikj.com/clientInfo/jinhuajixie/logo.jpg'></image>
+  </view>
+  <view class='first_word'>
+    <view class='welcome'>欢迎进入</view>
+    <view class='com'>
+      <text class='com_a'> 金华市婺城区</text>
+      <text class='gaiya'>先军机械</text>
+      <text class='com_a'>零部件加工厂</text>
+    </view>
+    <view class='xcx_word'>小程序</view>
+  </view>
+</view>
+<view class='tishi'>
+  <!-- <view>
+    <text>温馨提示：点击右上角</text>
+    <image class='icon' src='../../images/shouye.png'></image>
+    <text>进入小程序</text>
+  </view> -->
+  <button class='btn_comein' bindtap='comein'>点击进入小程序</button>
+</view>

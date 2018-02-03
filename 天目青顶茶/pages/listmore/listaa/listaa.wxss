@@ -1,0 +1,16 @@
+/* pages/listmore/listaa/listaa.wxss */
+.article_tit{
+  text-align: center;
+}
+.article_tit_a{
+  color: #901708;
+}
+.article_tit_b{
+  color: #ccc;
+  font-size:20rpx;
+}
+.article_art{
+   margin-top: 15rpx;
+  color: #aaa;
+  text-indent: 2em;
+}

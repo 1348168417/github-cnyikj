@@ -1,0 +1,35 @@
+<!--pages/introduce/introduce.wxml-->
+<view class="introduce_list">
+  <view class="introduce_fruit">
+    <image src="{{apple.url}}"></image>
+    <view class="classname">
+      <text class="introduce_word_tittle">{{apple.title}}</text>
+      <text class="introduce_word_article">{{apple.artcile}}</text>
+    </view>
+  </view>
+
+
+  <view class="introduce_fruit">
+    <image src="{{orange.url}}"></image>
+    <view class="classname">
+      <text class="introduce_word_tittle">{{orange.title}}</text>
+      <text class="introduce_word_article">{{orange.artcile}}</text>
+    </view>
+  </view>
+
+  <view class="introduce_fruit">
+    <image src="{{Cherry.url}}"></image>
+    <view class="classname">
+      <text class="introduce_word_tittle">{{Cherry.title}}</text>
+      <text class="introduce_word_article">{{Cherry.artcile}}</text>
+    </view>
+  </view>
+
+  <view class="introduce_fruit">
+    <image src="{{Banana.url}}"></image>
+    <view class="classname">
+      <text class="introduce_word_tittle">{{Banana.title}}</text>
+      <text class="introduce_word_article">{{Banana.artcile}}</text>
+    </view>
+  </view>
+</view>

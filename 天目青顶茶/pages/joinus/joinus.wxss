@@ -1,0 +1,25 @@
+/* pages/joinus/joinus.wxss */
+/*底部  */
+.tapbar{
+  font-size: 20rpx;
+  background-color: #ccc;
+  color: #aaa;
+  text-align: center;
+  border-radius: 20rpx;
+  margin: 10rpx;
+}
+.tapbar image{
+  width: 280rpx;
+  height: 80rpx;
+}
+
+.join_int{
+  border: black;
+}
+.join_name{
+  margin: 20rpx;
+  float:left;
+}
+.section{
+  float:left;
+}

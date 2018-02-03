@@ -1,0 +1,38 @@
+<view class="uwrapper">
+	<view class="header rel">
+		<view class="logo abs">
+			<image src="{{userInfo.avatarUrl}}"  id="J_headimg"></image>
+		</view>
+		<view class="user-massage abs">
+			<view class="u-name">
+				<text id="J_nickname">{{userInfo.nickName}}</text>
+			</view>
+		</view>
+	</view>
+	<view class="order">
+		<view class="order-query">
+			<image src="{{staticResPath}}/image/mobile/uniquecenter/notepad.png"  class="icon-images"></image>
+			<text class="my-order explain-text">我的订单</text>
+			<navigator url="/pages/orderlist/orderlist?status=" id="btn_query_orderlist" class="query explain-text">查看全部订单</navigator>
+			<image src="{{staticResPath}}/image/mobile/uniquecenter/arrow.png"  class="icon-arr"></image>
+		</view>
+		<view class="order-items" id="order_items">
+			<navigator url="/pages/orderlist/orderlist?status=1" class="item">
+				<image src="{{staticResPath}}/image/mobile/uniquecenter/waitpay.png"></image>
+				<view class="order-text">待付款</view>
+			</navigator>
+			<navigator url="/pages/orderlist/orderlist?status=2" class="item">
+				<image src="{{staticResPath}}/image/mobile/uniquecenter/waitsend.png"  class="img-car"></image>
+				<view class="order-text">待发货</view>
+			</navigator>
+			<navigator url="/pages/orderlist/orderlist?status=3" class="item">
+				<image src="{{staticResPath}}/image/mobile/uniquecenter/waitget.png"></image>
+				<view class="order-text">待收货<!-- 退换货 --></view>
+			</navigator>
+			<navigator url="/pages/orderlist/orderlist?status=7,8,9" class="item last-item">
+				<image src="{{staticResPath}}/image/mobile/uniquecenter/shouhou.png"></image>
+				<view class="order-text">售后<!-- 待收货 --></view>
+			</navigator>
+		</view>
+	</view>
+</view>

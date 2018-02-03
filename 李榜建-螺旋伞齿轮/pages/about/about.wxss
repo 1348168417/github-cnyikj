@@ -1,0 +1,32 @@
+/* pages/about/about.wxss */
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.about_image{
+  border-bottom: 1rpx solid gray;
+  text-align: center;
+}
+.about_word{
+  border-bottom: 1rpx solid gray;
+}
+.about_word view{
+   border-bottom: 1rpx solid #ccc;
+   margin: 20rpx;
+}
+.about_wx{
+  display: inline-block;
+}
+.about_call view{
+border-bottom: 1rpx solid #ccc;
+   margin: 20rpx;
+}
+.chenyi{
+  text-align: center;
+  color: #aaa;
+  font-size: 18rpx;
+}

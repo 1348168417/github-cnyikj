@@ -1,0 +1,13 @@
+/* pages/news/news.wxss */
+/*商品列表  */
+.shop{
+}
+.shop_left{
+  padding: 30rpx;
+  border: 1rpx solid #ccc;
+  display: inline-block;
+}
+.shop_left image{
+  width: 310rpx;
+  height: 310rpx;
+}

@@ -1,0 +1,107 @@
+<import src="../template/decoration.wxml" />
+<import src="../../wxParse/wxParse.wxml"/> 
+<scroll-view class="container {{contClass}}" style="padding-bottom:120rpx;">
+  <view class="header-cont">
+    <swiper class="index-banner" indicator-dots="{{true}}"
+      autoplay="{{true}}" interval="{{4000}}" duration="{{1000}}">
+      <block wx:for="{{goodsCover}}" wx:key="*this">
+        <swiper-item>
+          <image src="{{userImagePath+item}}" class="slide-image"/>
+        </swiper-item>
+      </block>
+    </swiper>
+    
+    <view class="detail-cont">
+        <view class="name">{{goodsData.name}}</view>
+        <view>
+        <text class="item_price i_pri"><text>¥</text>{{price}}</text>
+        <text class="express_money_show">原价：<text class="original-price">{{originalPrice}}</text></text>
+        </view>
+        <view class="payed_count">
+          <text class="inventory">库存：{{goodsData.totalCount}} {{unitName}}</text>
+          <text class="delivery_txt">{{deliveryTxt}}</text>
+        </view>
+        <view class="slider_line">
+            <image class="slider_line_left" src="{{staticResPath}}/youdian/image/mobile/slider_right.png"></image>
+            <text class="slider_line_con" style="width:100%;">
+            </text>
+            <image class="slider_line_right" src="{{staticResPath}}/youdian/image/mobile/slider_left.png"></image>
+        </view>
+      </view>
+
+  </view>
+  <view class="microshop-box">
+    <view class="goto_shop" bindtap="backToHome">
+        <image src="{{staticResPath}}/youdian/image/mobile/site.jpg"> </image>
+        <text style="margin-left:6px;">我的店铺</text> <text style="float:right;">进入店铺</text>
+    </view>
+  </view>
+
+  <view class="detail_decoration">
+    <block wx:for="{{decoration.items}}" wx:key="item_type">
+      <block wx:if="{{item.item_type=='richtext'}}">
+      <view class="custom-richtext" style="background-color:{{item.data.bg_color}};{{item.data.fullscreen==1?'padding:0;':''}}">
+        <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+      </view>
+      </block>
+      <block wx:else>
+      <template is="{{item.item_type}}" data="{{item:item,userImagePath:userImagePath,staticResPath:staticResPath,bannerHeight:bannerHeight}}"/>
+      </block>
+    </block>
+  </view>
+</scroll-view>
+<view class="{{contClass}}">
+  <view class="infodialog {{infoDialogStatu}}" id="infodialog">
+    <view class="infodialog-header">
+      <text>提示框</text>
+      <view class="infodialog-close" bindtap="onCloseInfoDialog">×</view>
+    </view>
+    <view class="infodialog-content">
+      已加入购物车
+    </view>
+    <view class="btn-cont">
+      <navigator class="continutebuy" bindtap="onCloseInfoDialog">继续购物</navigator>
+      <navigator url="/pages/shoppingcar/shoppingcar" open-type="reLaunch" class="gotoshopcar">前往购物车</navigator>
+    </view>
+  </view>
+  <view class="fuzzylayer {{fuzzyLayerStatu}}">
+  </view>
+  <view class="mod_pop_mask"></view>
+    <view class="buy_bar">
+      <view class="backtohome" bindtap="backToHome"> </view>
+      <view class="custom_add_cart" style="width:40%;" bindtap="onAddCart">加入购物车</view>
+      <view class="custom_buy_now" style="width:40%;" bindtap="onBuyNow">立刻购买</view>
+      <view class="custom_add_cart_next" bindtap="onAddCartNext" style="width:95.5%;">下一步</view>
+      <view class="custom_buy_now_next" bindtap="onBuyNowNext" style="width:95.5%;">买了</view>
+  </view>
+  <view class="category_main">
+      <!-- 选择规格和数量 -->
+      <view id="control_wrap">
+          <view id="control_info">
+              <view class="category_goods">
+                <view class="left_img">
+                <image src="{{userImagePath+goodsData.goodsCover}}" width="60" height="60"></image>
+                  </view>
+                  <view class="right_goods">
+                      <text class="goods-name">{{goodsData.name}}</text>
+                      <view class="price"><text>¥</text>{{price}}</view>
+                  </view>
+                  <view class="close_icon" bindtap="onCloseBuy"><image src="{{staticResPath}}/youdian/image/mobile/close.png"></image> </view>
+              </view>
+              <view id="control_sku">
+                  <view id="sku_view"></view>
+              </view>
+              <view id="control_count">
+                  <text class="left control_tle">购买数量：</text>
+                  <view class="good_count_box">
+                  <view id="good_sub" class="minus" bindtap="minusCount"></view>
+                  <view class="good_num"><input id="total_count" bindchange="bindChange" type="tel" value="{{totalCount}}"></input></view>
+                  <view id="good_add" bindtap="addCount" class="plus"></view>
+                  </view>
+                  <view class="control_inventory">库存：{{goodsData.totalCount}}{{unitName}}</view>
+              </view>
+          </view>
+      </view>
+  </view>
+</view>
+<include src="../template/fixedmenu.wxml"/>

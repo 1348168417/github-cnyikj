@@ -1,0 +1,9 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  padding: 20rpx;
+
+} 
+page{
+  color:gray;
+}

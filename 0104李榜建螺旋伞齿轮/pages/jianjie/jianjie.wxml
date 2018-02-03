@@ -1,0 +1,7 @@
+<!--pages/fuwu/fuwu.wxml-->
+<view>
+  <image src='http://www.cnyikj.com/clientInfo/hzDb/banner.jpg' style='width:100%;' mode='widthFix'></image>
+</view>
+<view class='words'>
+  本公司位于中国科技五金之都――浙江.永康市 是一家专业从事弧锥齿轮.螺旋伞齿轮.直伞齿轮.圆柱齿轮.各种非标疑难精密齿轮设计/制造的专业生产厂家。公司以质量为生存.科技为发展的理念立足为齿轮传动行业作贡献。欢迎各新老客户合作共赢.同行共同学习交流提高行业创新水平共同发展。
+</view>

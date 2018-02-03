@@ -1,0 +1,166 @@
+<!--orderinfo.wxml-->
+<scroll-view class="container">
+
+<view class="order-delivery">
+    <view class="order-number" wx:if="{{orderData != null}}">
+        <view class="number over">订单编号: <text id="orderId">{{orderData.orderNum}}</text></view>
+        <view class="state over">状态: <text id="status">{{orderStatus}}</text></view>
+    </view>
+    <view class="address hide_address" bindtap="onTapAddress">
+        <image src="http://static.resource.fenxiaov3.weijuju.com/image/mobile/umall/orderdetail/pin.png" class="icon-ads" alt="地址图标"></image>
+        <block wx:if="{{addressInfo == null}}">
+          <view class="address-tip">请填写收货地址</view>
+        </block>
+        <block wx:else>
+          <view class="address-message text-black">
+              <view><text class="over receiver-title">收货人：</text><text class="receiver-name over" id="receiver_name">{{addressInfo.userName}}</text><text class="tel over" id="contact_tel">{{addressInfo.tel}}</text></view>
+              <view class="address-text"><text class="address-title">收货地址：</text><text class="receiver-addr" id="receiver_addr">{{addressInfo.areaName+addressInfo.address}}</text></view>
+          </view>
+        </block>
+        <image wx:if="{{orderData == null}}"src="http://static.resource.fenxiaov3.weijuju.com/image/mobile/umall/orderdetail/arrow-right.png" class="icon-arr" alt="详情图标"></image>
+        <view class="clear"></view>
+    </view>
+    <view class="way text-black hide_address" style="display:none;">配送方式：
+      <text class="text-gray" id="delivery_row">商家包邮</text>
+    </view>
+  </view>
+
+	<view class="microshop-box order-goods" style="border-top: 0px;">
+	<view class="tip-carriage hide" id="tip_carriage">
+		<text class="icon-carriage"></text><text></text>
+	</view>
+	<view class="goods_list goods-list">
+		<view class="list">
+			<view class="list-item" wx:for="{{goodsList}}" wx:for-item="goodsData" wx:key="{{goodsData.id}}" data-msgid="{{goodsData.id}}">
+      <navigator url="/pages/detail/detail?id={{goodsData.id}}">
+      <image class="icon-goods" src="{{userImagePath+goodsData.cover}}"></image>
+      </navigator>
+			<view class="description">
+				<view class="text-black over">{{goodsData.name}}</view>
+			</view>
+			<view class="amount over">
+				<text class="text-red">¥{{goodsData.price/100}}</text> x<text>{{goodsData.count}}</text>
+			</view>
+			</view>
+		</view>
+	</view>
+	<view class="total-count text-black">
+		<text>共<text class="text-red" id="total_count">{{goodsCount}}</text>件商品</text>
+		<text class="total fright">合计 <text class="text-red"><text class="js-total-money"> ¥{{totalPrice}}</text></text></text>
+	</view>
+
+	<view class="total-money text-black">
+		<view class="money_item">
+			<view class="fleft">
+				商品金额
+			</view>
+			<view class="text-red fright">
+				<text class="js-total-money total_price"> ¥{{totalPrice}}</text>
+			</view>
+		</view>
+		<view class="money_item">
+			<view class="fleft">
+				运费
+			</view>
+			<view class="text-black fright" id="delivery_text">
+				<text id="delivery_price" class="delivery_price">+ ¥{{deliveryPrice}}</text>
+			</view>
+		</view>
+		
+		<view class="count fright text-red final-total" id="total_money">
+			<text class="money"> ¥{{allPrice}}</text>
+		</view>
+		<view class="clear">
+		</view>
+	</view>
+	</view>
+	
+  <block wx:if="{{orderData == null}}">
+    <view class="microshop-box remark-cont order-logistics">
+    <view id="sn_tel" style="display: none;">
+      <view class="title text-black sn-icon">
+        <image src="http://static.resource.fenxiaov3.weijuju.com/image/mobile/umall/orderdetail/phone.png"></image>手机号<text>*</text>
+      </view>
+      <view class="sntel">
+        <input placeholder="请输入手机号" type="text" id="sntel" class="text-input"></input>
+      </view>
+    </view>
+    <view class="title text-black tip-icon">
+      <image src="http://static.resource.fenxiaov3.weijuju.com/image/mobile/umall/orderdetail/tip.png"></image>备注
+    </view>
+    <view>
+      <input placeholder="给商家留言" bindchange="bindChange" type="text" id="remark" class="text-input"></input>
+    </view>
+    </view>
+  </block>
+
+  <view class="order-logistics" id="order_logistics" wx:if="{{orderData != null && orderData.status >= 3}}">
+      <view class="delivery-num text-black" id="delivery_num"><text>快递单号：</text>
+      <block wx:if="{{orderData.deliveryCom == null}}">
+        <text class="delivery over" id="delivery">无</text>
+      </block>
+      <block wx:else>
+        <text class="delivery over" id="delivery">{{orderData.deliveryCom}} {{orderData.expressNum}}</text>
+      </block>
+      </view>
+      <view id="logistics_list"></view>	     
+      <view class="clear"></view>
+  </view>
+
+  <view class="order-logistics" wx:if="{{orderData != null && (orderData.status >= 6 || (orderData.refundReason != null && orderData.refundTime != null))}}">
+      <text style="padding-left:27rpx;margin-top:5px;display:block;color:#888;">退款信息：</text>
+      <view class="delivery-num text-black" style="margin-top:12rpx;">
+        <text style="color:#000;">{{orderData.refundReason}}</text>
+        <text style="float:right;color:#ccc;" wx:if="{{orderData.status == 6}}">卖家已同意</text>
+        <text style="float:right;color:#ccc;" wx:if="{{orderData.status < 6}}">卖家已拒绝</text>
+      </view>
+      <view class="clear"></view>
+  </view>
+
+  <view class="order-logistics order-extrainfo" wx:if="{{orderData != null}}">
+      <view class="delivery-num text-black" wx:if="{{orderData.transactionId != null}}">
+        <text>交易流水：</text>
+        <text class="delivery over">{{orderData.transactionId}}</text>
+      </view>
+      <view class="delivery-num text-black" wx:if="{{orderData.buyTime != null}}">
+        <text>下单时间：</text>
+        <text class="delivery over">{{orderData.buyTime}}</text>
+      </view>
+      <view class="delivery-num text-black" wx:if="{{orderData.payTime != null}}">
+        <text>付款时间：</text>
+        <text class="delivery over">{{orderData.payTime}}</text>
+      </view>
+      <view class="delivery-num text-black" wx:if="{{orderData.realDeliveryTime != null}}">
+        <text>发货时间：</text>
+        <text class="delivery over">{{orderData.realDeliveryTime}}</text>
+      </view>
+      <view class="clear"></view>
+  </view>
+	
+	<view id="footer_placeholder"> </view>
+
+  <block wx:if="{{orderData == null}}">
+    <view class="order-btn" id="order_btn">	     	      
+        <button class="btn-menu order-btn-confirm" bindtap="onConfirmOrder" id="btn_confirm" disabled="{{btnLoading}}">确认订单</button>
+    </view>
+  </block>
+  <block wx:else>
+    <view class="order-btn" id="order_btn" wx:if="{{orderData.status < 4}}">
+        <block wx:if="{{orderData.status == 1}}">
+          <button class="btn-menu btn-show" bindtap="onBtnPay" id="btn_pay">确认付款</button>
+          <button class="btn-menu btn-show" bindtap="onBtnCancel" id="btn_cancel">取消订单</button> 	     
+        </block>
+        <block wx:elif="{{orderData.status == 2}}">
+          <button class="btn-menu btn-show btn-one" bindtap="onReturnOrder" id="btn_apply">申请退款</button>
+        </block>
+        <block wx:elif="{{orderData.status == 3}}">
+          <button class="btn-menu btn-show btn-one" style="width: 45%;margin:0 5rpx;display:inline-block;" bindtap="onFinishOrder" id="btn_confirm">确认收货</button>
+          <button class="btn-menu btn-show btn-one" style="width: 45%;margin:0 5rpx;display:inline-block;" bindtap="onReturnOrder" id="btn_apply">申请退款</button>
+        </block>
+        <block wx:elif="{{orderData.status == 4}}">
+        </block>
+	  </view>
+
+  </block>
+
+</scroll-view>

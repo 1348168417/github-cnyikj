@@ -1,0 +1,67 @@
+<!--index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" vertical="{{vertical}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" style="width:100%;height:335rpx;" />/>
+    </swiper-item>
+  </block>
+</swiper>
+
+
+<swiper style="height:80rpx;background-color: white;" indicator-dots="{{indicatorDots_a}}" autoplay="{{autoplay_a}}" interval="{{interval_a}}" duration="{{duration_a}}" vertical="{{vertical_a}}" circular="{{circular_a}}">
+  <block wx:for="{{gonggao}}">
+    <swiper-item style="margin:20rpx;">
+      <image src="{{item.img}}" class="slide-image" style="width:45rpx;height:45rpx;float: left;" />
+      <view style="float: left;margin-left:20rpx; font-size: 25rpx;">{{item.word}}</view>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class='Box_a'>
+  <image class='Box_a_img' src='http://www.cnyikj.com/clientInfo/youqituliao/小程序/B.png'></image>
+  <view class='Box_a_word'>
+    <view class='Box_a_word_s'>
+      <view class='Box_a_word_a'>油漆涂料</view>
+
+      <view class='Box_a_word_ba'>
+        <view class='Box_a_word_bb'>
+          <view class='Box_a_word_bc'>
+            <view class='Box_a_word_bd'>
+              <view class='Box_a_word_b'>PAINT COATING</view>
+            </view>
+          </view>
+        </view>
+    </view>
+    </view>
+    <view class='Box_a_word_c'>油漆英文名：paint or coating。油漆是一种能牢固覆盖在物体表面，起保护、装饰、标志和其他特殊用途的化学混合物涂料。中国涂料界比较权威的《涂料工艺》一书是这样定义的：“涂料是一种材料，这种材料可以用不同的施工工艺涂覆在物件表面，形成粘附牢固、具有一定强度、连续的固态薄膜。这样形成的膜通称涂膜，又称漆膜或涂层。”</view>
+  </view>
+</view>
+
+
+
+
+<view class='Box_b'>
+  <view  class='Box_b_a' >
+    <image mode='widthFix' src='http://www.cnyikj.com/clientInfo/youqituliao/小程序/C.png'></image>
+  </view>
+  <image class='Box_b_b' mode='widthFix' src='http://www.cnyikj.com/clientInfo/youqituliao/小程序/4.png'></image>
+  <view wx:for="{{shoplist}}" class='Box_b_c'>
+    <image src='{{item.img}}'></image>
+    <view>{{item.word}}</view>
+  </view>
+  <image class='Box_b_b' mode='widthFix' src='http://www.cnyikj.com/clientInfo/youqituliao/小程序/5.png'></image>
+  <view wx:for="{{shoplistB}}" class='Box_b_d'>
+    <image src='{{item.img}}'></image>
+    <view>{{item.word}}</view>
+  </view>
+</view>
+
+
+<view class='Box_c'>
+<view class='Box_c_a'>
+  <image  mode='widthFix' src='http://www.cnyikj.com/clientInfo/youqituliao/小程序/D.png'></image>
+</view>
+  <view class='Box_c_aa' wx:for="{{shoplistC}}">
+    <image class='' src='{{item}}'></image>
+  </view>
+</view>

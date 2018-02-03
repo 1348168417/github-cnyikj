@@ -1,0 +1,16 @@
+.yuyue_big_tit{
+  font-size: 50rpx;
+  color:#515151;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #8a8a8a;
+}
+.yuyue_tit{
+  color: #707070;
+  margin: 10rpx;
+  font-size: 40rpx;
+}
+.yuyue_arc{
+  color: #8a8a8a;
+  margin: 10rpx;
+  text-indent: 2rem;
+}

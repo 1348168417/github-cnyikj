@@ -1,0 +1,22 @@
+/* pages/detailPage/detailPage.wxss */
+.box{
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.box .title{
+  height: 100rpx;
+  line-height: 80rpx;
+}
+.button{
+  width: 50%;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #ca600c;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  border-radius: 16px;
+  margin: 50rpx auto;
+  box-shadow:1px 1px 5px 1px #000;
+}

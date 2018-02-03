@@ -1,0 +1,28 @@
+/* pages/jieshao/jieshao.wxss */
+.jieshao_arc{
+
+}
+.jieshao_arc_word{
+  border: 1rpx solid #ccc;
+  border-radius: 30rpx;
+  padding: 30rpx;
+  margin: 20rpx;
+  color: #515151;
+  text-indent: 2rem;
+}
+.jieshao_arc_img{
+  width: 100%;
+}
+.jieshao_img{
+  width: 100%;
+  height: 800rpx;
+}
+
+.lianxi_word{
+   border: 1rpx solid #ccc;
+  border-radius: 30rpx;
+  padding: 30rpx;
+  margin: 20rpx;
+  color: #515151;
+  text-indent: 2rem;
+}

@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="name"><text class="nameCon">水果银行</text><image class="logo" src="../images/logo01.jpg"></image></view>
+  <view class="time commonCss"><image src="../images/time.png"></image><text>80:00-22:00</text></view>
+  <view class="phone commonCss"><image src="../images/contacts.png"></image><text>陈经理</text></view>
+  <view class="phone commonCss"><image src="../images/phone.png"></image><text>13216144345</text></view>
+  <view class="business commonCss"><image src="../images/business.png"></image><text>简介</text></view>
+  <view class="commonCss"><image src=""></image><text>“水果银行”覆盖了全国各地的水果产品，在这里您可以任意选购新鲜的水果。</text></view>
+
+  <view class="commonCss"><image src=""></image><text></text></view>
+  <view class="photo commonCss"><image src="../images/pic.png"></image><text>门店照片</text></view>
+  <view class="photoCon"></view>
+     <view ><image src="../images/fruit01.jpg"></image></view>
+     <view ><image src="../images/fruit02.jpg"></image></view>
+     <view ><image src="../images/fruit03.jpg"></image></view>
+</view>
+
+    <view class="location commonCss" ><image src="../images/location.png"></image> <text>公司地址:暂无</text></view>
+<view class="footer"><text>声明：此小程序目前正在上线测试中，所有信息以最终上线版本为基准.</text></view>
+<view class="statement"><text>此小程序为晨意科技制作。</text></view>13216144345

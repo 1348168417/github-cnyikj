@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/us/us",
+    "pages/classify/classify"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "伊甸园火龙果",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor":"#db639b",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"images/home.png",
+        "selectedIconPath":"images/home2.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "分类",
+        "iconPath": "images/classify.png",
+        "selectedIconPath": "images/classify2.png"
+      },
+      {
+        "pagePath": "pages/us/us",
+        "text": "联系我们",
+        "iconPath": "images/us.png",
+        "selectedIconPath": "images/us2.png"
+      }
+    ]
+  }
+}

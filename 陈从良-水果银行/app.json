@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list",
+    "pages/about/about",
+    "pages/joinus/joinus",
+    "pages/introduce/introduce",
+    "pages/fruitType/fruitType"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "水果银行",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/index_icon.png",
+        "selectedIconPath": "pages/images/index_icon_hl.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "商品详细",
+        "iconPath": "pages/images/list_icon.png",
+        "selectedIconPath": "pages/images/list_icon_hl.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于我们",
+        "iconPath": "pages/images/about_icon.png",
+        "selectedIconPath": "pages/images/about_icon_hl.png"
+      }
+    ]
+  }
+}

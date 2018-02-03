@@ -1,0 +1,8 @@
+<!--pages/remen/remen.wxml-->
+<view><image src='http://www.cnyikj.com/clientInfo/shuilifa/banner/b3.png' style='width:100%;margin-bottom:20rpx;' mode='widthFix'></image></view>
+<view class='Box'>
+  <view class='listBox' wx:for="{{listPage}}" bindtap='{{item.bindtap}}'>
+    <image src='{{item.imgUrl}}' mode='widthFix'></image>
+    <view class='title'>{{item.title}}</view>
+  </view>
+</view>

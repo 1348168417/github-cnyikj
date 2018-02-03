@@ -1,0 +1,10 @@
+/* pages/JCaselist/JCaselist.wxss */
+.Box view{
+  border-bottom: 1px solid #ccc;
+  padding: 20rpx;
+  margin: 20rpx;
+
+}
+.Box image{
+  width: 100%;
+}

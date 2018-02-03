@@ -1,0 +1,109 @@
+<!--pages/shejishi/shejishi.wxml-->
+<view class='shejishi_page'>
+
+
+  <view class='shejishi_head'>
+    <image class='shejishi_touxiang' src='../../images/touxiang.jpg'></image>
+    <view class='shejishi_name'>
+      <view>美国队长</view>
+      <view class='shejishi_style'>资深设计师</view>
+    </view>
+  </view>
+
+  <view class='shejishi_zuopin'>
+    <image src='../../images/carousel01.jpg'></image>
+    <image src='../../images/carousel01.jpg'></image>
+    <image src='../../images/carousel01.jpg'></image>
+  </view>
+
+
+  <view class='shejishi_jieshao'>
+    <view class='shejishi_word'>
+      <view> 设计师的座右铭以及设计理念</view>
+      <view> 设计师的座右铭以及设计理念</view>
+      <view> 设计师的座右铭以及设计理念</view>
+      <view> 设计师的座右铭以及设计理念</view>
+    </view>
+  </view>
+</view>
+<view class='shejishi_page'>
+
+
+  <view class='shejishi_head'>
+    <image class='shejishi_touxiang' src='../../images/touxiang.jpg'></image>
+    <view class='shejishi_name'>
+      <view>美国队长</view>
+      <view class='shejishi_style'>资深设计师</view>
+    </view>
+  </view>
+
+  <view class='shejishi_zuopin'>
+    <image src='../../images/carousel01.jpg'></image>
+    <image src='../../images/carousel01.jpg'></image>
+    <image src='../../images/carousel01.jpg'></image>
+  </view>
+
+
+  <view class='shejishi_jieshao'>
+    <view class='shejishi_word'>
+      <view> 设计师的座右铭以及设计理念</view>
+      <view> 设计师的座右铭以及设计理念</view>
+      <view> 设计师的座右铭以及设计理念</view>
+      <view> 设计师的座右铭以及设计理念</view>
+    </view>
+  </view>
+</view>
+<view class='shejishi_page'>
+
+
+  <view class='shejishi_head'>
+    <image class='shejishi_touxiang' src='../../images/touxiang.jpg'></image>
+    <view class='shejishi_name'>
+      <view>美国队长</view>
+      <view class='shejishi_style'>资深设计师</view>
+    </view>
+  </view>
+
+  <view class='shejishi_zuopin'>
+    <image src='../../images/carousel01.jpg'></image>
+    <image src='../../images/carousel01.jpg'></image>
+    <image src='../../images/carousel01.jpg'></image>
+  </view>
+
+
+  <view class='shejishi_jieshao'>
+    <view class='shejishi_word'>
+      <view> 设计师的座右铭以及设计理念</view>
+      <view> 设计师的座右铭以及设计理念</view>
+      <view> 设计师的座右铭以及设计理念</view>
+      <view> 设计师的座右铭以及设计理念</view>
+    </view>
+  </view>
+</view>
+<view class='shejishi_page'>
+
+
+  <view class='shejishi_head'>
+    <image class='shejishi_touxiang' src='../../images/touxiang.jpg'></image>
+    <view class='shejishi_name'>
+      <view>美国队长</view>
+      <view class='shejishi_style'>资深设计师</view>
+    </view>
+  </view>
+
+  <view class='shejishi_zuopin'>
+    <image src='../../images/carousel01.jpg'></image>
+    <image src='../../images/carousel01.jpg'></image>
+    <image src='../../images/carousel01.jpg'></image>
+  </view>
+
+
+  <view class='shejishi_jieshao'>
+    <view class='shejishi_word'>
+      <view> 设计师的座右铭以及设计理念</view>
+      <view> 设计师的座右铭以及设计理念</view>
+      <view> 设计师的座右铭以及设计理念</view>
+      <view> 设计师的座右铭以及设计理念</view>
+    </view>
+  </view>
+</view>

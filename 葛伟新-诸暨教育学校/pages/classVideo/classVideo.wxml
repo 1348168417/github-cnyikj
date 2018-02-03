@@ -1,0 +1,3 @@
+<!--commom.wxml-->
+<view class="title">{{title}}</view>
+<image class="image" src="{{url}}"></image>

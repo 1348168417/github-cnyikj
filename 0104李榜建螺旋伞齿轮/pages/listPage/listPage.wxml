@@ -1,0 +1,8 @@
+<!--pages/listPage/listPage.wxml-->
+<view class='Box'>
+  <view class='typeTit'>{{title}}</view>
+  <view class='listBox' wx:for="{{listPage}}" bindtap='{{item.bindtap}}'>
+    <image src='{{item.imgUrl}}' mode='widthFix'></image>
+    <view class='title'>{{item.title}}</view>
+  </view>
+</view>

@@ -1,0 +1,44 @@
+<!--pages/aboutaoshu/aboutaoshu.wxml-->
+<view>
+  <view class='Box'>
+  <view class='artc'>“浙江金牌奥数学校”(精牌教育)由浙江省数学名师、浙江省奥数大师、原诸暨实验小学办公室主任葛伟新老师辞职创办的，系诸暨市教育局批准的大型正规培训机构。</view>
+  <view class='artc'>目前金牌奥数市内设有——金牌奥数总部，荷花路基地学校，店口分校，青少年宫分校，城东分校。市外设有——金牌奥数柯桥分校、上虞龙驰分校，江西加盟校、广西加盟校、杭州城区三家加盟校、嘉兴市加盟校等数10家。</view> 
+  </view>
+
+<view class='Box'>
+  <view class='tit'>学校简介</view>
+  <view class='artc'>浙江金牌奥数学校是教育局批准的正规培训学校，拥有4500平米的教学面积。是诸暨市开放双语实验学校教学实践基地，是新东方学校诸暨唯一报名处。学校拥有自主知识产权，20年办学经验，开设：小学/初中/高中/成人文化素质培训，以及出国留学等项目。</view>
+</view>
+
+<view class='Box'>
+  <view class='tit'>学校环境</view>
+    <view class='artc'>浙江金牌奥数学校位于：育英路40号诸暨教育培训城；</view>
+    <view class='artc'>专业做精品，用心铸金牌，打造诸暨新东方。</view>
+    <view class='artc'>文化氛围浓厚——距离荣怀学校、海亮私高、大侣小学均只有不足500米路程；距离大学城1500米。</view>
+    <view class='artc'>学校设施齐全——教学楼为二层，普通多媒体教室有10多个、一对一教室、阅览室、休息室、多功能教室、大中小会议室一概俱全；还有230平米的室内活动场地，900平米的室外篮球场地。</view>
+    <view class='artc'>内部环境优美——每一层、每一个教室的装修布置，都体现了极大的自然美、高档大气；室内绿色植物更是点缀着学校的亮丽！</view>
+</view>
+
+
+
+<view class='Box'>
+    <view class='tit'>课程设置</view>
+      <view class='stit'>小学</view>
+        <view class='artc'>奥数初级预科班</view>
+        <view class='artc'>奥数初级班</view>
+        <view class='artc'>奥数中级班</view>
+        <view class='artc'>奥数高级培优班</view>
+        <view class='artc'>冲双语北大数学班</view>
+        <view class='artc'>金牌乐易英语</view>
+        <view class='artc'>金牌写作</view>
+      <view class='stit'>初中</view>
+        <view class='artc'>初中全科班（语英数科）</view>
+        <view class='artc'>奥数诸中班</view>
+        <view class='artc'>奥数北大班</view>
+        <view class='artc'>数学提升班</view>
+        <view class='artc'>数学诸中提前班</view>
+      <view class='stit'>高中</view>
+        <view class='artc'>高中数学/英语名师班</view>
+        <view class='artc'>语物化生政史地技选科班</view>
+</view>
+</view>

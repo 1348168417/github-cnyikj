@@ -1,0 +1,71 @@
+<!--index.wxml-->
+<view class="container">
+
+
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class="flex-wrp classify banner">
+    <view class="flex-item " bindtap="yuyue">
+      <image src="../../images/icon_chaye.png"></image>
+      <view class="text">企业文化</view>
+    </view>
+    <view class="flex-item " bindtap="shejishi">
+      <image src="../../images/icon_shejishi.png"></image>
+      <view class="text">法人介绍</view>
+    </view>
+    <view class="flex-item " bindtap="shoufei">
+      <image src="../../images/icon_rongyu.png"></image>
+      <view class="text">荣誉资质</view>
+    </view>
+    <view class="flex-item " bindtap="jieshao">
+      <image src="../../images/icon_jieshao.png"></image>
+      <view class="text">公司介绍</view>
+    </view>
+  </view>
+
+
+  <view class="case">
+
+
+    <view class='case_head classify'>
+      <view>Product category</view>
+      <view>产品类别</view>
+    </view>
+
+     <view class='case_img' bindtap='more_hongcha'>
+      <image src="http://i3.dukuai.com/ypic/ct_hangzhou_tour/2013/03/13/180708_500_500_500_tianmuqingding2.jpg"></image>
+      <view class='case_word'>
+        <view class='case_style'>天目青顶茶</view>
+      </view>
+      <view class='case_more' >+</view>
+    </view>
+
+    <view class='case_img' bindtap='more_hongcha'>
+      <image src="http://i3.dukuai.com/ypic/ct_hangzhou_tour/2013/03/13/180708_500_500_500_tianmuqingding2.jpg"></image>
+      <view class='case_word'>
+        <view class='case_style'>有机茶</view>
+      </view>
+      <view class='case_more' >+</view>
+    </view>
+
+     <view class='case_img' bindtap='more_hongcha'>
+      <image src="http://i3.dukuai.com/ypic/ct_hangzhou_tour/2013/03/13/180708_500_500_500_tianmuqingding2.jpg"></image>
+      <view class='case_word'>
+        <view class='case_style'>龙井茶</view>
+      </view>
+      <view class='case_more' >+</view>
+    </view>
+
+
+    
+
+
+  </view>
+
+</view>

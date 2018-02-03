@@ -1,0 +1,6 @@
+<view class="goodsDetails" wx:for="{{list}}" bindtap='{{item.bindtap}}'>
+    <image src="{{item.img}}"></image>
+    <text class="type">{{item.tit}}</text>
+    <text class="name">{{item.word}}</text>
+</view>
+<view>所有艺术、科技课程详见基地学校海报(大而全)。</view>

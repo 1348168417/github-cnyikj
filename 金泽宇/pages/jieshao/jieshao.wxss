@@ -1,0 +1,31 @@
+/* pages/jieshao/jieshao.wxss */
+.tdzs_img{
+  text-align: center;
+  margin-left: 8%; 
+}
+.pzfu_tit_word{
+  box-shadow: -3px 0 0 #aed3c7;
+  width: 80%;
+  text-align: center;
+  margin-left: 9%;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+
+}
+.tdzs{
+  width: 100%;
+  margin-top: 20rpx;
+}
+
+.word{
+  text-align: center;
+  background-color: #437671;
+}
+.tit{
+  color: #fff;
+  font-size: 35rpx;
+}
+.artc{
+  color: #fff;
+  font-size: 25rpx;
+}

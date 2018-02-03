@@ -1,0 +1,2 @@
+<!--pages/dingzhi/dingzhi.wxml-->
+<text>{{page}}.wxml</text>

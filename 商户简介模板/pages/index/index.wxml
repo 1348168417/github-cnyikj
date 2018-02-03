@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="name"><text class="nameCon">公司名称</text><image class="logo" src="../images/logo.jpg"></image></view>
+  <view class="location commonCss" ><image src="../images/location.png"></image> <text>公司地址</text></view>
+  <view class="time commonCss"><image src="../images/time.png"></image><text>00:00-24:00</text></view>
+  <view class="phone commonCss"><image src="../images/contacts.png"></image><text>某某经理</text></view>
+  <view class="phone commonCss"><image src="../images/phone.png"></image><text>0571-888888</text></view>
+  <view class="business commonCss"><image src="../images/business.png"></image><text>主营业务</text></view>
+  <view class="commonCss"><image src=""></image><text>1、</text></view>
+  <view class="commonCss"><image src=""></image><text>2、</text></view>
+  <view class="commonCss"><image src=""></image><text>3、</text></view>
+  <view class="photo commonCss"><image src="../images/pic.png"></image><text>门店照片</text></view>
+  <view class="photoCon"><image src="../images/logo.jpg"></image></view>
+  <view class="footer"><text>声明：此小程序目前正在上线测试中，所有信息以最终上线版本为基准.</text></view>
+<view class="statement"><text>此小程序为晨意科技制作。</text></view>
+</view>

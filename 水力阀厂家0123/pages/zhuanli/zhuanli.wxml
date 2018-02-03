@@ -1,0 +1,8 @@
+<!--pages/zhuanli/zhuanli.wxml-->
+<view><image src='http://www.cnyikj.com/clientInfo/hzDb/rongyu.jpg' style='width:100%;margin-bottom:20rpx;' mode='widthFix'></image></view>
+<view class='Box'>
+  <view class='zhuanliBox' bindtap='{{item.previewImage}}' wx:for="{{zhuanli}}">
+    <image src='{{item.img}}' mode='widthFix' style='width:100%;'></image>
+    <view class='textDescription'>{{item.title}}</view>
+  </view>
+</view>

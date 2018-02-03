@@ -1,0 +1,33 @@
+/* pages/first/first.wxss */
+.first_page{
+  border: 1rpx solid gray;
+  height: 400px;
+  border-radius: 10%;
+  margin: 20rpx;
+}
+.first_page image{
+  margin-left: 40rpx;
+  margin-top: 120rpx;
+}
+.first_word{
+  text-align: center;
+}
+.gaiya{
+  color: red;
+}
+.xcx_word{
+  font-size: 50rpx;
+}
+.tishi{
+  text-align: center;
+  margin-top: 100rpx;
+}
+.btn_comein{
+  width: 50%;
+  font-size: 30rpx;
+  color: #aaa;
+}
+.icon{
+  width: 50rpx;
+  height: 50rpx;
+}

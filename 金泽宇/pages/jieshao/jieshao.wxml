@@ -1,0 +1,18 @@
+<!--pages/jieshao/jieshao.wxml-->
+<view>
+
+   <image class='tdzs_img' mode='widthFix' src='http://www.cnyikj.com/clientInfo/jinhuazxzs/小程序/T.png'></image>
+  <view class='word'>
+    <image class='tdzs' mode="widthFix" src='http://www.cnyikj.com/clientInfo/jinhuazxzs/小程序/九人.jpg'></image>
+    <view class='tit'>
+     <view >金华装修装饰</view>
+     </view>
+    <view class='artc'>金华装饰设计师</view>
+    <view class='artc'>具备专业的设计经验</view>
+    <view class='artc'>各类装饰设计实战经验</view>
+    <view class='artc'>他们用专业和丰富的阅历</view>
+    <view class='artc'>专注服务设计</view>
+    <view class='artc'>提供高品质个性化的</view>
+    <view class='artc'>家居装饰设计解决方案</view> 
+  </view>
+</view>

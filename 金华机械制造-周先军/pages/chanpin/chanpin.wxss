@@ -1,0 +1,26 @@
+/* pages/news/news.wxss */
+/*商品列表  */
+.shop{
+}
+.shop_left{
+  padding: 30rpx;
+  border: 1rpx solid #ccc;
+  display: inline-block;
+}
+.shop_left image{
+  width: 310rpx;
+  height: 310rpx;
+}
+/*底部  */
+.tapbar{
+  font-size: 20rpx;
+  background-color: #112079;
+  color: #aaa;
+  text-align: center;
+  border-radius: 20rpx;
+  margin: 10rpx;
+}
+.tapbar image{
+  width: 280rpx;
+  height: 80rpx;
+}

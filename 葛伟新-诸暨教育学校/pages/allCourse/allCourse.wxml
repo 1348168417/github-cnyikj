@@ -1,0 +1,45 @@
+<!--allCourse.wxml-->
+<view class="courseList">
+  <image src="../images/class/class01.png"></image>
+  <view class="type">一年级数学下学期</view>
+</view>
+<view class="courseList">
+  <image src="../images/class/class02.png"></image>
+  <view class="type">二年级数学上学期</view>
+</view>
+<view class="courseList">
+  <image src="../images/class/class03.png"></image>
+  <view class="type">三年级数学下学期</view>
+</view>
+<view class="courseList">
+  <image src="../images/class/class04.png"></image>
+  <view class="type">四年级数学上学期</view>
+</view>
+<view class="courseList">
+  <image src="../images/class/class05.png"></image>
+  <view class="type">五年级数学上学期</view>
+</view>
+<view class="courseList">
+  <image src="../images/class/class06.png"></image>
+  <view class="type">六年级数学上学期</view>
+</view>
+<view class="courseList">
+  <image src="../images/class/class07.png"></image>
+  <view class="type">初一数学上学期</view>
+</view>
+<view class="courseList">
+  <image src="../images/class/class08.png"></image>
+  <view class="type">初二数学上学期</view>
+</view>
+<view class="courseList">
+  <image src="../images/class/class09.png"></image>
+  <view class="type">初三数学上学期</view>
+</view>
+<view class="courseList">
+  <image src="../images/class/class10.png"></image>
+  <view class="type">高考数学知识点精讲</view>
+</view>
+<view class="courseList">
+  <image src="../images/class/class11.png"></image>
+  <view class="type">小学奥数</view>
+</view>

@@ -1,0 +1,34 @@
+/* pages/classify/classify.wxss */
+.classifyTil{
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 16px;
+  text-indent: 1em;
+  background:#e6e6e6;
+  border-bottom: 1rpx solid #cdcdcd;
+}
+.classifyList{
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 16px;
+  text-indent: 1.5em;
+  border-bottom: 1rpx solid #cdcdcd;
+  position: relative;
+}
+.rightJt{
+  position: absolute;
+  right: 30rpx;
+  top: 16rpx;
+  width: 60rpx;
+  height: 60rpx;
+  text-align: center;
+  line-height: 60rpx;
+  color: #cdcdcd;
+  font-size: 20px;
+}
+
+
+
+
+
+

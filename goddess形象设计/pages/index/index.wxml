@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" vertical="{{vertical}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" style="width:100%;height:335rpx;" />/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class='box'>
+  <view class='box1'>
+    <view class='box1_tit'>——发型师——</view>
+    <view class='box1_arc'>新锐先锋设计师，年轻潮流，创意无限</view>
+    <view class='box1_arc'>创意无限。多次受邀参加上海时装周造型设计，</view>
+    <view class='box1_arc'>给予客户独特的设计理念和潮流烫染。擅长80,90后年轻群体，</view>
+    <view class='box1_arc'>设计适合客户的只属于客户的发型。</view>
+    <view></view>
+  </view>
+</view>
+
+<image bindtap='listall' mode='widthFix' style='width:100%;model' src='http://www.cnyikj.com/clientInfo/goddess/banner/a1.jpg'></image>

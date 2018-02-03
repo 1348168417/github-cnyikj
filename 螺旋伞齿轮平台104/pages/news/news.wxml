@@ -1,0 +1,12 @@
+
+<view class='shop_left' wx:for="{{shoplist}}">
+    <image src='{{item.img}}'></image>
+    <view>{{item.tit}}</view>
+</view>
+
+<view class='tapbar'>
+  <view class='tapbar_company'>Copyright©永康市建良齿轮有限公司 版权所有</view>
+  <view class='tapbar_cnyikj'>
+    <text>技术支持@晨意科技</text> 
+  </view>
+</view>

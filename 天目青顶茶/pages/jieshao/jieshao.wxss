@@ -1,0 +1,10 @@
+/* pages/jieshao/jieshao.wxss */
+.jieshao_tit{
+  color: #515151;
+  font-size: 40rpx;
+}
+.jieshao_art{
+  margin-top: 15rpx;
+  color: #aaa;
+  text-indent: 2em;
+}

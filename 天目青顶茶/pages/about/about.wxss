@@ -1,0 +1,54 @@
+/* pages/about/about.wxss */
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.about_image{
+  border-bottom: 1rpx solid gray;
+  text-align: center;
+}
+.about_word{
+  border-bottom: 1rpx solid gray;
+}
+.about_word view{
+   border-bottom: 1rpx solid #ccc;
+   margin: 20rpx;
+}
+
+
+.about_lianxi{
+  border-bottom : 1rpx solid #ccc;
+  margin: 12rpx;
+  font-size: 45rpx;
+  color: green;
+}
+.about_wx{
+  display: inline-block;
+}
+.about_call view{
+   margin: 20rpx;
+}
+.chenyi{
+  text-align: center;
+  color: #aaa;
+  font-size: 18rpx;
+}
+
+
+/*底部  */
+.tapbar{
+  font-size: 20rpx;
+  background-color: #ccc;
+  color: #aaa;
+  text-align: center;
+  border-radius: 20rpx;
+  margin: 10rpx;
+}
+.tapbar image{
+  width: 280rpx;
+  height: 80rpx;
+}

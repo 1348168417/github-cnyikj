@@ -1,0 +1,27 @@
+<!--pages/home/home.wxml-->
+<view>
+    <view class='zhengshu_a'>
+      <image bindtap='yulan_a' src='http://www.cnyikj.com/clientInfo/tianmu/地理标志证书.png'></image>
+      <view class='zhengshu_word'>地理标志证书 </view>
+    </view>
+    <view class='zhengshu_a'>
+      <image bindtap='yulan_a' src='http://www.cnyikj.com/clientInfo/tianmu/浙江名牌农产品证书.png'></image>
+      <view class='zhengshu_word'>浙江名牌农产品证书 </view>
+    </view>
+    <view class='zhengshu_a'>
+      <image bindtap='yulan_a' src='http://www.cnyikj.com/clientInfo/tianmu/浙江茗茶牌匾.png'></image>
+      <view class='zhengshu_word'>浙江茗茶牌匾 </view>
+    </view>
+    <view class='zhengshu_a'>
+      <image bindtap='yulan_a' src='http://www.cnyikj.com/clientInfo/tianmu/中国国际茶博览交易国际名茶金奖.png'></image>
+      <view class='zhengshu_word'>中国国际茶博览交易国际名茶金奖 </view>
+    </view>
+    <view class='zhengshu_a'>
+      <image bindtap='yulan_a' src='http://www.cnyikj.com/clientInfo/tianmu/中国国际农业博览会名牌产品.png'></image>
+      <view class='zhengshu_word'>中国国际农业博览会名牌产品 </view>
+    </view>
+    <view class='zhengshu_a'>
+      <image bindtap='yulan_a' src='http://www.cnyikj.com/clientInfo/tianmu/中国杭州十大名茶牌匾.png'></image>
+      <view class='zhengshu_word'>中国杭州十大名茶牌匾 </view>
+    </view>
+</view>

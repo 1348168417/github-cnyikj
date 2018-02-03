@@ -1,0 +1,41 @@
+<!--pages/wenhua/wenhua.wxml-->
+<view class='topBg'></view>
+<view class='cultureBox'>
+  <view class='title'>公司经营目标</view>
+  <view class=''>面向全国、走向世界；我们一直在超越！</view>
+</view>
+
+<view class='cultureBox'>
+  <view class='title'>公司企业哲学</view>
+  <view class=''>信誉是企业生命的黄金法则！</view>
+</view>
+
+<view class='cultureBox'>
+  <view class='title'>公司经营宗旨</view>
+  <view class=''>把客户的事情当做自己的事情来做！</view>
+</view>
+
+<view class='cultureBox'>
+  <view class='title'>公司企业精神</view>
+  <view class=''>实事求是、团结合作、开拓创新、拼搏竞争、追求卓越！</view>
+</view>
+
+<view class='cultureBox'>
+  <view class='title'>公司企业道德</view>
+  <view class=''>公平交易、诚信无欺、礼貌待客、方便顾客竭诚服务！</view>
+</view>
+
+<view class='cultureBox'>
+  <view class='title'>公司企业作风</view>
+  <view class=''>严谨求实、艰苦奋斗、团结实干、拼搏创新！</view>
+</view>
+
+<view class='cultureBox'>
+  <view class='title'>公司核心价值观</view>
+  <view class=''>责任心、敬业精神、奉献精神、拼搏精神！</view>
+</view>
+
+<view class='cultureBox'>
+  <view class='title'>赛福缇目标</view>
+  <view class=''>成为齿轮行业解决实际问题的专家、树立行业领导品牌！</view>
+</view>

@@ -1,0 +1,30 @@
+.case{
+  background-color: #ccc;
+  margin: 20rpx;
+}
+.case_head{
+  text-align: center;
+  background-color: #fff;
+  margin-top: 10rpx;
+}
+.case_img{
+   margin: 20rpx;
+   background-color: #fff;
+}
+.case_img  image{
+  width: 100%;
+}
+.case_word{
+  margin-left: 20rpx;
+}
+
+.case_style{
+  font-size: 30rpx;
+  color:#aaa;
+
+}
+
+
+.case_btn{
+  width: 50%;
+}

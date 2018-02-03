@@ -1,0 +1,84 @@
+/**index.wxss**/
+page{
+  background-color: #ece5d7;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.flex-wrp{
+  display: flex;
+  flex-direction: row;
+   flex-grow: 1;
+  text-align: center;
+}
+.flex-wrp .flex-item{
+  flex-grow: 1;
+  text-align: center;
+}
+.flex-wrp image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.classify{
+  color:#95520f;
+  margin-top: 20rpx;
+}
+
+
+/*商品列表  */
+.index_chanpin_word{
+  height: 80rpx;
+  width: 100%;
+  line-height: 80rpx;
+  background-color: #b2b5c7;
+  border-radius: 30rpx;
+}
+
+.shop_left{
+  padding: 30rpx;
+  border: 1rpx solid #ccc;
+  display: inline-block;
+}
+.shop_left image{
+  width: 310rpx;
+  height: 310rpx;
+}
+.index_lianxi{
+  color: #aaa;
+  font-size: 30rpx;
+}
+/*底部  */
+.tapbar{
+  font-size: 20rpx;
+  background-color: #ccc;
+  color: #aaa;
+  text-align: center;
+  border-radius: 20rpx;
+  margin: 10rpx;
+}
+.tapbar image{
+  width: 280rpx;
+  height: 80rpx;
+}
+
+
+

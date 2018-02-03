@@ -1,0 +1,33 @@
+/* pages/about_gaiya/about_gaiya.wxss */
+.word{
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  margin-top: 80rpx;
+}
+
+.word_a{
+  width: 2rpx;
+  position: relative;
+  left: 50%;
+  font-size: 25rpx;
+}
+.word_b{
+  width: 100rpx;
+  position: relative;
+  left: 42%;
+  margin: 3%;
+  font-size: 45rpx;
+}
+.word_c{
+  position: relative;
+  top: 340px;
+  color: #aaa;
+  font-size:33rpx;
+}
+.word_d{
+  position: relative;
+  top: 480px;
+  color: #aaa;
+  font-size:33rpx;
+}

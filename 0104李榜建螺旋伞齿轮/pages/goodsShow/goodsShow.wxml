@@ -1,0 +1,4 @@
+<!--pages/shopCar/shopCar.wxml-->
+<view class='videoBox' wx:for="{{video}}">
+  <video src='{{item.src}}' style='width:100%;'></video>
+</view>

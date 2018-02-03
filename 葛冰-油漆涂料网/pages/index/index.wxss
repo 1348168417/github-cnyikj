@@ -1,0 +1,127 @@
+/**index.wxss**/
+page{
+  background-color: #ccc;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+ 
+}
+.Box_a{
+  margin: 10rpx;
+}
+.Box_a_word_b{
+  border-top: 2px solid red;
+}
+.Box_a_word_bb{
+  border-top: 2px solid white;
+}
+.Box_a_word_bc{
+  border-top: 2px solid greenyellow;
+}
+.Box_a_word_bd{
+  border-top: 2px solid pink;
+}
+.Box_a_word_ba{
+border-top: 2px solid black;
+}
+
+.Box_a_word_s{
+  width: 300rpx;
+  display:inline-block;
+}
+.Box_a_word_a{
+  display:inline-block;
+  font-size: 45rpx;
+}
+.Box_a_word_c{
+  text-indent: 2em;
+  margin-top: 20rpx;
+}
+.Box_a_img{
+  width: 40%;
+  height: 380rpx;
+  margin: 30rpx;
+  float: left;
+}
+.Box_b{
+  text-align: center;
+}
+.Box_b_a{
+  background-color: #e2dfdf;
+  border-radius: 40rpx;
+}
+.Box_b_a image{
+  width: 300rpx;
+  margin: 10rpx;
+}
+.Box_b_b{
+  width: 100%;
+}
+.Box_b_c{
+  width: 33%;
+  display: inline-block;
+
+}
+.Box_b_c image{
+  width: 100%;
+  height: 250rpx;
+}
+.Box_b_c view{
+  font-size: 22rpx;
+}
+
+.Box_b_d{
+  width: 25%;
+  display: inline-block;
+}
+.Box_b_d image{
+  width: 100%;
+  height: 200rpx;
+}
+.Box_b_d view{
+  font-size: 22rpx;
+}
+
+
+
+
+
+.Box_c{
+  margin-top: 30rpx;
+    text-align: center;
+}
+.Box_c_a{
+  background-color: #e2dfdf;
+  border-radius: 40rpx;
+}
+.Box_c_a image{
+  width: 380rpx;
+}
+.Box_c_aa  {
+}
+.Box_c_aa image{
+  width: 140rpx;
+  float: left;
+  height: 80rpx;
+  margin-left: 10rpx;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}

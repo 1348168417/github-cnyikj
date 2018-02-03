@@ -1,0 +1,6 @@
+<!--pages/classify/classify.wxml-->
+<view class='classifyTil'>全部发型</view>
+<view wx:for="{{classify}}" class='classifyList' bindtap='{{item.bindtap}}'>
+  {{item.name}}
+  <text class='rightJt'>〉</text>
+</view>

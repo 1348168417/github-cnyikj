@@ -1,0 +1,7 @@
+<!--pages/detailPage/detailPage.wxml-->
+<view class='box'>
+  <view class='' wx:for="{{img}}">
+    <image src='{{item}}' style='width:100%;' mode="widthFix"></image>
+  </view>
+  <view class='button' bindtap='dingzhi'>点我定制</view>
+</view>

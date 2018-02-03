@@ -1,0 +1,37 @@
+<view class="content">
+  <view class="left" bindtap='{{item.bindtap}}'>
+    <block wx:for="{{note}}" wx:key="">
+      <view class='border'>
+        <template is="item" data="{{...item}}" wx:if="{{index%2==0}}"></template>
+      </view>
+    </block>
+  </view>
+  <view class="right">
+    <block wx:for="{{note}}" wx:key="">
+      <view class='border'>
+        <template is="item" data="{{...item}}" wx:if="{{index%2==1}}"></template>
+      </view>
+    </block>
+  </view>
+</view>
+<!--  下面是一个模块 -->
+<template name="item">
+  <view class="item">
+    <image class="item-img" src="{{url}}" mode="widthFix"></image>
+    <view class="item-title-box">
+      <navigator url="url" class="item-title">{{title}}</navigator>
+      <navigator url="url" class="item-arc">{{arc}}</navigator>
+
+
+    </view>
+    <!-- <view class="name">
+      <image class="item-ava" src="{{avatar}}"></image>    
+      <text class="name-title">{{name}}</text>
+      <view class="heart_">
+        <image class="heart" src="../../image/heart.png"></image>
+        <text>{{heart_num}}</text>
+      </view>
+    </view> -->
+  </view>
+
+</template>

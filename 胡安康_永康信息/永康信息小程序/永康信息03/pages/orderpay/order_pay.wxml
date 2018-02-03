@@ -1,0 +1,109 @@
+<!--order_pay.wxml-->
+<view class="container">
+	<view class="microshop-box">
+		<view class="goods-list">
+			<view class="good-item" wx:for="{{goodsList}}" wx:for-item="goodsData" wx:key="{{goodsData.id}}" msg-id="{{goodsData.id}}">
+				<view class="left-img">
+					<image src="{{userImagePath+goodsData.cover}}"></image>
+				</view>
+				<view class="right-con">
+					<view class="goodsname">
+						{{goodsData.name}}
+					</view>
+					<view class="category">
+						 
+					</view>
+					<view>
+						数量：{{goodsData.count}}<text>¥{{goodsData.total_price/100}}</text>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="microshop-box address-cont row-address detail block">
+		<view class="address-header">
+			<text class="icon-address"> </text>
+			<text class="tip">收货信息</text>
+		</view>
+		<view class="box-cont address" style="padding: 8px 5px;">
+			<view class="user_con">
+				收货人：<text class="username">{{orderData.clientName}}</text><text class="tel" style="margin-left: 30px;">{{orderData.tel}}</text>
+			</view>
+			<view class="address_con ">
+				收货地址：<text class="addr">{{orderData.address}}</text>
+			</view>
+		</view>
+	</view>
+	<view class="main">
+		<view class="block select-block" style="display:none;">
+			<select id="delivery_price">
+			</select>
+		</view>
+		<view class="microshop-box paytype-cont">
+			<view class="qb-header" style="margin-bottom: 0px; padding-bottom: 5px;">
+				<text class="icon-qb"> </text>
+				<text class="tip">选择支付方式</text>
+			</view>
+			<view class="box-cont">
+				<view class="ul">
+					<view class="fn-clear selected" data-value="2">
+					<text class="fleft">微信支付</text>
+					<view class="fright logo">
+            <image src="http://static.resource.fenxiaov3.weijuju.com/image/paytype/logo4.png"></image>
+          </view>
+					</view>
+				</view>
+			</view>
+		</view>
+		<view class="microshop-box goods-wrapper block">
+			<view class="total">
+				<view class="fee-header">
+					<text class="icon-fee"> </text>
+					<text class="tip">费用详情</text>
+				</view>
+				<view class="goods-total">
+					<text>总商品金额</text><text class="money total_price">{{totalPrice}}</text>
+				</view>
+				<view class="hb_content">
+					<text class="hb_price_text"><i class="icon-hb"> </i>红包优惠金额</text><text class="money hb_price">- ¥0.00</text>
+				</view>
+				<view class="point_content">
+					<text class="point_price_text"><i class="icon-point"> </i>积分抵现</text><text class="money point_price">- ¥0.00</text>
+				</view>
+				<view class="coupon_content">
+					<text class="coupon_price_text"><i class="icon-coupon"> </i>代金券</text><text class="money coupon_price">- ¥0.00</text>
+				</view>
+				<view class="ticket_content">
+					<text class="ticket_price_text"><i class="icon-coupon"> </i>优惠券</text><text class="money ticket_price">- ¥0.00</text>
+				</view>
+				<view class="point_redeem_content">
+					<text class="point_redeem_price_text"><i class="icon-coupon"> </i>积分抵扣</text><text class="money point_redeem_price">- ¥0.00</text>
+				</view>
+				<view class="discount_content">
+					<text class="discount_price_text"><i class="icon-coupon"> </i>会员折扣</text><text class="money discount_price">- ¥0.00</text>
+				</view>
+				<view class="balance_content">
+					<text class="balance_price_text"><i class="icon-balance"> </i>余额</text><text class="money balance_price">- ¥0.00</text>
+				</view>
+				<view class="delivery_content" style="display: block;">
+					<text class="delivery_price_text">运费</text><text class="money delivery_price">{{deliveryTxt}}</text>
+				</view>
+				<view class="reduce_price_content hide" id="reduce_price">
+					<text class="reduce_price_text">满减</text><text class="money reduce_price">- ¥0.00</text>
+				</view>
+				<view class="final-total" style="display:none;">
+					<text class="final_total_text">应付总额</text><text class="money final_price">¥0.10</text>
+				</view>
+			</view>
+		</view>
+		<view class="submit-box_height">
+			 
+		</view>
+		<view class="submit-box buy_bar">
+			<view class="final-total" style="display: inline-block;">
+				<text class="final_total_text">应付总额</text><text class="money final_price">¥{{allPrice}}</text>
+			</view>
+      <button bindtap="onPayOrder" class="tg-btn order-btn" disabled="{{btnLoading}}">支付订单</button>
+		</view>
+	</view>
+</view>

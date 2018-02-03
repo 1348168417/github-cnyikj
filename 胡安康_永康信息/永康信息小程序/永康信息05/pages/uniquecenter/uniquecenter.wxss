@@ -1,0 +1,157 @@
+.abs {
+    position: absolute;
+}
+.rel {
+    position: relative;
+}
+.uwrapper {
+    /* background-color: #eee; */
+    min-height: 100%;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 6.8em;
+    background: url("http://res.ivvke.com/image/mobile/uniquecenter/background.png") no-repeat center 0/100% 100%;
+}
+
+.header .logo {
+    margin: 5.5% 0 6% 2.5%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+.header .logo>image {
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+.header .user-massage {
+    left: 18%;
+    margin: 9% 0 4% 3%;
+    vertical-align: middle;
+    color: #434c57;
+}
+
+.header .u-name {
+    font-size: 36rpx;
+    font-weight: bold;
+}
+
+.header .u-name text{
+    vertical-align: middle;
+    color: #434c57;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.header .u-name text {
+    max-width: 14.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.header .u-name image {
+    margin: .2em .1em 0 0;
+    height: .9em;
+    vertical-align: middle;
+}
+
+.order{
+    background-color: #fff;
+}
+.explain-text {
+    position: absolute;
+    top: 20%;
+    font-size: 28rpx;
+    color: #7d7d7d;
+}
+
+.icon-arr {
+    position: absolute;
+    width:14rpx;
+    height:22rpx;
+    right: 0;
+    top: 34%;
+}
+
+.order {
+    width: 100%;
+    margin-top: .5rem;
+    vertical-align: middle;
+}
+
+.order .order-query {
+    width: 100%;
+    height: 2.3em;
+    position: relative;
+}
+
+.order .order-text {
+    font-size: 28rpx;
+    margin-top: -5%;
+    color: #6d6d6d;
+}
+
+.order-query .icon-images {
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    width:30rpx;
+    height:30rpx;
+
+}
+
+.order-query .my-order {
+    left: 8%;
+}
+
+.order-query .query {
+    right: 7%;
+    color: #b8b8b8;
+}
+
+.order-query .icon-arr {
+    right: 3%;
+}
+
+.order-items {
+    position: relative;
+    padding-left: 2%;
+    border-top: solid 1px #eee;
+    border-bottom: solid 1px #eee;
+}
+
+.order-items .item {
+    float: left;
+    width: 24.5%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    vertical-align: middle;
+    text-align: center;
+    list-style-type: none;
+    border-right: solid 1px #eee;
+}
+
+.order-items .last-item {
+    border-right: none;
+}
+
+.item image {
+    width: 1.35rem;
+    height: 1.35rem;
+}
+
+.item .img-car {
+    width: 1.5rem;
+    height: 1.35rem;
+}

@@ -1,0 +1,15 @@
+/* pages/xinpin/xinpin.wxss */
+page{
+  background: #edeae3;
+}
+.Box{
+  padding:20rpx 20rpx;
+}
+view{
+  font-size: 15px;
+  line-height: 50rpx;
+  text-indent: 2em;
+}
+view text{
+  font-weight: 600;
+}

@@ -1,0 +1,6 @@
+  <view class="yuyue_big_tit">Process.服务流程</view>
+
+<view  wx:for="{{process}}">
+  <view class='yuyue_tit'>{{item.tit}}</view>
+  <view class='yuyue_arc'>{{item.arc}}</view>
+</view>

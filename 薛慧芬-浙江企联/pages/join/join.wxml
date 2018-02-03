@@ -1,0 +1,30 @@
+<!--logs.wxml-->
+<view class="container">
+  <view class="name"><text class="nameCon">浙江企联</text>
+    <image class="logo" src="../images/logo01.jpg"></image>
+  </view>
+  <view class="time commonCss">
+    <image src="../images/time.png"></image><text>营业时间：09:00-17:00</text></view>
+  <view class="phone commonCss">
+    <image src="../images/contacts.png"></image><text>薛经理</text></view>
+  <view class="phone commonCss">
+    <image src="../images/phone.png"></image><text>(暂无)</text></view>
+  <view class="business commonCss">
+    <image src="../images/business.png"></image><text>主营业务</text></view>
+
+  <view class="commonCss2"><text>企联的定位是：为中小微企业提供互联网营销增值解决方案，打造消费循环生态圈。（本平台面对广大商家开放，各大商家如有加盟意向可前来咨询）</text></view>
+  <view class="commonCss2">我们的模式是免费模式免费不是不要钱，免费是一种思维模式，免费还能赚大钱。通过免费模式引流客户，达到营销增值。</view>
+  <view class="commonCss"><text>1、减肥瘦身</text></view>
+  <view class="commonCss"><text>2、美容</text></view>
+  <view class="commonCss"><text>3、生命密码和身心灵疗愈</text></view>
+  <view class="commonCss"><text>4、保健的产品  如灸类产品，细胞因子等</text></view>
+
+
+  <view class="location commonCss">
+    <image src="../images/location.png"></image> <text>公司地址:湖州织里日用百货商行</text></view>
+
+  <view class="footer" style="height:250rpx;border: 1rpx dashed black;">
+    <text style="color:red;">声明</text>
+    <text>：此小程序目前正在上线测试中，所有信息以最终上线版本为基准.</text>
+    <text>此小程序为晨意科技制作。</text></view>
+</view>

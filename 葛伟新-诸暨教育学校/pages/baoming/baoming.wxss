@@ -1,0 +1,22 @@
+/* pages/baoming/baoming.wxss */
+.bgi image{
+  width: 100%;
+  height: 650px;
+  position: absolute;
+}
+.Box{
+  position: relative;
+  top: 540px;
+}
+.about_wx{
+  float: left;
+  margin-left: 60px;
+  color: #fff;
+  font-size: 15px;
+}
+.callbtn{
+  clear: both;
+  color: #ccc;
+   background-color: red;
+   width: 140px;
+}

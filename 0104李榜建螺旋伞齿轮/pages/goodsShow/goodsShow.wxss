@@ -1,0 +1,4 @@
+/* pages/shopCar/shopCar.wxss */
+.videoBox{
+  margin-bottom: 20rpx;
+}

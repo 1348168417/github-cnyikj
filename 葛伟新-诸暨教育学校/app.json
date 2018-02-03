@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/baoming/baoming",
+    "pages/league/league",
+    "pages/hot/hot",
+    "pages/newestCondition/newestCondition",
+    "pages/aboutaoshu/aboutaoshu",
+    "pages/classify/classify",
+    "pages/percenter/percenter",
+    "pages/allCourse/allCourse",
+    "pages/classVideo/classVideo",
+    "pages/about/about",
+    "pages/classlist/classlist"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "诸暨教育学校",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#56bc29",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/home.png",
+        "selectedIconPath": "pages/images/home2.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "课程介绍",
+        "iconPath": "pages/images/classify.png",
+        "selectedIconPath": "pages/images/classify2.png"
+      },
+      {
+        "pagePath": "pages/baoming/baoming",
+        "text": "申请报名",
+        "iconPath": "pages/images/baoming.png",
+        "selectedIconPath": "pages/images/baoming2.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "联系我们",
+        "iconPath": "pages/images/percenter.png",
+        "selectedIconPath": "pages/images/percenter2.png"
+      }
+    ]
+  }
+}

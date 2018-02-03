@@ -1,0 +1,146 @@
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.imgclass{
+  height: 200rpx;
+  width: 200rpx;
+}
+
+
+
+
+
+/**index.wxss**/
+.swiper {
+  height: 400rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+.banner{
+  margin-top: 15rpx;
+}
+.flex-wrp{
+  display: flex;
+  flex-direction: row;
+   flex-grow: 1;
+  text-align: center;
+  margin-top:50rpx; 
+}
+.flex-wrp .flex-item{
+  flex-grow: 1;
+  text-align: center;
+}
+.flex-wrp image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.classify{
+  color:#95520f;
+}
+.case{
+  background-color: #ccc;
+  margin: 20rpx;
+}
+.case_head{
+  text-align: center;
+  background-color: #fff;
+  margin-top: 10rpx;
+}
+.case_img{
+   margin: 20rpx;
+   background-color: #fff;
+}
+.case_img  image{
+  width: 100%;
+}
+.case_word{
+  margin-left: 20rpx;
+}
+
+.case_fengge{
+  font-size: 18rpx;
+  color:#aaa;
+
+}
+
+.case_fengge{
+  font-size: 18rpx;
+  color:#aaa;
+}
+.case_btn{
+  width: 50%;
+}
+.Bcase_Bbox{
+  margin-top: 20rpx;
+}
+.Bcase{
+  display: inline-block;
+  width: 50%;
+  background-color: #fff;
+
+  
+}
+.Bcase image{
+  width: 100%;
+}
+.pzfu_tit{
+    -webkit-transform: skew(20deg);  
+    -moz-transform: skew(20deg);  
+    -o-transform: skew(20deg);  
+    -ms-transform: skew(20deg);  
+    transform: skew(20deg);  
+}
+.pzfu_tit_word{
+  width: 80%;
+  text-align: center;
+  background-color: #aed3c7;
+  margin-left: 9%;
+  margin-top: 20rpx;
+  color: #fff;
+}
+.Sbox{
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+  margin-top: 40rpx;
+}
+.Sbox image{
+  width: 40%;
+  height: 40px;
+}
+.pzfu_worda{
+  text-align: center;
+  color: #aaa;
+
+}
+.pzfu_wordb{
+  font-size: 20rpx;
+  color: #ccc;
+}
+.tdzs{
+  width: 100%;
+  margin-top: 20rpx;
+}

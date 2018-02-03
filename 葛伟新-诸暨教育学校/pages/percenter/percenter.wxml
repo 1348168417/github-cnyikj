@@ -1,0 +1,15 @@
+<!--percenter.wxml-->
+<view class="headPortrait">
+  <image src="{{userInfo.avatarUrl}}"></image>
+  <view class="nickName">{{userInfo.nickName}}</view>
+</view>
+<view class="container">
+  <view class="name"><text class="nameCon">诸暨教育培训</text></view>
+  <view class="location commonCss"><image src="../images/location.png"></image> <text>诸暨市暨阳街道育英路40号教育培训城</text></view>
+<map id="map" longitude="120.910531" latitude="29.49383" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 300px;"></map>
+
+
+
+  
+ 
+</view>

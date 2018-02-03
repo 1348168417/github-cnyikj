@@ -1,0 +1,40 @@
+/* pages/Case/Case.wxss */
+
+page {
+  background: #edeae3;
+}
+
+.Box {
+  padding: 0 10rpx;
+}
+
+.Box .typeTit {
+  height: 100rpx;
+  line-height: 100rpx;
+  text-indent: 1em;
+}
+
+.listBox {
+  width: 48%;
+  margin: 20rpx 1%;
+  float: left;
+  background: white;
+}
+
+.listBox image {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow:1px 1px 5px 1px #bfbfbf;
+}
+
+.listBox .title{
+  text-align: center;
+  font-size: 15px;
+  height: 156rpx;
+  line-height: 50rpx;
+  padding: 0 10rpx;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}

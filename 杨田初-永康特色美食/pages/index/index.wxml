@@ -1,0 +1,136 @@
+<!--index.wxml-->
+<view class="container">
+
+
+	<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+    <view class="flex-wrp classify banner">
+  <view class="flex-item "  bindtap="yuyue"><image src="../../images/icon_zhuangxiu.png"></image><view class="text">预约装修</view></view>
+  <view class="flex-item "  bindtap="shejishi"><image src="../../images/icon_shejishi.png"></image><view class="text">设计师</view></view>
+  <view class="flex-item "  bindtap="shoufei"><image src="../../images/icon_shoufei.png"></image><view class="text">收费标准</view></view>
+  <view class="flex-item "  bindtap="jieshao"><image src="../../images/icon_jieshao.png"></image><view class="text">公司介绍</view></view>
+</view>
+    
+  <view class="case" >
+
+
+    <view class='case_head classify'>
+      <view>Boutique case</view>
+      <view>精品案例</view>
+    </view>
+
+    <view class='case_img'>
+      <image src="../../images/carousel01.jpg"></image>
+      <view class='case_word'>
+      <view class='case_style'>金华装修装饰</view>
+      <view class='case_fengge'>#现代风格#</view>
+      </view>
+      
+      <button class='case_btn' bindtap="listaa">查看详情</button>
+    </view>
+    <view class='case_img'>
+      <image src="../../images/carousel01.jpg"></image>
+      <view class='case_word'>
+      <view class='case_style'>金华装修装饰</view>
+      <view class='case_fengge'>#现代风格#</view>
+      </view>
+      
+      <button class='case_btn' bindtap="listab">查看详情</button>
+    </view>
+    <view class='case_img'>
+      <image src="../../images/carousel01.jpg"></image>
+      <view class='case_word'>
+      <view class='case_style'>金华装修装饰</view>
+      <view class='case_fengge'>#现代风格#</view>
+      </view>
+      
+      <button class='case_btn'  bindtap="listac">查看详情</button>
+    </view>
+    
+  </view>
+
+  <view class="case" >
+
+
+    <view class='case_head classify'>
+      <view>Boutique case</view>
+      <view>精品案例</view>
+    </view>
+
+    <view class='case_img'>
+      <image src="../../images/carousel01.jpg"></image>
+      <view class='case_word'>
+      <view class='case_style'>金华装修装饰</view>
+      <view class='case_fengge'>#现代风格#</view>
+      </view>
+      
+      <button class='case_btn' bindtap="listba">查看详情</button>
+    </view>
+    <view class='case_img'>
+      <image src="../../images/carousel01.jpg"></image>
+      <view class='case_word'>
+      <view class='case_style'>金华装修装饰</view>
+      <view class='case_fengge'>#现代风格#</view>
+      </view>
+      
+      <button class='case_btn'bindtap="listbb">查看详情</button>
+    </view>
+    <view class='case_img'>
+      <image src="../../images/carousel01.jpg"></image>
+      <view class='case_word'>
+      <view class='case_style'>金华装修装饰</view>
+      <view class='case_fengge'>#现代风格#</view>
+      </view>
+      
+      <button class='case_btn' bindtap="listbc">查看详情</button>
+    </view>
+    
+  </view>
+
+
+  <view class="case" >
+
+
+    <view class='case_head classify'>
+      <view>Boutique case</view>
+      <view>精品案例</view>
+    </view>
+
+    <view class='case_img'>
+      <image src="../../images/carousel01.jpg"></image>
+      <view class='case_word'>
+      <view class='case_style'>金华装修装饰</view>
+      <view class='case_fengge'>#现代风格#</view>
+      </view>
+      
+      <button class='case_btn' bindtap="listca">查看详情</button>
+    </view>
+    <view class='case_img'>
+      <image src="../../images/carousel01.jpg"></image>
+      <view class='case_word'>
+      <view class='case_style'>金华装修装饰</view>
+      <view class='case_fengge'>#现代风格#</view>
+      </view>
+      
+      <button class='case_btn'bindtap="listcb">查看详情</button>
+    </view>
+    <view class='case_img'>
+      <image src="../../images/carousel01.jpg"></image>
+      <view class='case_word'>
+      <view class='case_style'>金华装修装饰</view>
+      <view class='case_fengge'>#现代风格#</view>
+      </view>
+      
+      <button class='case_btn'bindtap="listcc">查看详情</button>
+    </view>
+    
+  </view>
+ 
+</view>

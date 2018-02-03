@@ -1,0 +1,94 @@
+<view id="addressMessage">
+	<!-- <view class="microshop-box" style="padding: 0 10px;">
+		<view style="font-size: 15px;">
+			<text>我的地址</text>
+			<view class="manager">管理 <image src="http://127.0.0.1:9068/image/mobile/settings.png"></image></view>
+		</view>
+	</view> -->
+	<block  wx:if="{{isAddrEditShow}}">
+		<view id="addressEdit">
+			<view class="item-box">
+				<view class="item-name">取货人</view>
+				<view class="item-option">
+					<input class="item-show" data-type="name" value="{{inputInfo.name}}" bindinput="bindKeyInput" placeholder-style="font-family: Microsoft YaHei,Helvitica,Verdana,Tohoma,Arial,san-serif;" placeholder="请填写取货人姓名" />
+				</view>
+			</view>
+			<view class="item-box">
+				<view class="item-name">手机号码</view>
+				<view class="item-option">
+					<input class="item-show" data-type="tel" value="{{inputInfo.tel}}" type="number" maxlength="11" bindinput="bindKeyInput" placeholder-style="font-family: Microsoft YaHei,Helvitica,Verdana,Tohoma,Arial,san-serif;" placeholder="请填写手机号码" />
+				</view>
+			</view>
+			<view class="item-box">
+				<view class="item-name">省份</view>
+				<view class="item-option">
+					<picker bindchange="bindProChange" range-key="name" value="{{pro_idx}}" range="{{proData}}">
+						<view class="item-show">{{proData[pro_idx].name}}</view>
+					</picker>
+				</view>
+			</view>
+			<view class="item-box">
+				<view class="item-name">市</view>
+				<view class="item-option">
+					<block wx:if="{{curCityData.length>0}}">
+						<picker bindchange="bindCityChange" range-key="name" value="{{city_idx}}" range="{{curCityData}}">
+							<view class="item-show">{{curCityData[city_idx].name}}</view>
+						</picker>
+					</block>
+				</view>
+			</view>
+			<view class="item-box">
+				<view class="item-name">区/县</view>
+				<view class="item-option">
+					<block wx:if="{{curUrbanData.length>0}}">
+						<picker bindchange="bindUrbanChange" range-key="name" value="{{urban_idx}}" range="{{curUrbanData}}">
+							<view class="item-show">{{curUrbanData[urban_idx].name}}</view>
+						</picker>
+					</block>
+				</view>
+			</view>
+			<view class="item-box last">
+				<view class="item-name">详细地址</view>
+				<view class="item-option">
+					<input class="item-show"  value="{{inputInfo.area}}" data-type="area" bindinput="bindKeyInput" placeholder-style="font-family: Microsoft YaHei,Helvitica,Verdana,Tohoma,Arial,san-serif;" placeholder="请填写详细地址" />
+				</view>
+			</view>
+			<view class="button-box">
+				<button type="primary" bindtap="saveAddress">保存</button>
+				<button wx:if="{{isEdit}}" bindtap="deleteAddress">删除</button>
+				<button wx:else bindtap="cancleSaveAddress">取消</button>
+			</view>
+		</view>
+	</block>
+	<block  wx:if="{{!isAddrEditShow}}">
+		<view id="addressList">
+			<view class="addr-name">收货地址</view>
+			<view class="addr-list-box">
+				<radio-group>
+					<block wx:for="{{listModule.addrList}}" wx:key="{{item.id}}">
+						<view class="list-box">
+							<label class="addr-list-item" data-value="{{item.id}}" bindtap="radioChange">
+								<view class="addr-radio">
+								    <radio value="{{item.id}}" color="#ff460e" checked="{{item.orderChecked}}"/>
+								</view>
+								<view class="addr-info">
+									<view class="addr-info-name">
+										<text>{{item.userName}}</text>
+										<text style="margin-left: 10px;">{{item.tel}}</text>
+									</view>
+									<view class="addr-info-addr">
+										<text>{{item.areaName}}{{item.address}}</text>
+									</view>
+								</view>
+							</label>
+							<view class="addr-option" bindtap="editAddrBtn" data-id="{{item.id}}">编辑</view>
+						</view>
+					</block>
+				</radio-group>
+			</view>
+		</view>
+		<view class="container-footer">
+			<view class="add-btn" bindtap="newAddAddress">新增收货地址</view>
+		</view>
+	</block>
+</view>

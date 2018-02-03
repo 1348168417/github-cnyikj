@@ -1,0 +1,301 @@
+a.clearfix {
+    color: #7D7D7D;
+    display: block;
+}
+
+.header {
+    width: 100%;
+}
+.moneyhl {
+    color: #FE6B00;
+}
+.header .wxsc-ul.nav {
+    border-bottom: 1px solid #D3D3D3;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header .wxsc-ul.nav>.wxsc-li {
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 18rpx 0;
+}
+
+.header .wxsc-ul.nav>.wxsc-li .wxsc-a {
+    font-size: 30rpx;
+    color: #7D7D7D;
+    border-right: 1px solid #D3D3D3;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+    -webkit-user-select: none;
+}
+
+.header .wxsc-ul.nav .wxsc-li:last-child .wxsc-a {
+    border-right: none;
+}
+
+.header .wxsc-ul.nav .active {
+    color: #E85436;
+    border-bottom: 6rpx solid #E85436;
+}
+
+.header .wxsc-ul.nav .active .wxsc-a {
+    color: #E85436;
+}
+
+.order-list {
+    background-color: #fff;
+    border-bottom: 15rpx solid #E0E1E3;
+    font-size: 28rpx;
+}
+.order-list:last-child{
+    border-bottom: none;
+}
+
+.order-header {
+    border-bottom: 1px solid #D3D3D3;
+    padding: 12rpx 0;
+    overflow: hidden;
+}
+
+.order-header .header-left {
+    float: left;
+    margin-left: 3.6%;
+    color: #7F7F7F;
+    margin-top:4rpx;
+}
+
+.order-header .header-right {
+    float: right;
+    margin-right: 14rpx;
+    text-align: center;
+}
+
+.order-header .header-right .header-btn {
+    padding: 2rpx 10rpx;
+    color: #C4C4C4;
+    border: 1px solid #C4C4C4;
+    -webkit-border-radius: 14rpx;
+    -moz-border-radius: 14rpx;
+    border-radius:14rpx;
+    float:left;
+}
+
+.order-header .header-right .header-other-btn {
+    background-color: #FF8A00;
+    padding: 2rpx 10rpx;
+    color: #fff;
+    border: 1px solid #FF8A00;
+    -webkit-border-radius: 14rpx;
+    -moz-border-radius: 14rpx;
+    border-radius: 14rpx;
+}
+
+.order-header .header-right .header-txt {
+    display: inline-block;
+    color: #7D7D7D;
+    float:right;
+    margin-left:10rpx;
+    margin-top:4rpx;
+}
+
+.order-content {
+    background-color: #F9FAF9;
+    overflow: hidden;
+    padding:24rpx 0;
+    margin-bottom: 10rpx;
+}
+
+.order-item-list .order-content:LAST-CHILD {
+    margin-bottom: 0;
+    border-bottom: 1px solid #E0E1E3;
+}
+
+.order-content .order-img {
+    float: left;
+    margin-left: 4%;
+}
+
+.order-content .order-img image {
+    display: inline-block;
+    height:120rpx;
+    width:120rpx;
+}
+
+.order-content .order-left {
+    float: left;
+    margin-left: 3%;
+    height: 120rpx;
+}
+
+.order-content .order-left .order-name {
+    margin-top: 14rpx;
+    color: #7F7F7F;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width:350rpx;
+    display:block;
+}
+
+.order-content .order-left .order-spec {
+    margin-top: 8rpx;
+    color: #BCBCBC;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.order-content .order-right {
+    float: right;
+}
+
+.order-content .order-right .order-info {
+    margin: 44rpx 30rpx 0 24rpx;
+}
+
+.order-content .order-right .order-info .mutil {
+    color: #7F7F7F;
+}
+
+.order-content .order-right .order-info .info-money {
+    color: #E24058;
+}
+
+.order-content .order-right .order-pj {
+    text-align: center;
+    margin-top: -30rpx;
+    float: right;
+    width: 150rpx;
+    height: 54rpx;
+    line-height: 54rpx;
+    background-color: #E85436;
+    color: #fff;
+    -webkit-border-radius: 0 0 0 14rpx;
+    -moz-border-radius: 0 0 0 14rpx;
+    border-radius: 0 0 0 14rpx;
+}
+
+.order-footer {
+    overflow: hidden;
+    padding: 18rpx 0;
+    color: #7D7D7D;
+}
+
+.order-footer .footer-left {
+    float: left;
+    margin-left: 30rpx;
+}
+
+.order-footer .footer-left>text {
+    color: #E24058;
+}
+
+.order-footer .footer-right {
+    float: right;
+    margin-right: 30rpx;
+}
+
+.order-footer .footer-right .total-money {
+    color: #E24058;
+}
+
+.nodata-tips {
+    font-size: 24rpx;
+    text-align: center;
+    color: #929292;
+    padding: 24rpx 0;
+}
+.no-goodsList-show{
+    padding: 40rpx;
+    text-align: center;
+}
+/*------提示框-------*/
+/* #confirm_dialog {
+    overflow: hidden;
+    z-index: 101;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    max-width: 540rpx;
+    max-height: 420rpx;
+    margin-left: -270rpx;
+    background-color: #fff;
+    opacity: 1;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+}
+#confirm_dialog .confirm-content {
+    position: relative;
+    max-height: 210rpx;
+    max-width: 510rpx;
+    padding: 75rpx 15rpx 30rpx 15rpx;
+    text-align: center;
+    color: #353535;
+    font-size: 33rpx;
+}
+#confirm_dialog .confirm-content>.tips-span {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 15rpx;
+    width: 60rpx;
+    height: 60rpx;
+    font-size: 54rpx;
+}
+#confirm_dialog .confirm-content>.tips-div {
+    display: inline-block;
+    margin-left: -30rpx;
+    height: 90rpx;
+    width: 90rpx;
+    vertical-align: top;
+    background: url(http://127.0.0.1:9068/image/mobile/warn.png) no-repeat center 0/100% 100%;
+}
+#confirm_dialog .confirm-content>.tips-p {
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 6rpx;
+    max-height: 210rpx;
+    max-width: 330rpx;
+    font-size: 30rpx;
+    line-height: 42rpx;
+}
+#confirm_dialog .confirm-content>.tips-p .tips-span {
+    float: left;
+    font-weight: bold;
+}
+#confirm_dialog .btn-container {
+    height: 90rpx;
+    width: 100%;
+    border-top: 3rpx solid #ddd;
+}
+#confirm_dialog .tips-ul.btn-container .tips-li.confirm-dialog-close, #confirm_dialog .tips-ul.btn-container .tips-li.confirm-dialog-close:active {
+    float: left;
+    list-style: none;
+    height: 90rpx;
+    width: 270rpx;
+    color: #353535;
+    font-size: 33rpx;
+    line-height: 84rpx;
+    text-align: center;
+    -webkit-user-select: none;
+    border-bottom-left-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-bottom-left-radius: 8px;
+}
+#confirm_dialog .tips-ul.btn-container .tips-li:LAST-CHILD {
+    border-left: 3rpx solid #ddd;
+    color: #ED5030;
+}
+#bg_mask {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 100;
+    -webkit-animation-fill-mode: both;
+} */

@@ -1,0 +1,5 @@
+<view class="fixedcontainer">
+    <navigator url="/pages/shoppingcar/shoppingcar" open-type="switchTab" class="fixedshopcar">
+      <text class="mallgoodicon">{{shoppingCartCount||0}}</text>
+    </navigator>
+</view>

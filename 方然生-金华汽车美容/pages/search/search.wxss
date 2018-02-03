@@ -1,0 +1,6 @@
+/* search.wxss */
+.empty-tips{
+  font-size: 30rpx;
+  text-align: center;
+  margin: 40rpx auto 0;
+}

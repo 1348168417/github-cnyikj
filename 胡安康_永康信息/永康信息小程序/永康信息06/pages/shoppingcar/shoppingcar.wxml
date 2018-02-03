@@ -1,0 +1,61 @@
+<!--shoppingcar.wxml-->
+<scroll-view class="container" scroll-y="true" scroll-top="{{scrolltop}}" bindscroll="scrollHandle" lower-threshold="50" bindscrolltolower="scrollLoading">
+  <view class="header">
+        <view class="header-left"><text class="left-icon icon"></text>购物车(<text class="J-total-number">{{cartSelectedCount}}</text>)</view>
+        <view class="header-right"><text class="goods-del icon" bindtap="onDelCart" id="del"></text></view>
+  </view>
+  <block wx:if="{{shoppingCarList.length == 0}}">
+    <view id="empty" style="display: block;">
+        <image class="cart_empty" src="{{staticResPath}}/image/mobile/shopcart/empty_shopcart.png" />
+        <view class="empty_text">您的购物车空空如也</view>
+        <view class="go_main_btn">
+          <navigator url="/pages/index/index" open-type="reLaunch" class="empty_go_main">去逛一逛吧!</navigator>
+        </view>
+    </view>
+  </block>
+  <block wx:else>
+  <view class="goods-list" id="goods_list"> 
+    <view wx:for="{{shoppingCarList}}" wx:key="{{item.id}}" class="goods-detail j-goods-detail {{item.status==0?'goods-deleted':''}}" id="{{item.id}}" msg_id="{{item.goodsId}}">
+    <view class="goods-select" data-itemid="{{item.id}}" bindtap="changeSelect"><view class="j-select-btn icon {{cartSelectStatu[item.id]?'selected':''}}"></view></view>
+      <navigator url="/pages/detail/detail?id={{item.goodsId}}" class="goods-pic j-goods-pic">
+        <view class="deleted-tips" wx:if="{{item.status==0}}">已失效</view>
+        <image src="{{userImagePath+item.cover}}"></image>
+      </navigator>
+      <view class="goods-info">
+      <view class="goods-name">{{item.name}}</view>
+      <view class="goods-spec"></view>
+      <view class="goods-money">
+        <text class="new-money">¥<text class="j-new-money">{{item.price/100}}</text></text>
+      </view>
+      </view>
+      <view class="goods-number">
+        <view class="minus j-minus" data-itemid="{{item.id}}" bindtap="minusCount"></view>
+        <view class="count">
+        <block wx:if="{{item.status==0}}">
+          <input type="tel" disabled="disabled" class="j-count" data-itemid="{{item.id}}" bindchange="bindChange" maxlength="3" value="{{goodsCountContent[item.id]}}"></input>
+        </block>
+        <block wx:else>
+          <input type="tel" class="j-count" data-itemid="{{item.id}}" bindchange="bindChange" maxlength="3" value="{{goodsCountContent[item.id]}}"></input>
+        </block>
+        </view>
+        <view class="plus j-plus" data-itemid="{{item.id}}" bindtap="addCount"></view>
+      </view>
+    </view>
+  </view>
+  </block>
+  <view class="placeholder" style="height:180rpx;"></view>
+</scroll-view>
+<view class="footer hide" id="footer" style="display: block;">
+  <view class="floor-1">
+    <view class="total-number">共<text class="J-total-number">{{cartSelectedCount}}</text>件商品</view>
+    <view class="total-money">合计<text> ¥ <text class="J-total-money">{{totalPrice/100}}</text></text></view>
+  </view>
+  <view class="floor-2">
+    <view class="goods-select">
+    <view id="all_select" bindtap="onAllSelect" class="icon {{allSelected?'selected':''}}"></view> 全选</view>
+    <view class="total-number hide">共<text class="J-total-number">{{cartSelectedCount}}</text>件商品</view>
+    <view class="pay-btn">
+      <view id="btn_pay" bindtap="onBtnPay">我要结算</view>
+    </view>
+  </view>
+</view>

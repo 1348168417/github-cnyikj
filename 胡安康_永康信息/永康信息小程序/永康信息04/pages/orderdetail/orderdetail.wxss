@@ -1,0 +1,143 @@
+.order-info,.price-list,.custome-info{
+	font-size: 24rpx;
+	padding: 20rpx;
+	border-top: 1px solid #eeeeee;
+	border-bottom: 6rpx solid #eeeeee;
+}
+.order-info .order-info-text,.custome-info .cus-info-text{
+	display: block;
+	font-size: 24rpx;
+	line-height: 44rpx;
+}
+.price-list .price-name{
+	float: left;
+	line-height: 44rpx;
+}
+.price-list .price-total{
+	float: right;
+	color: #FE6B00;
+	line-height: 44rpx;
+}
+.price-list .price-add{
+	margin-top: 6rpx;
+	border-top: 1px solid #eeeeee;
+}
+.price-list .price-add-total{
+	float: right;
+	font-size: 30rpx;
+	color: #FE6B00;
+	line-height: 60rpx;
+	font-weight: bold;
+}
+.custome-info{
+	border-bottom: none;
+}
+.custome-info .module-title{
+	padding: 8rpx 0;
+	font-size: 28rpx;
+	display: block;
+	border-bottom: 1px solid #eeeeee;
+}
+.custome-info .module-title .cus-info-text{
+
+}
+/*--------商品列表Start--------*/
+.moneyhl {
+    color: #FE6B00;
+}
+.order-list {
+    background-color: #fff;
+    border-bottom: 15rpx solid #E0E1E3;
+    font-size: 28rpx;
+}
+.order-list:last-child{
+    border-bottom: none;
+}
+
+.order-content {
+    background-color: #F9FAF9;
+    overflow: hidden;
+    padding:24rpx 0;
+    margin-bottom: 10rpx;
+}
+
+.order-item-list .order-content:LAST-CHILD {
+    margin-bottom: 0;
+    border-bottom: 1px solid #E0E1E3;
+}
+
+.order-content .order-img {
+    float: left;
+    margin-left: 4%;
+}
+
+.order-content .order-img image {
+    display: inline-block;
+    height:120rpx;
+    width:120rpx;
+}
+
+.order-content .order-left {
+    float: left;
+    margin-left: 3%;
+    height: 120rpx;
+}
+
+.order-content .order-left .order-name {
+    margin-top: 14rpx;
+    color: #7F7F7F;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width:350rpx;
+    display:block;
+}
+
+.order-content .order-left .order-spec {
+    margin-top: 8rpx;
+    color: #BCBCBC;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.order-content .order-right {
+    float: right;
+}
+
+.order-content .order-right .order-info {
+    margin: 44rpx 30rpx 0 24rpx;
+}
+
+.order-content .order-right .order-info .mutil {
+    color: #7F7F7F;
+}
+
+.order-content .order-right .order-info .info-money {
+    color: #E24058;
+}
+
+.order-footer {
+    overflow: hidden;
+    padding: 18rpx 0;
+    color: #7D7D7D;
+}
+
+.order-footer .footer-left {
+    float: left;
+    margin-left: 30rpx;
+}
+
+.order-footer .footer-left>text {
+    color: #E24058;
+}
+
+.order-footer .footer-right {
+    float: right;
+    margin-right: 30rpx;
+}
+
+.order-footer .footer-right .total-money {
+    color: #E24058;
+}
+/*--------商品列表End--------*/

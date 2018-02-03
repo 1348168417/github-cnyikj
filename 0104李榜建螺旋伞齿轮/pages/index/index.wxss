@@ -1,0 +1,86 @@
+/**index.wxss**/
+.slide-image{
+  width: 100%;
+  
+}
+.menuBox{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 14px;
+  padding: 30rpx 20rpx;
+}
+
+.menuBox .menuList{
+  flex-grow:1;
+  width: 200rpx;
+  margin-bottom: 26rpx;
+}
+.menuBox .menuList image{
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.countBox1{
+  height: 500rpx;
+  width: 100%;
+  padding: 20rpx 0 30rpx;
+}
+.countBox1 image{
+  float: left;
+}
+.countBox2{
+  margin-bottom: 30rpx;
+}
+.titleBox{
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 18px;
+  color: #1dbbd3;
+  margin-bottom: 20rpx;
+}
+.titleBox .youxuan{
+  float: left;
+  width: 20rpx;
+  height: 60rpx;
+  background: #1dbbd3;
+  margin-right: 30rpx;
+}
+.optimization {
+  overflow: hidden;
+  margin: 20rpx;
+}
+.optimization .left{
+  float: left;
+  width: 42%;
+  padding:40rpx 4%;
+  font-size: 15px;
+  text-align: center;
+  line-height: 50rpx;
+}
+.optimization .right{
+  float: right;
+  width: 50%;
+  position: relative;
+}
+.optimization .right .title{
+  color: white;
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 16px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60rpx;
+  background: rgba(000, 000,000, .5);
+}
+.optimization .right image{
+  float: right;
+}
+.advertising{
+  text-align: center;
+  font-size: 15px;
+  margin: 20rpx;
+  font-style:  italic;
+}

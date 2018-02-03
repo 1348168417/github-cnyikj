@@ -1,0 +1,4 @@
+/* channel.wxss */
+.fixedcontainer {
+  bottom: 130rpx;
+}

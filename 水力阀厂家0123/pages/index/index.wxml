@@ -1,0 +1,61 @@
+<!--index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}} ">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" style='width:100%;' mode='widthFix'/>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="menuBox">
+  <view class="menuList" wx:for="{{menuList}}">
+    <image src="{{item.img}}" bindtap='{{item.type}}' />
+    <view>{{item.typeName}}</view>
+  </view>
+</view> 
+
+
+<view class='titleBox'>
+  <view class='youxuan'></view><text>专业加工齿轮</text>
+</view>
+
+<view class='optimization'>
+  <view class='right'>
+    <view class='title'>防污隔断阀</view>
+    <image src='http://www.cnyikj.com/clientInfo/shuilifa/水力阀厂家/倒流防止器/防污隔断阀1.jpg' style='width:100%;' mode='widthFix' bindtap='smdb'></image>
+  </view>
+  <view class='right'>
+    <view class='title'>D343H硬密封蝶阀1</view>
+    <image src='http://www.cnyikj.com/clientInfo/shuilifa/水力阀厂家/蝶阀/D343H硬密封蝶阀1.jpg' style='width:100%;' mode='widthFix' bindtap='smdb'></image>
+  </view>
+</view>
+<view class='optimization'>
+  <view class='right'>
+    <view class='title'>对焊蝶阀</view>
+    <image src='http://www.cnyikj.com/clientInfo/shuilifa/水力阀厂家/蝶阀/对焊蝶阀1.jpg' style='width:100%;' mode='widthFix' bindtap='drwsmdb'></image>
+  </view>
+  <view class='right'>
+    <view class='title'>AX742X泄压持压阀</view>
+    <image src='http://www.cnyikj.com/clientInfo/shuilifa/水力阀厂家/多功能水泵控制阀/AX742X泄压持压阀.jpg' style='width:100%;' mode='widthFix' bindtap='smdb'></image>
+  </view>
+</view>
+<view class='optimization'>
+  <view class='right'>
+    <view class='title'>铸钢截止阀</view>
+    <image src='http://www.cnyikj.com/clientInfo/shuilifa/水力阀厂家/截止阀/铸钢截止阀1.jpg' style='width:100%;' mode='widthFix' bindtap='smdb'></image>
+  </view>
+  <view class='right'>
+    <view class='title'>J744X气动、液动快开排泥阀</view>
+    <image src='http://www.cnyikj.com/clientInfo/shuilifa/水力阀厂家/排泥阀/J744X气动、液动快开排泥阀1.jpg' style='width:100%;' mode='widthFix' bindtap='smdb'></image>
+  </view>
+</view>
+<view class='optimization'>
+  <view class='right'>
+    <view class='title'>复合式排气阀</view>
+    <image src='http://www.cnyikj.com/clientInfo/shuilifa/水力阀厂家/排气阀/复合式排气阀1.jpg' style='width:100%;' mode='widthFix' bindtap='smdb'></image>
+  </view>
+  <view class='right'>
+    <view class='title'>球阀</view>
+    <image src='http://www.cnyikj.com/clientInfo/shuilifa/水力阀厂家/球阀/球阀1.jpg' style='width:100%;' mode='widthFix' bindtap='smdb'></image>
+  </view>
+</view>

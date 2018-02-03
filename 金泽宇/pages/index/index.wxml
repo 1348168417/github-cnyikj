@@ -1,0 +1,86 @@
+<!--index.wxml-->
+<view class="container">
+
+
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" style="width:100%;height:335rpx;"/>/>
+    </swiper-item>
+  </block>
+</swiper>
+
+    <view class="flex-wrp classify banner">
+  <view class="flex-item "  bindtap="yuyue"><image src="http://www.cnyikj.com/clientInfo/jinhuazxzs/小程序/a3.jpg"></image><view class="text">家装</view></view>
+  <view class="flex-item "  bindtap="shejishi"><image src="http://www.cnyikj.com/clientInfo/jinhuazxzs/小程序/a4.jpg"></image><view class="text">工装</view></view>
+  <view class="flex-item "  bindtap="shoufei"><image src="http://www.cnyikj.com/clientInfo/jinhuazxzs/小程序/预约.jpg"></image><view class="text">预约</view></view>
+  <view class="flex-item "  bindtap="jieshao"><image src="http://www.cnyikj.com/clientInfo/jinhuazxzs/小程序/a.jpg"></image><view class="text">团队</view></view>
+</view>
+    
+  <!-- <view class="case" >
+
+
+    <view class='case_head classify'>
+      <view>Boutique case</view>
+      <view>精品案例</view>
+    </view>
+
+   
+    <view class='case_img'>
+      <image src="../../images/carousel01.jpg"></image>
+      <view class='case_word'>
+      <view class='case_style'>金华装修装饰</view>
+      <view class='case_fengge'>#现代风格#</view>
+      </view>
+      
+      <button class='case_btn'  bindtap="listac">查看详情</button>
+    </view>
+    
+  </view> -->
+</view>
+
+<view>
+   <view class='pzfu_tit'>
+   <view class='pzfu_tit_word'> 精品案例/Boutique case</view></view>
+  <view class='Bcase_Bbox'>
+    <view wx:for="{{Bcase}}" class='Bcase'>
+      <image mode='widthFix' src='{{item.img}}' bindtap='{{item.bindtap}}'></image>
+    </view>
+  
+  </view>
+
+</view>
+
+
+
+<view class='pzfu' bindtap='call'>
+  <view class='pzfu_tit'>
+   <view class='pzfu_tit_word'> 品质服务/Quality service</view></view>
+
+  <view class='pzfu_Bbox'>
+    <view wx:for="{{pzfu}}" class='Sbox'>
+      <image src='{{item.img}}'></image>
+      <view class='pzfu_worda'>{{item.worda}}</view>
+      <view class='pzfu_wordb'>{{item.wordb}}</view>
+    </view>
+  
+  </view>
+</view>
+
+<view>
+  <view class='pzfu_tit'>
+   <view class='pzfu_tit_word'> 团队展示/Team show</view></view>
+  <view>
+    <image class='tdzs' mode="widthFix" src='http://www.cnyikj.com/clientInfo/jinhuazxzs/小程序/团队.jpg'></image>
+    <!-- <view>金华装修装饰</view>
+    <view>金华装饰设计师</view>
+    <view>具备专业的设计经验</view>
+    <view>各类装饰设计实战经验</view>
+    <view>他们用专业和丰富的阅历</view>
+    <view>专注服务设计</view>
+    <view>提供高品质个性化的</view>
+    <view>家居装饰设计解决方案</view> -->
+  </view>
+</view>
+

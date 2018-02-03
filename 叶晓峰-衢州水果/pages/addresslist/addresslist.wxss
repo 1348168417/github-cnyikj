@@ -1,0 +1,156 @@
+#addressMessage{
+	font-family: Microsoft YaHei,Helvitica,Verdana,Tohoma,Arial,san-serif;
+	font-size: 28rpx;
+	margin:0;
+	padding: 0;
+	flex:1;
+	display:flex;
+	flex-direction:column;
+	box-sizing:border-box;
+}
+.microshop-box {
+    margin: 18rpx;
+    border: 2rpx solid #e0e0e0;
+    padding: 0;
+    background-color: #fff;
+}
+.microshop-box>view{
+	font-size: 30rpx;
+	line-height: 86rpx;
+}
+.microshop-box .manager {
+    float: right;
+    border-left: 2rpx solid #dfdfdf;
+    padding-left: 10px;
+    color: #646464;
+    -webkit-tap-highlight-color: transparent;
+}
+.microshop-box .manager image{
+	width: 32rpx;
+	height: 32rpx;
+	vertical-align: text-top;
+	border: 0;
+}
+#addressEdit{
+	margin-top: 30rpx;
+}
+#addressEdit .item-box{
+	padding: 10rpx;
+	border-top: 2rpx solid #f0f0f0;
+	font-size: 28rpx;
+}
+#addressEdit .item-box.last{
+	border-bottom: 2rpx solid #f0f0f0;
+}
+#addressEdit .item-box .item-name{
+	width: 150rpx;
+	float: left;
+	text-align: right;
+	height:60rpx;
+	line-height:60rpx;
+}
+#addressEdit .item-box .item-option{
+	padding:0 30rpx;
+}
+#addressEdit .item-box .item-option .item-show{
+	height: 60rpx;
+	line-height: 60rpx;
+}
+#addressEdit .item-box .item-option picker .item-show{
+	color: #3985ff;
+}
+#addressEdit .button-box{
+	margin-top: 10rpx;
+	padding:0 30rpx;
+}
+#addressEdit .button-box button{
+	margin-top: 20rpx;
+	margin-top: 20rpx;
+	line-height:90rpx;
+}
+#addressList{
+	margin-top: 30rpx;
+	flex:1;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+view {
+display:block;
+
+}
+#addressList radio-group radio{
+	-webkit-tap-highlight-color:transparent;
+	display:inline-block;
+	position:static;
+	margin-left: 0rpx;
+}
+#addressList radio-group label::before{
+	width: 0;
+}
+#addressList{
+	margin-left: 30rpx;
+}
+#addressList .addr-name{
+	padding-bottom: 10rpx;
+	border-bottom:2rpx solid #ddd;
+}
+#addressList .list-box{
+	position: relative;
+}
+#addressList .addr-list-item{
+	padding: 10rpx 0;
+	border-bottom:2rpx solid #ddd;
+	position:relative;
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:flex;
+	-webkit-box-align:center;
+	-webkit-align-items:center;
+	align-items:center;
+
+}
+#addressList .addr-list-item .addr-radio{
+	float: left;
+}
+#addressList .addr-list-item .addr-info{
+	float: left;
+	margin-left: 20rpx;
+	max-width: 500rpx;
+}
+#addressList .list-box .addr-option{
+	position: absolute;
+	right: 10rpx;
+	top:34rpx;
+	/* color: #e4393c; */
+	color: #ff460e;
+}
+/*底部按钮*/
+.container-footer{
+	width: 100%;
+	display: flex;
+	height: 88rpx;
+	border-top: 2rpx solid #ddd;
+	background: #fff;
+}
+.container-footer .add-btn{
+	flex: 1;
+	display: block;
+	text-align: center;
+	height: 88rpx;
+	line-height: 88rpx;
+	font-size: 34rpx;
+}
+.container-footer .add-btn{
+	/* background: #f8f8f8; */
+	background: #fff;
+	/* color: #e4393c; */
+	color: #ff460e;
+	flex: 1.5;
+}
+button[type="primary"] {
+color:#FFFFFF;
+background-color:#ff460e;
+}
+radio-group wx-label {
+margin-right:100rpx;
+}

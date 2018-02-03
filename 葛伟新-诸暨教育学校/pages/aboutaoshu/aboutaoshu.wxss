@@ -1,0 +1,24 @@
+/* pages/aboutaoshu/aboutaoshu.wxss */
+page{
+  background-color: #e1eaf7;
+}
+.Box{
+  border: 1px solid #ccc;
+  padding: 20rpx;
+  margin: 20rpx;
+  box-shadow: -3px 0 0 green;
+  
+}
+.tit{
+  box-shadow: -2px 0 0 green;
+  font-size: 55rpx;
+}
+.artc{
+  text-indent: 2em;
+  margin: 10rpx;
+}
+
+.stit{
+  box-shadow: -1px 0 0 green;
+  margin-left: 10rpx;
+}

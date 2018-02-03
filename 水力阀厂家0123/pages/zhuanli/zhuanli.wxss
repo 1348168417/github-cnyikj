@@ -1,0 +1,21 @@
+/* pages/zhuanli/zhuanli.wxss */
+.Box{
+  padding: 20rpx 10rpx 0;
+}
+.zhuanliBox{
+  width: 46%;
+  height: 400rpx;
+  text-align: center;
+  font-size: 16px;
+  color: #707070;
+  float: left;
+  margin: 0 2% 30rpx;
+}
+.zhuanliBox image{
+    width: 100%;
+}
+.zhuanliBox image{
+  width: 100%;
+  border-radius: 5px;
+  box-shadow:1px 1px 5px 1px #bfbfbf;
+}

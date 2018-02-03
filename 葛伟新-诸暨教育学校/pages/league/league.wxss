@@ -1,0 +1,24 @@
+.Box{
+  border: 1rpx solid #ccc;
+  margin: 20rpx;
+  padding: 20rpx;
+  border-radius: 20rpx;
+  background-color: #d0cbd4;
+}
+.tit{
+  font-size: 45rpx;
+  box-shadow: -3px 0 0 #4f68b0;
+}
+.artc{
+  text-indent: 2em;
+  margin: 20rpx;
+}
+.stit{
+  box-shadow: -3px 0 0 #a0b8db;
+  font-size: 40rpx;
+  margin-left: 20rpx;
+}
+.arc{
+  text-indent: 2em;
+  margin: 10rpx;
+}

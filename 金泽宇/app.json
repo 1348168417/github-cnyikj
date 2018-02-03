@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/first/first",
+    "pages/about_gaiya/about_gaiya",
+    "pages/about/about",
+    "pages/index/index",
+    "pages/shejishi/shejishi",
+    "pages/yuyue/yuyue",
+    "pages/list/list",
+    "pages/home/home",
+    "pages/shoufei/shoufei",
+    "pages/jieshao/jieshao",
+    "pages/about_people/about_people",
+    "pages/listmore/listaa/listaa",
+    "pages/listmore/listab/listab",
+    "pages/listmore/listac/listac",
+    "pages/listmore/listba/listba",
+    "pages/listmore/listbb/listbb",
+    "pages/listmore/listbc/listbc",
+    "pages/listmore/listca/listca",
+    "pages/listmore/listcb/listcb",
+    "pages/listmore/listcc/listcc",
+    "pages/serverDetail/serverDetail",
+    "pages/Bcase/Bcase",
+    "pages/JCaselist/JCaselist",
+    "pages/Gcaselist/Gcaselist"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#aed3c7",
+    "navigationBarTitleText": "金华装修装饰",
+    "navigationBarTextStyle": "#aaa"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icon_home.png",
+        "selectedIconPath": "images/icon_home_hl.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于我们",
+        "iconPath": "images/icon_about.png",
+        "selectedIconPath": "images/icon_about_hl.png"
+      }
+    ]
+  }
+}

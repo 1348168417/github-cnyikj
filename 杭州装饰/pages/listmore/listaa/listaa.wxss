@@ -1,0 +1,29 @@
+/* pages/listmore/listaa/listaa.wxss */
+.listaa_top{
+  width: 100%;
+}
+.listaa_img{
+  width: 50%;
+  float: left;
+}
+.listaa_word{
+  width: 50%;
+  float: left;
+  margin-top: 40rpx;
+  
+}
+.listaa_word_tit{
+  font-size: 35rpx;
+  text-align: center;
+}
+.listaa_word_arc{
+  font-size: 30rpx;
+  color: #707070;
+  margin-top: 80rpx;
+  text-align: center;
+  
+  text-indent: 2rem;
+}
+.listaa_imglist{
+  width: 100%;
+}

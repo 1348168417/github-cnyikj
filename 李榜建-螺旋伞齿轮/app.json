@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/first/first",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/about/about",
+    "pages/news/news",
+    "pages/chanpin/chanpin",
+    "pages/lianxi/lianxi"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ccc",
+    "navigationBarTitleText": "螺旋伞齿轮",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页", 
+        "iconPath": "images/icon_home.png",
+        "selectedIconPath": "images/icon_home_hl.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "images/icon_about.png",
+        "selectedIconPath": "images/icon_about_hl.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+/* joiners.wxss */
+.banner{
+  height: 750rpx;
+  border-bottom: 1rpx dashed black;
+  border-radius: 10% 10% 10% 10%;
+}
+.banner image{
+  width: 100%;
+}
+.banner text{
+  width: 100%;
+  height: 250rpx;
+  border-bottom: 1rpx dashed black;
+  text-indent:2rem;
+ 
+}
+
+.joiners{
+  height: 250rpx;
+  margin: 20rpx;
+  position: relative;
+  border-bottom: 1rpx solid gray;
+  background-color: #6ac8eb;
+   border-radius: 10% 10% 10% 10%;
+}
+.joinerImg{
+  width: 200rpx;
+  height: 200rpx;
+ float:left;
+ position: absolute;
+ left: 15rpx;
+ top: 20rpx;
+}
+.joiners text{
+  width: 50%;
+  float:left;
+ position: absolute;
+ top:50rpx;
+ right: 50rpx;
+}

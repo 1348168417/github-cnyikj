@@ -1,0 +1,12 @@
+<!--cases.wxml-->
+<view class="classname">
+  <view class="joiners">
+  <image class="joinerImg" src="http://mmbiz.qpic.cn/mmbiz_jpg/tpknAg6bhddmRzn52syoeDJREiasOdXOeM9T98UEnFVE1zFFXNgyLViaZIs6UxUBdj75Z31RdrhD3gDiaKWkAyCyg/0?wx_fmt=jpeg"></image>
+  <text class="joiner">热烈祝贺浙江南浔.鑫通汽车维修有限公司携手中国企联！</text>
+</view>
+
+<view class="joiners">
+  <image class="joinerImg" src="http://mmbiz.qpic.cn/mmbiz_jpg/tpknAg6bhdfyY8rjhoLFVd1DhyyAibBSRJAaYU6Sq52hEybQJ6cRWOfq2GxMzUibpyMco8BAdBTib4Tjc2Nw8dBPw/0?wx_fmt=jpeg"></image>
+  <text class="joiner">热烈祝贺湖州南浔富士大酒店携手企联！</text>
+</view>
+</view>

@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" style="width:100%;height:335rpx;"/>/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="introduce"><text class="title">伊甸园火龙果</text>基地以种植红心火龙果、车厘子、白枇杷等水果为主，从种植到采摘一致达到众多好评，欢迎广大新老客户光临，我们更以优质的服务，绿色健康的果品为您送上丰盛的果实！</view>
+<view class="introduce">
+  <view class="cont">我们始终从源头把关，新鲜、绿色、天然、原生态。好的土壤，好的种植，才会有好的品质。</view>
+  <view class=""><image src="../../images/pic1.jpg"></image></view>
+  <view class="cont">火龙果（拉丁文名：Hylocereus undulatus Britt），又称红龙果、龙珠果、仙蜜果、玉龙果。仙人掌科、量天尺属植物。</view>
+  <view class=""><image src="../../images/pic2.jpg"></image></view>
+  <view class="cont">火龙果营养丰富、功能独特，它含有一般植物少有的植物性白蛋白以及花青素，丰富的维生素和水溶性膳食纤维。火龙果属于凉性水果，在自然状态下，果实于夏秋成熟，味甜，多汁。</view>
+  <view class=""><image src="../../images/pic3.jpg"></image></view>
+</view>

@@ -1,0 +1,20 @@
+<!--pages/listmore/listbb/listbb.wxml-->
+<view>
+  <view>
+    <image class='listbb_top' src='http://www.cnyikj.com/clientInfo/hangzhouzhuangshi/项目/湘湖壹号李姐软装设计方案/图1.png'></image>
+    <view>
+      <image class='listbb_img' src='http://www.cnyikj.com/clientInfo/hangzhouzhuangshi/项目/湘湖一号/湘湖一号2a.png'></image>
+      <view class='listbb_word'>
+        <view class='listbb_word_tit'>诺瑟兰软装设计简介</view>
+        <view class='listbb_word_arc'>杭州诺瑟兰软装设计有限公司是为中高端客户解决整体软装方案的专业机 构，为客户提供个性化整体软装设计服务、样板房软装设计服务。
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+ <view wx:for="{{imgUrl}}">
+    <view class='listbb_tit'>{{item.tit}}</view>
+    <image class='listbb_imglist' src='{{item.img}}'></image>
+    <view class='listbb_arc'>{{item.arc}}</view>
+  </view>

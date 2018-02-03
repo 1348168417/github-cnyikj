@@ -1,0 +1,20 @@
+<!--pages/jieshao/jieshao.wxml-->
+  
+
+  <view class='jieshao_arc' wx:for="{{introduce}}">
+    <view class='jieshao_arc_word'>{{item.arc}}</view>
+    <image class='jieshao_arc_img' src='{{item.img}}'></image>
+  </view>
+
+  <view class='' wx:for="{{introduce_img}}">
+    <image class='jieshao_img' src='{{item}}'></image>
+  </view>
+
+  <view class='lianxi_word'>
+    <view>诺瑟兰软装</view>
+    <view>微信号：nuoselanrz</view>
+    <view>网址：www.nuoselan.com </view>
+  </view>
+  <view>
+    <image class='jieshao_arc_img' bindtap='max' src='http://mmbiz.qpic.cn/mmbiz_jpg/ibiaIDpj9DicjrM5JYVxRaj36FBCY2PvkkHEMzQKkicxiaU9Q9E0Toqib5RoGZNLICmO9ArFruY1VORDibCJC7a7HfmKw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1'></image>
+  </view>
